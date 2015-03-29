@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Customers\Dustin\SensorNodes\STM32\EE\Nucleo_L152RE\ProtoBoard\AA\ProtoBoard.sch</source>
+    <date>3/28/2015 3:46:48 PM</date>
+    <tool>Eeschema (2015-03-26 BZR 5542)-product</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>ProtoBoard For STM32 Nucleo-L152RE</title>
+        <company>NA</company>
+        <rev>AA</rev>
+        <date/>
+        <source>ProtoBoard.sch</source>
+        <comment number="1" value="Licenced Open Source Hardware"/>
+        <comment number="2" value="Creative Commons Share Alike"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="P1">
+      <value>SWD Header</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x06</footprint>
+      <libsource lib="conn" part="CONN_01X06"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5515ECE4</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>Power</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5515F41F</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>RFM69HW</value>
+      <footprint>nucleo:RFM69HW</footprint>
+      <libsource lib="dustin" part="RFM69HW"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55169D6F</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1u</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55169E57</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>0.1p</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55169E99</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>Nucleo-L152RE-CN7</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x19</footprint>
+      <libsource lib="dustin" part="Nucleo-L152RE-CN7"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5516CBA1</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>Nucleo-L152RE-CN10</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x19</footprint>
+      <libsource lib="dustin" part="Nucleo-L152RE-CN10"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5516CBDF</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>USART2</value>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5516FC27</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>0</value>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>551701EC</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>0</value>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5517022A</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>S25FL127S</value>
+      <libsource lib="dustin" part="S25FL127S"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55170A0F</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>TPS61222-5V</value>
+      <libsource lib="dustin" part="TPS61222-5V"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>551714B3</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>4.7uH</value>
+      <datasheet>http://search.murata.co.jp/Ceramy/image/img/PDF/ENG/L0075S0103LQH3NP_J0.pdf</datasheet>
+      <libsource lib="device" part="L_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55171671</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>C_Small</value>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55171B91</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>C_Small</value>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55171EA2</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="dustin" part="RFM69HW">
+      <description>Hope RF RFM69HW Wireless Module</description>
+      <docs>datasheets/RFM69HW-V1.3.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">RFM69HW</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Reset" type="input"/>
+        <pin num="2" name="DIO0" type="BiDi"/>
+        <pin num="3" name="DIO1" type="BiDi"/>
+        <pin num="4" name="DIO2" type="BiDi"/>
+        <pin num="5" name="DIO3" type="BiDi"/>
+        <pin num="6" name="DIO4" type="BiDi"/>
+        <pin num="7" name="DIO5" type="BiDi"/>
+        <pin num="8" name="3.3V" type="power_in"/>
+        <pin num="9" name="NC" type="NotConnected"/>
+        <pin num="10" name="NSS" type="input"/>
+        <pin num="11" name="MOSI" type="input"/>
+        <pin num="12" name="MISO" type="output"/>
+        <pin num="13" name="SCK" type="input"/>
+        <pin num="14" name="GND" type="power_in"/>
+        <pin num="15" name="ANA" type="input"/>
+        <pin num="16" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="dustin" part="Nucleo-L152RE-CN7">
+      <description>Nucleo-L152RE Morpho CN7 Connector</description>
+      <docs>datasheets/DM00098321_STM32L152RE_datasheet.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Nucleo-L152RE-CN7</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PC10/[SPI3_SCK/I2S3_CK]/USART3_TX/UART4_TX/TIMx_IC3" type="BiDi"/>
+        <pin num="2" name="PC11/SPI3_MISO/USART3_RX/UART4_RX/TIMx_IC4" type="BiDi"/>
+        <pin num="3" name="PC12/[SPI3_MOSI/I2S3_SD]/USART3_CK/UART5_TX/TIMx_IC1" type="BiDi"/>
+        <pin num="4" name="PD2/TIM3_ETR/UART5_RX/TIM3_IC3" type="BiDi"/>
+        <pin num="5" name="VDD[3.3v_from_reg_after_E5V]" type="power_in"/>
+        <pin num="6" name="E5V[4.3_to_5.5v]" type="power_in"/>
+        <pin num="7" name="BOOT0" type="input"/>
+        <pin num="8" name="GND" type="power_out"/>
+        <pin num="9" name="PF6/TIM5_ETR" type="input"/>
+        <pin num="10" name="NC" type="NotConnected"/>
+        <pin num="11" name="PF7/TIM5_CH2" type="input"/>
+        <pin num="12" name="3.3V[Before_JP6]" type="power_out"/>
+        <pin num="13" name="PA13/JTMS-SWDIO/TIMx_IC2" type="BiDi"/>
+        <pin num="14" name="NRST" type="input"/>
+        <pin num="15" name="PA14/JTCK-SWCLK/TIMx_IC3" type="BiDi"/>
+        <pin num="16" name="3.3V[Before_JP6]" type="power_out"/>
+        <pin num="17" name="PA15/JTDI/TIM2_CH1_ETR/SPI1_NSS/[SPI3_NSS/I2S3_WS]/TIMx_IC4" type="BiDi"/>
+        <pin num="18" name="5V[Input_to_3.3v_reg_same_as_E5V]" type="power_out"/>
+        <pin num="19" name="GND" type="power_in"/>
+        <pin num="20" name="GND" type="power_out"/>
+        <pin num="21" name="PB7/TIM4_CH2/I2C1_SDA/USART1_RX" type="BiDi"/>
+        <pin num="22" name="GND" type="power_out"/>
+        <pin num="23" name="PC13-WKUP2/TIMx_IC2/NUCLEO_BLUE_BUTTON" type="BiDi"/>
+        <pin num="24" name="VIN[6.5_TO_15v]" type="power_out"/>
+        <pin num="25" name="PC14-OSC32_IN/TIMx_IC3" type="NotConnected"/>
+        <pin num="26" name="NC" type="NotConnected"/>
+        <pin num="27" name="PC15-OSC32_OUT/TIMx_IC4" type="NotConnected"/>
+        <pin num="28" name="PA0-WKUP1/TIM2_CH1_ETR/TIM5_CH1/USART2_CTS/TIMx_IC1" type="BiDi"/>
+        <pin num="29" name="PH0OSC_IN" type="NotConnected"/>
+        <pin num="30" name="PA1/TIM2_CH2/TIM5_CH2/USART2_RTS/TIMx_IC2" type="BiDi"/>
+        <pin num="31" name="PH1OSC_OUT" type="NotConnected"/>
+        <pin num="32" name="PA4/SP1_NSS/[SPI3_NSS/I2S3_WS]/USART2_CK/TIMx_IC1" type="BiDi"/>
+        <pin num="33" name="VLCD" type="BiDi"/>
+        <pin num="34" name="PB0/TIM3_CH3" type="BiDi"/>
+        <pin num="35" name="PC2/TIMx_IC3" type="BiDi"/>
+        <pin num="36" name="PC1/TIMx_IC3" type="BiDi"/>
+        <pin num="37" name="PC3/TIMx_IC4" type="BiDi"/>
+        <pin num="38" name="PC0/TIMx_IC1" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="dustin" part="Nucleo-L152RE-CN10">
+      <description>Nucleo-L152RE Morpo Connector CN10</description>
+      <docs>datasheets/DM00098321_STM32L152RE_datasheet.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Nucleo-L152RE-CN10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PC9/TIM3_CH4/TIMx_IC2" type="BiDi"/>
+        <pin num="2" name="PC8/TIM3_CH3/TIMx_IC1" type="BiDi"/>
+        <pin num="3" name="PB8/TIM4_CH3/TIM10_CH1/I2C1_SCL" type="BiDi"/>
+        <pin num="4" name="PC6/TIM3_CH1/I2S2_MCK/TIMx_IC3" type="BiDi"/>
+        <pin num="5" name="PB9/TIM4_CH4/TIM11_CH1/I2C1_SDA" type="BiDi"/>
+        <pin num="6" name="PC5/TIMx_IC2" type="BiDi"/>
+        <pin num="7" name="AVDD" type="power_in"/>
+        <pin num="8" name="U5V[USB_power]" type="BiDi"/>
+        <pin num="9" name="GND" type="power_out"/>
+        <pin num="10" name="PD8/USART3_TX" type="BiDi"/>
+        <pin num="11" name="PA5/TIM2_CH1_ETR/SPI1_SCK/TIMx_IC2/NUCLEO_LED" type="BiDi"/>
+        <pin num="12" name="PA12/SPI1_MOSI/USART1_RTS/TIMx_IC1" type="BiDi"/>
+        <pin num="13" name="PA6/TIM3_CH1/TIM10_CH1/SPI1_MISO/TIMx_IC3" type="BiDi"/>
+        <pin num="14" name="PA11/SPI1_MISO/USART1_CTS/TIMx_IC4" type="BiDi"/>
+        <pin num="15" name="PA7/TIM3_CH2/TIM11_CH1/SPI1_MOSI/TIMx_IC4" type="BiDi"/>
+        <pin num="16" name="PB12/TIM10_CH1/I2C2_SMBA/[SPI2_NSS/I2S2_WS]/USART3_CK" type="BiDi"/>
+        <pin num="17" name="PB6/TIM4_CH1/I2C1_SCL/USART1_TX" type="BiDi"/>
+        <pin num="18" name="PB11/TIM2_CH4/I2C2_SDA/USART3_RX" type="BiDi"/>
+        <pin num="19" name="PC7/TIM3_CH2/I2S3_MCK/TIMx_IC4" type="BiDi"/>
+        <pin num="20" name="GND" type="power_out"/>
+        <pin num="21" name="PA9/USART1_TX/TIMx_IC2" type="BiDi"/>
+        <pin num="22" name="PB2/BOOT1" type="BiDi"/>
+        <pin num="23" name="PA8/MC0/USART1_CK/TIMx_IC1" type="BiDi"/>
+        <pin num="24" name="PB1/TIM3_CH4" type="BiDi"/>
+        <pin num="25" name="PB10/TIM2_CH3/I2C2_SCL/USART3_TX" type="BiDi"/>
+        <pin num="26" name="PB15/TIM11_CH1/[SPI2_MOSI/I2S2_SD]" type="BiDi"/>
+        <pin num="27" name="PB4/NJTRST/TIM3_CH1/SPI1_MISO/SPI3_MISO" type="BiDi"/>
+        <pin num="28" name="PB14/TIM9_CH2/SPI2_MISO/USART3_RTS" type="BiDi"/>
+        <pin num="29" name="PB5/TIM3_CH2/I2C1_SMBA/SPI1_MOSI/[SPI3_MISO/I2S3_SD]" type="BiDi"/>
+        <pin num="30" name="PB13/TIM9_CH1/[SPI2_SCK/I2S2_CK]/USART3_CTS" type="BiDi"/>
+        <pin num="31" name="PB3/JTDO/TIM2_CH2/SPI1_SCK/[SPI3_SCK/I2S3_CK]" type="BiDi"/>
+        <pin num="32" name="AGND" type="power_out"/>
+        <pin num="33" name="PA10/USART1_RX/TIMx_IC3" type="BiDi"/>
+        <pin num="34" name="PC4/TIMx_IC1" type="BiDi"/>
+        <pin num="35" name="PA2/TIM2_CH3/TIM5_CH3/TIM9_CH1/USART2_TX/TIMx_IC3/Nucleo_USB_TX" type="BiDi"/>
+        <pin num="36" name="PF5" type="BiDi"/>
+        <pin num="37" name="PA3/TIM2_CH4/TIM5_CH4/TIM9_CH2/USART2_RX/TIMx_IC4/Nucleo_USB_RX" type="BiDi"/>
+        <pin num="38" name="PF4" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X04">
+      <footprints>
+        <fp>Pin_Header_Straight_1X04</fp>
+        <fp>Pin_Header_Angled_1X04</fp>
+        <fp>Socket_Strip_Straight_1X04</fp>
+        <fp>Socket_Strip_Angled_1X04</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X06">
+      <footprints>
+        <fp>Pin_Header_Straight_1X06</fp>
+        <fp>Pin_Header_Angled_1X06</fp>
+        <fp>Socket_Strip_Straight_1X06</fp>
+        <fp>Socket_Strip_Angled_1X06</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C_Small">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="L_Small">
+      <description>Inductor</description>
+      <footprints>
+        <fp>CP*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R_Small">
+      <description>Resistor</description>
+      <footprints>
+        <fp>Resistor_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dustin" part="TPS61222-5V">
+      <description>TPS61222 5V output Boost Regulator</description>
+      <docs>datasheets/tps61221-1_battery_boost.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS61222-5V</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN[0.7_to_5.5]" type="BiDi"/>
+        <pin num="2" name="FB" type="BiDi"/>
+        <pin num="3" name="GND" type="BiDi"/>
+        <pin num="4" name="VOUT" type="power_out"/>
+        <pin num="5" name="L" type="BiDi"/>
+        <pin num="6" name="EN" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="dustin" part="S25FL127S">
+      <description>S25FL127S 128 Mbit Flash 2.7 to 3.6v</description>
+      <docs>datasheets/S25FL127S_00-247997-1.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">S25FL127S</field>
+      </fields>
+      <pins>
+        <pin num="1" name="nCS" type="BiDi"/>
+        <pin num="2" name="MISO" type="BiDi"/>
+        <pin num="3" name="nWP" type="BiDi"/>
+        <pin num="4" name="GND" type="power_out"/>
+        <pin num="5" name="MOSI" type="BiDi"/>
+        <pin num="6" name="SCK" type="BiDi"/>
+        <pin num="7" name="nHold" type="BiDi"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="dustin">
+      <uri>C:\Customers\Dustin\SensorNodes\STM32\EE\kicad_lib\nucleo\dustin.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>C:\kicad\kicad-winbuilder-3.4\kicad\share\library\conn.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>C:\kicad\kicad-winbuilder-3.4\kicad\share\library\device.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/VIN">
+      <node ref="U1" pin="24"/>
+    </net>
+    <net code="2" name="/+5V">
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="3" name="/PC15">
+      <node ref="U1" pin="27"/>
+    </net>
+    <net code="4" name="/PA15">
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="5" name="/PC1_SBPB8">
+      <node ref="U1" pin="36"/>
+    </net>
+    <net code="6" name="Net-(U1-Pad26)">
+      <node ref="U1" pin="26"/>
+    </net>
+    <net code="7" name="/PC14">
+      <node ref="U1" pin="25"/>
+    </net>
+    <net code="8" name="/PA14">
+      <node ref="P1" pin="2"/>
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="9" name="/PB0">
+      <node ref="U1" pin="34"/>
+    </net>
+    <net code="10" name="/PA0">
+      <node ref="U1" pin="28"/>
+    </net>
+    <net code="11" name="/NRST">
+      <node ref="P1" pin="5"/>
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="12" name="/VBAT/VLCD">
+      <node ref="U1" pin="33"/>
+    </net>
+    <net code="13" name="/PC13">
+      <node ref="U1" pin="23"/>
+    </net>
+    <net code="14" name="/PA13">
+      <node ref="U1" pin="13"/>
+      <node ref="P1" pin="4"/>
+    </net>
+    <net code="15" name="/PA4">
+      <node ref="U1" pin="32"/>
+    </net>
+    <net code="16" name="/PB7">
+      <node ref="U1" pin="21"/>
+    </net>
+    <net code="17" name="/PF7">
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="18" name="/PA9">
+      <node ref="U2" pin="21"/>
+    </net>
+    <net code="19" name="/PA5">
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="20" name="/PA1">
+      <node ref="U1" pin="30"/>
+    </net>
+    <net code="21" name="/AVDD">
+      <node ref="U2" pin="7"/>
+    </net>
+    <net code="22" name="/PB9">
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="23" name="/PB8">
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="24" name="/PC9">
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="25" name="/PC0_SBPB9">
+      <node ref="U1" pin="38"/>
+    </net>
+    <net code="26" name="Net-(U3-Pad3)">
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="27" name="Net-(U3-Pad14)">
+      <node ref="U3" pin="14"/>
+    </net>
+    <net code="28" name="Net-(U3-Pad13)">
+      <node ref="U3" pin="13"/>
+    </net>
+    <net code="29" name="Net-(U3-Pad12)">
+      <node ref="U3" pin="12"/>
+    </net>
+    <net code="30" name="Net-(U3-Pad11)">
+      <node ref="U3" pin="11"/>
+    </net>
+    <net code="31" name="Net-(U3-Pad10)">
+      <node ref="U3" pin="10"/>
+    </net>
+    <net code="32" name="Net-(U3-Pad9)">
+      <node ref="U3" pin="9"/>
+    </net>
+    <net code="33" name="Net-(U3-Pad7)">
+      <node ref="U3" pin="7"/>
+    </net>
+    <net code="34" name="Net-(U3-Pad6)">
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="35" name="Net-(U3-Pad5)">
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="36" name="Net-(U3-Pad4)">
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="37" name="Net-(U3-Pad15)">
+      <node ref="U3" pin="15"/>
+    </net>
+    <net code="38" name="Net-(U3-Pad2)">
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="39" name="Net-(U3-Pad1)">
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="40" name="Net-(U3-Pad16)">
+      <node ref="U3" pin="16"/>
+    </net>
+    <net code="41" name="/PC10">
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="42" name="Net-(U1-Pad10)">
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="43" name="/PF6">
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="44" name="/BOOT0">
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="45" name="/PC12">
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="46" name="/PA6">
+      <node ref="U2" pin="13"/>
+    </net>
+    <net code="47" name="GNDREF">
+      <node ref="C2" pin="2"/>
+      <node ref="C1" pin="2"/>
+    </net>
+    <net code="48" name="Net-(L1-Pad2)">
+      <node ref="U4" pin="5"/>
+      <node ref="L1" pin="2"/>
+    </net>
+    <net code="49" name="GND">
+      <node ref="P1" pin="3"/>
+      <node ref="P2" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="U1" pin="8"/>
+      <node ref="U1" pin="20"/>
+      <node ref="U1" pin="19"/>
+      <node ref="U2" pin="9"/>
+      <node ref="U2" pin="20"/>
+      <node ref="U5" pin="4"/>
+      <node ref="U1" pin="22"/>
+      <node ref="U4" pin="3"/>
+      <node ref="P3" pin="1"/>
+    </net>
+    <net code="50" name="Net-(U5-Pad8)">
+      <node ref="U5" pin="8"/>
+    </net>
+    <net code="51" name="Net-(U5-Pad7)">
+      <node ref="U5" pin="7"/>
+    </net>
+    <net code="52" name="Net-(U5-Pad6)">
+      <node ref="U5" pin="6"/>
+    </net>
+    <net code="53" name="Net-(U5-Pad5)">
+      <node ref="U5" pin="5"/>
+    </net>
+    <net code="54" name="/E5V">
+      <node ref="U1" pin="6"/>
+      <node ref="C4" pin="1"/>
+      <node ref="U4" pin="4"/>
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="55" name="/VBAT">
+      <node ref="C3" pin="1"/>
+      <node ref="L1" pin="1"/>
+      <node ref="U4" pin="6"/>
+      <node ref="U4" pin="1"/>
+      <node ref="P2" pin="1"/>
+    </net>
+    <net code="56" name="+3V3">
+      <node ref="U3" pin="8"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U1" pin="5"/>
+      <node ref="C1" pin="1"/>
+      <node ref="P3" pin="4"/>
+      <node ref="U1" pin="12"/>
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="57" name="/PB5">
+      <node ref="U2" pin="29"/>
+    </net>
+    <net code="58" name="/PC7">
+      <node ref="U2" pin="19"/>
+    </net>
+    <net code="59" name="/PB4">
+      <node ref="U2" pin="27"/>
+    </net>
+    <net code="60" name="/PB6">
+      <node ref="U2" pin="17"/>
+    </net>
+    <net code="61" name="/PB10">
+      <node ref="U2" pin="25"/>
+    </net>
+    <net code="62" name="/PA7">
+      <node ref="U2" pin="15"/>
+    </net>
+    <net code="63" name="/PA8">
+      <node ref="U2" pin="23"/>
+    </net>
+    <net code="64" name="Net-(P3-Pad3)">
+      <node ref="R1" pin="1"/>
+      <node ref="P3" pin="3"/>
+    </net>
+    <net code="65" name="Net-(U5-Pad3)">
+      <node ref="U5" pin="3"/>
+    </net>
+    <net code="66" name="Net-(U5-Pad2)">
+      <node ref="U5" pin="2"/>
+    </net>
+    <net code="67" name="Net-(U5-Pad1)">
+      <node ref="U5" pin="1"/>
+    </net>
+    <net code="68" name="/PA3">
+      <node ref="U2" pin="37"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="69" name="/PA2">
+      <node ref="U2" pin="35"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="70" name="Net-(P3-Pad2)">
+      <node ref="P3" pin="2"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="71" name="/PD2">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="72" name="/PC11">
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="73" name="/PC3">
+      <node ref="U1" pin="37"/>
+    </net>
+    <net code="74" name="/PC2">
+      <node ref="U1" pin="35"/>
+    </net>
+    <net code="75" name="/PH1">
+      <node ref="U1" pin="31"/>
+    </net>
+    <net code="76" name="/PH0">
+      <node ref="U1" pin="29"/>
+    </net>
+    <net code="77" name="/PB11">
+      <node ref="U2" pin="18"/>
+    </net>
+    <net code="78" name="/PF4">
+      <node ref="U2" pin="38"/>
+    </net>
+    <net code="79" name="/PF5">
+      <node ref="U2" pin="36"/>
+    </net>
+    <net code="80" name="/PC4">
+      <node ref="U2" pin="34"/>
+    </net>
+    <net code="81" name="/AGND">
+      <node ref="U2" pin="32"/>
+    </net>
+    <net code="82" name="/PB13">
+      <node ref="U2" pin="30"/>
+    </net>
+    <net code="83" name="/PB14">
+      <node ref="U2" pin="28"/>
+    </net>
+    <net code="84" name="/PB15">
+      <node ref="U2" pin="26"/>
+    </net>
+    <net code="85" name="/PB1">
+      <node ref="U2" pin="24"/>
+    </net>
+    <net code="86" name="/PB2">
+      <node ref="U2" pin="22"/>
+    </net>
+    <net code="87" name="/PB12">
+      <node ref="U2" pin="16"/>
+    </net>
+    <net code="88" name="/PA11">
+      <node ref="U2" pin="14"/>
+    </net>
+    <net code="89" name="/PA12">
+      <node ref="U2" pin="12"/>
+    </net>
+    <net code="90" name="/PD8">
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="91" name="/U5V">
+      <node ref="U2" pin="8"/>
+    </net>
+    <net code="92" name="/PC5">
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="93" name="/PC6">
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="94" name="/PC8">
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="95" name="Net-(P1-Pad1)">
+      <node ref="P1" pin="1"/>
+    </net>
+    <net code="96" name="/PA10">
+      <node ref="U2" pin="33"/>
+    </net>
+    <net code="97" name="/PB3">
+      <node ref="P1" pin="6"/>
+      <node ref="U2" pin="31"/>
+    </net>
+  </nets>
+</export>

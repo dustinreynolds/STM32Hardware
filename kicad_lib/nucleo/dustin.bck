@@ -1,0 +1,53 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM3670
+D LM3670 Step Down Voltage Regulator
+K LM3670
+F datasheets/lm3670.pdf
+$ENDCMP
+#
+$CMP LTC3525-3.3
+D LTC3525-3.3 400mA Boost Regulator
+F datasheets/LTC3525.pdf
+$ENDCMP
+#
+$CMP MT3329_GPS
+D MT3329 10Hz GPS
+K GPS
+F datasheets/mediatek_3329.pdf
+$ENDCMP
+#
+$CMP Nucleo-L152RE-CN10
+D Nucleo-L152RE Morpo Connector CN10
+K L152RE-CN10
+F datasheets/DM00098321_STM32L152RE_datasheet.pdf
+$ENDCMP
+#
+$CMP Nucleo-L152RE-CN7
+D Nucleo-L152RE Morpho CN7 Connector
+K Morpho, STM32L152RE
+F datasheets/DM00098321_STM32L152RE_datasheet.pdf
+$ENDCMP
+#
+$CMP RFM69HW
+D Hope RF RFM69HW Wireless Module
+K RFM69HW
+F datasheets/RFM69HW-V1.3.pdf
+$ENDCMP
+#
+$CMP S25FL127S
+D S25FL127S 128 Mbit Flash 2.7 to 3.6v
+F datasheets/S25FL127S_00-247997-1.pdf
+$ENDCMP
+#
+$CMP TPS61222-5V
+D TPS61222 5V output Boost Regulator
+F datasheets/tps61221-1_battery_boost.pdf
+$ENDCMP
+#
+$CMP TPS6122x
+D TPS61222 5V output Boost Regulator
+F datasheets/tps61221-1_battery_boost.pdf
+$ENDCMP
+#
+#End Doc Library

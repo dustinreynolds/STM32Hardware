@@ -1,0 +1,52 @@
+Cmp-Mod V01 Created by Cvpcb (2015-03-26 BZR 5542)-product   date = 3/28/2015 12:26:24 PM
+
+BeginCmp
+TimeStamp = /55169E99;
+Reference = C1;
+ValeurCmp = C;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55169E57;
+Reference = C2;
+ValeurCmp = C;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5515ECE4;
+Reference = P1;
+ValeurCmp = SWD Header;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x06;
+EndCmp
+
+BeginCmp
+TimeStamp = /5515F41F;
+Reference = P2;
+ValeurCmp = Power;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /5516CBA1;
+Reference = U1;
+ValeurCmp = Nucleo-L152RE-CN7;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x19;
+EndCmp
+
+BeginCmp
+TimeStamp = /5516CBDF;
+Reference = U2;
+ValeurCmp = Nucleo-L152RE-CN10;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x19;
+EndCmp
+
+BeginCmp
+TimeStamp = /55169D6F;
+Reference = U3;
+ValeurCmp = RFM69HW;
+IdModule  = nucleo:RFM69HW;
+EndCmp
+
+EndListe

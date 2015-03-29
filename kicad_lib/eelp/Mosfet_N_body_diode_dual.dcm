@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0  Date: Sat 28 May 2011 00:18:04 CDT
+#
+$CMP MOS_N
+D N channel MOSFET, generic footprint
+$ENDCMP
+#
+#End Doc Library
