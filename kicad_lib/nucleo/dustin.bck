@@ -17,6 +17,12 @@ K GPS
 F datasheets/mediatek_3329.pdf
 $ENDCMP
 #
+$CMP MomentarySwitch
+D 4 Pin momentary Switch
+K SPST-NO
+F datasheets/ENG_CD_1825910_C8_Momentary_sw.pdf
+$ENDCMP
+#
 $CMP Nucleo-L152RE-CN10
 D Nucleo-L152RE Morpo Connector CN10
 K L152RE-CN10
@@ -38,6 +44,12 @@ $ENDCMP
 $CMP S25FL127S
 D S25FL127S 128 Mbit Flash 2.7 to 3.6v
 F datasheets/S25FL127S_00-247997-1.pdf
+$ENDCMP
+#
+$CMP SW4
+D 4 Pin momentary Switch
+K SPST-NO
+F datasheets/ENG_CD_1825910_C8_Momentary_sw.pdf
 $ENDCMP
 #
 $CMP TPS61222-5V
