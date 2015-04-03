@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-03-26 BZR 5542)-product   date = 4/1/2015 8:52:34 PM
+Cmp-Mod V01 Created by Cvpcb (2015-03-26 BZR 5542)-product   date = 4/2/2015 9:39:20 PM
 
 BeginCmp
 TimeStamp = /551D7492;
@@ -96,34 +96,6 @@ TimeStamp = /5526E0AC;
 Reference = J3;
 ValeurCmp = EXTPower;
 IdModule  = nucleo:RJ45_SMD;
-EndCmp
-
-BeginCmp
-TimeStamp = /5517A5CC;
-Reference = JP2;
-ValeurCmp = Jumper_NC_Small;
-IdModule  = nucleo:SB_NC;
-EndCmp
-
-BeginCmp
-TimeStamp = /5517A29C;
-Reference = JP3;
-ValeurCmp = Jumper_NC_Small;
-IdModule  = nucleo:SB_NC;
-EndCmp
-
-BeginCmp
-TimeStamp = /5523EF46;
-Reference = JP4;
-ValeurCmp = Jumper_NC_Small;
-IdModule  = nucleo:SB_NC;
-EndCmp
-
-BeginCmp
-TimeStamp = /5523EF40;
-Reference = JP5;
-ValeurCmp = Jumper_NC_Small;
-IdModule  = nucleo:SB_NC;
 EndCmp
 
 BeginCmp
@@ -253,34 +225,6 @@ IdModule  = nucleo:SB_NO;
 EndCmp
 
 BeginCmp
-TimeStamp = /5518BFC3;
-Reference = JP36;
-ValeurCmp = Jumper_NC_Small;
-IdModule  = nucleo:SB_NC;
-EndCmp
-
-BeginCmp
-TimeStamp = /5518C293;
-Reference = JP37;
-ValeurCmp = Jumper_NC_Small;
-IdModule  = nucleo:SB_NC;
-EndCmp
-
-BeginCmp
-TimeStamp = /5518C32B;
-Reference = JP38;
-ValeurCmp = Jumper_NC_Small;
-IdModule  = nucleo:SB_NC;
-EndCmp
-
-BeginCmp
-TimeStamp = /5518C3C5;
-Reference = JP39;
-ValeurCmp = Jumper_NC_Small;
-IdModule  = nucleo:SB_NC;
-EndCmp
-
-BeginCmp
 TimeStamp = /552383CC;
 Reference = JP41;
 ValeurCmp = Jumper_NC_Small;
@@ -288,24 +232,10 @@ IdModule  = nucleo:SB_NC;
 EndCmp
 
 BeginCmp
-TimeStamp = /552475C2;
-Reference = JP42;
-ValeurCmp = Jumper_NO_Small;
-IdModule  = nucleo:SB_NO;
-EndCmp
-
-BeginCmp
 TimeStamp = /5523AA10;
 Reference = JP43;
 ValeurCmp = Jumper_NC_Small;
 IdModule  = nucleo:SB_NC;
-EndCmp
-
-BeginCmp
-TimeStamp = /55247160;
-Reference = JP44;
-ValeurCmp = Jumper_NO_Small;
-IdModule  = nucleo:SB_NO;
 EndCmp
 
 BeginCmp
@@ -344,24 +274,10 @@ IdModule  = nucleo:SB_NC;
 EndCmp
 
 BeginCmp
-TimeStamp = /5524744C;
-Reference = JP58;
-ValeurCmp = Jumper_NO_Small;
-IdModule  = nucleo:SB_NO;
-EndCmp
-
-BeginCmp
 TimeStamp = /55239FFE;
 Reference = JP59;
 ValeurCmp = Jumper_NC_Small;
 IdModule  = nucleo:SB_NC;
-EndCmp
-
-BeginCmp
-TimeStamp = /552472D0;
-Reference = JP60;
-ValeurCmp = Jumper_NO_Small;
-IdModule  = nucleo:SB_NO;
 EndCmp
 
 BeginCmp
@@ -449,10 +365,10 @@ IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
 EndCmp
 
 BeginCmp
-TimeStamp = /5517F41A;
+TimeStamp = /552C5694;
 Reference = P11;
-ValeurCmp = CONN_01X06;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x06;
+ValeurCmp = GND1;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
 BeginCmp
@@ -477,17 +393,17 @@ IdModule  = Pin_Headers:Pin_Header_Straight_2x06;
 EndCmp
 
 BeginCmp
-TimeStamp = /5519FDD9;
+TimeStamp = /552BAB00;
 Reference = P15;
-ValeurCmp = WS_1_2;
-IdModule  = Pin_Headers:Pin_Header_Straight_2x02;
+ValeurCmp = WS1;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
 BeginCmp
-TimeStamp = /5519FFC3;
+TimeStamp = /552BB1C2;
 Reference = P16;
-ValeurCmp = WS_3_4;
-IdModule  = Pin_Headers:Pin_Header_Straight_2x02;
+ValeurCmp = WS2;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
 BeginCmp
@@ -498,31 +414,24 @@ IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
 EndCmp
 
 BeginCmp
-TimeStamp = /5518B3EB;
+TimeStamp = /552BCAA3;
 Reference = P18;
-ValeurCmp = OW1_B;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
+ValeurCmp = WS3;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
 BeginCmp
-TimeStamp = /5518B4A4;
+TimeStamp = /552BB2CC;
 Reference = P19;
-ValeurCmp = OW2_B;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
+ValeurCmp = WS4;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
 BeginCmp
-TimeStamp = /551AFF38;
+TimeStamp = /552C5832;
 Reference = P20;
-ValeurCmp = I2C1_C;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x04;
-EndCmp
-
-BeginCmp
-TimeStamp = /551B0059;
-Reference = P21;
-ValeurCmp = I2C2_C;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x04;
+ValeurCmp = GND1;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
 BeginCmp
@@ -550,20 +459,6 @@ BeginCmp
 TimeStamp = /551C18F3;
 Reference = P25;
 ValeurCmp = MS4;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
-EndCmp
-
-BeginCmp
-TimeStamp = /5518B689;
-Reference = P26;
-ValeurCmp = OW3_B;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
-EndCmp
-
-BeginCmp
-TimeStamp = /5518B857;
-Reference = P27;
-ValeurCmp = OW4_B;
 IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
 EndCmp
 
