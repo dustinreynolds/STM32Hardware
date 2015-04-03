@@ -1,52 +1,10 @@
-Cmp-Mod V01 Created by Cvpcb (2015-03-26 BZR 5542)-product   date = 3/31/2015 8:13:40 PM
+Cmp-Mod V01 Created by Cvpcb (2015-03-26 BZR 5542)-product   date = 4/1/2015 8:52:34 PM
 
 BeginCmp
 TimeStamp = /551D7492;
 Reference = C1;
 ValeurCmp = 0.1u;
 IdModule  = Capacitors_SMD:C_0603_HandSoldering;
-EndCmp
-
-BeginCmp
-TimeStamp = /55171B91;
-Reference = C2;
-ValeurCmp = 10uF;
-IdModule  = Capacitors_SMD:C_0603_HandSoldering;
-EndCmp
-
-BeginCmp
-TimeStamp = /55171EA2;
-Reference = C3;
-ValeurCmp = 10uF;
-IdModule  = Capacitors_SMD:C_0603_HandSoldering;
-EndCmp
-
-BeginCmp
-TimeStamp = /552010A1;
-Reference = C4;
-ValeurCmp = 10uF;
-IdModule  = Capacitors_SMD:C_0603_HandSoldering;
-EndCmp
-
-BeginCmp
-TimeStamp = /55202DE1;
-Reference = C5;
-ValeurCmp = 22uF;
-IdModule  = Capacitors_SMD:C_0603_HandSoldering;
-EndCmp
-
-BeginCmp
-TimeStamp = /55202DFF;
-Reference = C6;
-ValeurCmp = 22uF;
-IdModule  = Capacitors_SMD:C_0603_HandSoldering;
-EndCmp
-
-BeginCmp
-TimeStamp = /55202DF9;
-Reference = C7;
-ValeurCmp = 220uF;
-IdModule  = nucleo:Cap_alum_electro_3.3x3.3;
 EndCmp
 
 BeginCmp
@@ -134,10 +92,10 @@ IdModule  = nucleo:RJ45_SMD;
 EndCmp
 
 BeginCmp
-TimeStamp = /551E6A68;
-Reference = JP1;
-ValeurCmp = BoostEn;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+TimeStamp = /5526E0AC;
+Reference = J3;
+ValeurCmp = EXTPower;
+IdModule  = nucleo:RJ45_SMD;
 EndCmp
 
 BeginCmp
@@ -197,48 +155,6 @@ IdModule  = nucleo:SB_NO;
 EndCmp
 
 BeginCmp
-TimeStamp = /551BA148;
-Reference = JP10;
-ValeurCmp = Jumper_NC_Small;
-IdModule  = nucleo:SB_NC;
-EndCmp
-
-BeginCmp
-TimeStamp = /551BA256;
-Reference = JP11;
-ValeurCmp = Jumper_NC_Small;
-IdModule  = nucleo:SB_NC;
-EndCmp
-
-BeginCmp
-TimeStamp = /551BA31E;
-Reference = JP12;
-ValeurCmp = Jumper_NC_Small;
-IdModule  = nucleo:SB_NC;
-EndCmp
-
-BeginCmp
-TimeStamp = /551BA3E8;
-Reference = JP13;
-ValeurCmp = Jumper_NC_Small;
-IdModule  = nucleo:SB_NC;
-EndCmp
-
-BeginCmp
-TimeStamp = /551BA4B4;
-Reference = JP14;
-ValeurCmp = Jumper_NC_Small;
-IdModule  = nucleo:SB_NC;
-EndCmp
-
-BeginCmp
-TimeStamp = /551BA582;
-Reference = JP15;
-ValeurCmp = Jumper_NC_Small;
-IdModule  = nucleo:SB_NC;
-EndCmp
-
-BeginCmp
 TimeStamp = /552518E2;
 Reference = JP16;
 ValeurCmp = Jumper_NC_Small;
@@ -290,48 +206,6 @@ EndCmp
 BeginCmp
 TimeStamp = /55175B16;
 Reference = JP23;
-ValeurCmp = Jumper_NC_Small;
-IdModule  = nucleo:SB_NC;
-EndCmp
-
-BeginCmp
-TimeStamp = /551BD749;
-Reference = JP24;
-ValeurCmp = Jumper_NC_Small;
-IdModule  = nucleo:SB_NC;
-EndCmp
-
-BeginCmp
-TimeStamp = /551BD74F;
-Reference = JP25;
-ValeurCmp = Jumper_NC_Small;
-IdModule  = nucleo:SB_NC;
-EndCmp
-
-BeginCmp
-TimeStamp = /551BD755;
-Reference = JP26;
-ValeurCmp = Jumper_NC_Small;
-IdModule  = nucleo:SB_NC;
-EndCmp
-
-BeginCmp
-TimeStamp = /551BD75B;
-Reference = JP27;
-ValeurCmp = Jumper_NC_Small;
-IdModule  = nucleo:SB_NC;
-EndCmp
-
-BeginCmp
-TimeStamp = /551BD761;
-Reference = JP28;
-ValeurCmp = Jumper_NC_Small;
-IdModule  = nucleo:SB_NC;
-EndCmp
-
-BeginCmp
-TimeStamp = /551BD767;
-Reference = JP29;
 ValeurCmp = Jumper_NC_Small;
 IdModule  = nucleo:SB_NC;
 EndCmp
@@ -435,62 +309,6 @@ IdModule  = nucleo:SB_NO;
 EndCmp
 
 BeginCmp
-TimeStamp = /55174EE4;
-Reference = JP45;
-ValeurCmp = Jumper_NC_Small;
-IdModule  = nucleo:SB_NC;
-EndCmp
-
-BeginCmp
-TimeStamp = /55175287;
-Reference = JP46;
-ValeurCmp = Jumper_NO_Small;
-IdModule  = nucleo:SB_NO;
-EndCmp
-
-BeginCmp
-TimeStamp = /551752D9;
-Reference = JP47;
-ValeurCmp = Jumper_NO_Small;
-IdModule  = nucleo:SB_NO;
-EndCmp
-
-BeginCmp
-TimeStamp = /5517531B;
-Reference = JP48;
-ValeurCmp = Jumper_NO_Small;
-IdModule  = nucleo:SB_NO;
-EndCmp
-
-BeginCmp
-TimeStamp = /5517535F;
-Reference = JP49;
-ValeurCmp = Jumper_NO_Small;
-IdModule  = nucleo:SB_NO;
-EndCmp
-
-BeginCmp
-TimeStamp = /551753A5;
-Reference = JP50;
-ValeurCmp = Jumper_NO_Small;
-IdModule  = nucleo:SB_NO;
-EndCmp
-
-BeginCmp
-TimeStamp = /551753ED;
-Reference = JP51;
-ValeurCmp = Jumper_NO_Small;
-IdModule  = nucleo:SB_NO;
-EndCmp
-
-BeginCmp
-TimeStamp = /551E5389;
-Reference = JP52;
-ValeurCmp = Jumper_NC_Small;
-IdModule  = nucleo:SB_NC;
-EndCmp
-
-BeginCmp
 TimeStamp = /551749F5;
 Reference = JP53;
 ValeurCmp = Jumper_NC_Small;
@@ -544,20 +362,6 @@ TimeStamp = /552472D0;
 Reference = JP60;
 ValeurCmp = Jumper_NO_Small;
 IdModule  = nucleo:SB_NO;
-EndCmp
-
-BeginCmp
-TimeStamp = /55171671;
-Reference = L1;
-ValeurCmp = 4.7uH;
-IdModule  = nucleo:Inductor_4.7u;
-EndCmp
-
-BeginCmp
-TimeStamp = /55201C32;
-Reference = L2;
-ValeurCmp = 10uH;
-IdModule  = nucleo:Inductor_10u;
 EndCmp
 
 BeginCmp
@@ -806,13 +610,6 @@ IdModule  = Resistors_SMD:R_0603_HandSoldering;
 EndCmp
 
 BeginCmp
-TimeStamp = /5520B3E7;
-Reference = R4;
-ValeurCmp = 0;
-IdModule  = Resistors_SMD:R_0603_HandSoldering;
-EndCmp
-
-BeginCmp
 TimeStamp = /55235A3A;
 Reference = R5;
 ValeurCmp = 33;
@@ -981,48 +778,6 @@ IdModule  = Resistors_SMD:R_0603_HandSoldering;
 EndCmp
 
 BeginCmp
-TimeStamp = /551922F3;
-Reference = R29;
-ValeurCmp = 10k;
-IdModule  = Resistors_SMD:R_0603_HandSoldering;
-EndCmp
-
-BeginCmp
-TimeStamp = /55192B4E;
-Reference = R30;
-ValeurCmp = 10k;
-IdModule  = Resistors_SMD:R_0603_HandSoldering;
-EndCmp
-
-BeginCmp
-TimeStamp = /55192BE6;
-Reference = R31;
-ValeurCmp = 10k;
-IdModule  = Resistors_SMD:R_0603_HandSoldering;
-EndCmp
-
-BeginCmp
-TimeStamp = /55192C80;
-Reference = R32;
-ValeurCmp = 10k;
-IdModule  = Resistors_SMD:R_0603_HandSoldering;
-EndCmp
-
-BeginCmp
-TimeStamp = /55192D1C;
-Reference = R33;
-ValeurCmp = 10k;
-IdModule  = Resistors_SMD:R_0603_HandSoldering;
-EndCmp
-
-BeginCmp
-TimeStamp = /55192DBE;
-Reference = R34;
-ValeurCmp = 10k;
-IdModule  = Resistors_SMD:R_0603_HandSoldering;
-EndCmp
-
-BeginCmp
 TimeStamp = /5519AFCC;
 Reference = R35;
 ValeurCmp = 0;
@@ -1100,13 +855,6 @@ IdModule  = nucleo:Tact_switch;
 EndCmp
 
 BeginCmp
-TimeStamp = /551714B3;
-Reference = U1;
-ValeurCmp = TPS61222-5V;
-IdModule  = nucleo:SO-70;
-EndCmp
-
-BeginCmp
 TimeStamp = /5516CBA1;
 Reference = U2;
 ValeurCmp = Nucleo-L152RE-CN7;
@@ -1118,13 +866,6 @@ TimeStamp = /5516CBDF;
 Reference = U3;
 ValeurCmp = Nucleo-L152RE-CN10;
 IdModule  = Pin_Headers:Pin_Header_Straight_2x19;
-EndCmp
-
-BeginCmp
-TimeStamp = /55200CF2;
-Reference = U4;
-ValeurCmp = LM3670;
-IdModule  = SMD_Packages:SOT-353;
 EndCmp
 
 BeginCmp
