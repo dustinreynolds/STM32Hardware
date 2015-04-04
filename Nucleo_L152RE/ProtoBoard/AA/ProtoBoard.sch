@@ -75,7 +75,7 @@ Text Label 1000 4050 0    60   ~ 0
 I2C_SDA1
 Text Label 1100 2900 0    60   ~ 0
 WS3
-Text Label 1100 3000 0    60   ~ 0
+Text Label 7300 4850 2    60   ~ 0
 WS4
 Text Label 7200 1400 2    60   ~ 0
 E5V
@@ -1943,7 +1943,7 @@ F 3 "" H 10600 2400 60  0000 C CNN
 $EndComp
 Text Label 9350 2300 0    60   ~ 0
 StatusButton1
-Text Label 7300 4850 2    60   ~ 0
+Text Label 1100 3000 0    60   ~ 0
 VIN_Trig
 Text Label 7300 4150 2    60   ~ 0
 U5V
