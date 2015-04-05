@@ -3,7 +3,7 @@
   (general
     (links 265)
     (no_connects 0)
-    (area 122.300999 47.878999 191.135001 128.651001)
+    (area 116.113571 44.194 202.137628 130.05526)
     (thickness 1.6)
     (drawings 107)
     (tracks 1640)
@@ -13,6 +13,14 @@
   )
 
   (page A4)
+  (title_block
+    (title "Expansion Board for STM32 Nucleo-L152RE")
+    (date "Sunday, April 05, 2015")
+    (rev AA)
+    (company "Open Source Hardware")
+    (comment 1 "Creative Commons - Share Alike")
+  )
+
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)
