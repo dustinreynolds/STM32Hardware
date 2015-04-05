@@ -1,0 +1,9 @@
+(module plat_hole_4_20 (layer F.Cu) (tedit 55207730)
+  (fp_text reference REF** (at 0.2286 -3.6576) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value "" (at -0.4826 4.1402) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at 0 -0.0254) (size 5.461 5.461) (drill 2.9972) (layers *.Cu *.Mask F.SilkS))
+)

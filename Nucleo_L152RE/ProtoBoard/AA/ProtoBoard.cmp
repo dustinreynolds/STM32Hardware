@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-03-26 BZR 5542)-product   date = 4/2/2015 9:39:20 PM
+Cmp-Mod V01 Created by Cvpcb (2015-03-26 BZR 5542)-product   date = 4/4/2015 6:31:30 PM
 
 BeginCmp
 TimeStamp = /551D7492;
@@ -204,24 +204,10 @@ IdModule  = nucleo:SB_NC;
 EndCmp
 
 BeginCmp
-TimeStamp = /5520B8F9;
-Reference = JP33;
-ValeurCmp = Jumper_NO_Small;
-IdModule  = nucleo:SB_NO;
-EndCmp
-
-BeginCmp
 TimeStamp = /55208D50;
 Reference = JP34;
 ValeurCmp = Jumper_NC_Small;
 IdModule  = nucleo:SB_NC;
-EndCmp
-
-BeginCmp
-TimeStamp = /55208B2D;
-Reference = JP35;
-ValeurCmp = Jumper_NO_Small;
-IdModule  = nucleo:SB_NO;
 EndCmp
 
 BeginCmp
@@ -430,8 +416,15 @@ EndCmp
 BeginCmp
 TimeStamp = /552C5832;
 Reference = P20;
-ValeurCmp = GND1;
+ValeurCmp = GND2;
 IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /552D67CC;
+Reference = P21;
+ValeurCmp = Hole;
+IdModule  = nucleo:plat_hole_4_20;
 EndCmp
 
 BeginCmp
@@ -463,6 +456,20 @@ IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
 EndCmp
 
 BeginCmp
+TimeStamp = /552D814E;
+Reference = P26;
+ValeurCmp = Hole;
+IdModule  = nucleo:plat_hole_4_20;
+EndCmp
+
+BeginCmp
+TimeStamp = /552D8244;
+Reference = P27;
+ValeurCmp = Hole;
+IdModule  = nucleo:plat_hole_4_20;
+EndCmp
+
+BeginCmp
 TimeStamp = /551C2CDF;
 Reference = P28;
 ValeurCmp = RGB1;
@@ -474,6 +481,13 @@ TimeStamp = /55173E87;
 Reference = P29;
 ValeurCmp = Ant;
 IdModule  = Pin_Headers:Pin_Header_Straight_1x01;
+EndCmp
+
+BeginCmp
+TimeStamp = /552D833C;
+Reference = P30;
+ValeurCmp = Hole;
+IdModule  = Mounting_Holes:MountingHole_3mm;
 EndCmp
 
 BeginCmp
