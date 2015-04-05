@@ -37,10 +37,10 @@ $Descr B 17000 11000
 encoding utf-8
 Sheet 1 1
 Title "Expansion Board For STM32 Nucleo-L152RE"
-Date "Wednesday, April 01, 2015"
+Date "Sunday, April 05, 2015"
 Rev "AA"
-Comp "NA"
-Comment1 ""
+Comp "Open Source Hardware"
+Comment1 "Creative Commons - Share Alike"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -215,7 +215,7 @@ U 1 1 55170A0F
 P 10250 1550
 F 0 "U6" H 10250 1800 60  0000 C CNN
 F 1 "S25FL127S" H 10100 1300 60  0000 C CNN
-F 2 "SMD_Packages:SOIC-8-N" H 10250 1550 60  0001 C CNN
+F 2 "nucleo:SOIC-8-FLASH" H 10250 1550 60  0001 C CNN
 F 3 "" H 10250 1550 60  0000 C CNN
 	1    10250 1550
 	1    0    0    -1  
@@ -1383,7 +1383,7 @@ U 1 1 551D0B9B
 P 1800 7500
 F 0 "Q1" H 2100 7550 50  0000 R CNN
 F 1 "SI2323DS" H 2450 7450 50  0000 R CNN
-F 2 "SMD_Packages:SOT-323" H 2000 7600 29  0001 C CNN
+F 2 "nucleo:TO-236" H 2000 7600 29  0001 C CNN
 F 3 "http://www.vishay.com/docs/72024/72024.pdf" H 1800 7500 60  0001 C CNN
 	1    1800 7500
 	1    0    0    1   
@@ -1644,7 +1644,7 @@ P 9850 8650
 F 0 "L4" V 9800 8650 50  0000 L CNN
 F 1 "600 Ohm" V 9880 8610 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" H 9850 8650 60  0001 C CNN
-F 3 "http://search.murata.co.jp/Ceramy/image/img/PDF/ENG/L0075S0103LQH3NP_G0.pdf" H 9850 8650 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/MI0603J601R-10/240-2371-1-ND/806731" H 9850 8650 60  0001 C CNN
 	1    9850 8650
 	0    -1   -1   0   
 $EndComp
@@ -1655,7 +1655,7 @@ P 9850 8350
 F 0 "L3" V 9950 8350 50  0000 L CNN
 F 1 "600 Ohm" V 9900 7950 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" H 9850 8350 60  0001 C CNN
-F 3 "http://search.murata.co.jp/Ceramy/image/img/PDF/ENG/L0075S0103LQH3NP_G0.pdf" H 9850 8350 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/MI0603J601R-10/240-2371-1-ND/806731" H 9850 8350 60  0001 C CNN
 	1    9850 8350
 	0    -1   -1   0   
 $EndComp
@@ -1831,12 +1831,12 @@ $EndComp
 $Comp
 L GND #PWR054
 U 1 1 5525ED88
-P 900 4250
-F 0 "#PWR054" H 900 4000 50  0001 C CNN
-F 1 "GND" H 900 4100 50  0000 C CNN
-F 2 "" H 900 4250 60  0000 C CNN
-F 3 "" H 900 4250 60  0000 C CNN
-	1    900  4250
+P 600 4150
+F 0 "#PWR054" H 600 3900 50  0001 C CNN
+F 1 "GND" H 600 4000 50  0000 C CNN
+F 2 "" H 600 4150 60  0000 C CNN
+F 3 "" H 600 4150 60  0000 C CNN
+	1    600  4150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2770,8 +2770,6 @@ Wire Wire Line
 Wire Wire Line
 	1000 2100 1000 2150
 Wire Wire Line
-	900  4250 1700 4250
-Wire Wire Line
 	6650 4750 7600 4750
 Wire Wire Line
 	9200 4000 8550 4000
@@ -3277,4 +3275,33 @@ $EndComp
 NoConn ~ 5000 6700
 Wire Wire Line
 	4450 6700 4450 7100
+Text Notes 7250 2800 0    60   ~ 0
+3.3V Only
+Text Notes 600  4350 0    60   ~ 0
+3.3V Only
+Wire Wire Line
+	1700 4250 1000 4250
+Wire Wire Line
+	1000 4250 1000 4100
+Wire Wire Line
+	1000 4100 600  4100
+Wire Wire Line
+	600  4100 600  4150
+Text Notes 550  5650 0    60   ~ 0
+3.3V Only
+Text Notes 7250 2700 0    60   ~ 0
+3.3V Only
+Text Notes 650  3000 0    60   ~ 0
+3.3V Only
+$Comp
+L Symbol S1
+U 1 1 552F8EA1
+P 4650 7600
+F 0 "S1" H 4400 7700 59  0000 C CNN
+F 1 "OSHW Symbol" H 4500 7500 59  0000 C CNN
+F 2 "Symbols:Symbol_OSHW-Logo_SilkScreen" H 4650 7600 59  0001 C CNN
+F 3 "" H 4650 7600 59  0000 C CNN
+	1    4650 7600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
