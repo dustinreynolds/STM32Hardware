@@ -1073,6 +1073,8 @@ F 0 "J1" H 9300 10150 60  0000 C CNN
 F 1 "EXT1" H 8950 10150 60  0000 C CNN
 F 2 "nucleo:RJ45_SMD" H 9100 9650 60  0001 C CNN
 F 3 "http://www.digikey.com/product-detail/en/RJLSE4238101T/RJLSE4238101TTR-ND/1979556" H 9100 9650 60  0001 C CNN
+F 4 "RJLSE4238101TTR-ND" H 9100 9650 60  0001 C CNN "Digikey Part Number"
+F 5 "http://www.digikey.com/product-detail/en/RJLSE4238101T/RJLSE4238101TTR-ND/1979556" H 9100 9650 60  0001 C CNN "Digikey URL"
 	1    9100 9650
 	0    1    1    0   
 $EndComp
@@ -1140,6 +1142,8 @@ F 0 "J2" H 11350 10150 60  0000 C CNN
 F 1 "EXT2" H 11000 10150 60  0000 C CNN
 F 2 "nucleo:RJ45_SMD" H 11150 9650 60  0001 C CNN
 F 3 "http://www.digikey.com/product-detail/en/RJLSE4238101T/RJLSE4238101TTR-ND/1979556" H 11150 9650 60  0001 C CNN
+F 4 "RJLSE4238101TTR-ND" H 11150 9650 60  0001 C CNN "Digikey Part Number"
+F 5 "http://www.digikey.com/product-detail/en/RJLSE4238101T/RJLSE4238101TTR-ND/1979556" H 11150 9650 60  0001 C CNN "Digikey URL"
 	1    11150 9650
 	0    1    1    0   
 $EndComp
@@ -1645,6 +1649,8 @@ F 0 "L4" V 9800 8650 50  0000 L CNN
 F 1 "600 Ohm" V 9880 8610 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" H 9850 8650 60  0001 C CNN
 F 3 "http://www.digikey.com/product-detail/en/MI0603J601R-10/240-2371-1-ND/806731" H 9850 8650 60  0001 C CNN
+F 4 "240-2371-1-ND" V 9850 8650 60  0001 C CNN "Digikey Part Number"
+F 5 "http://www.digikey.com/product-detail/en/MI0603J601R-10/240-2371-1-ND/" V 9850 8650 60  0001 C CNN "Digikey URL"
 	1    9850 8650
 	0    -1   -1   0   
 $EndComp
@@ -1656,6 +1662,8 @@ F 0 "L3" V 9950 8350 50  0000 L CNN
 F 1 "600 Ohm" V 9900 7950 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" H 9850 8350 60  0001 C CNN
 F 3 "http://www.digikey.com/product-detail/en/MI0603J601R-10/240-2371-1-ND/806731" H 9850 8350 60  0001 C CNN
+F 4 "240-2371-1-ND" V 9850 8350 60  0001 C CNN "Digikey Part Number"
+F 5 "http://www.digikey.com/product-detail/en/MI0603J601R-10/240-2371-1-ND/" V 9850 8350 60  0001 C CNN "Digikey URL"
 	1    9850 8350
 	0    -1   -1   0   
 $EndComp
@@ -1889,7 +1897,9 @@ P 8950 2500
 F 0 "D1" H 8900 2600 50  0000 L CNN
 F 1 "Red" H 8800 2420 50  0000 L CNN
 F 2 "nucleo:LED_0603" V 8950 2500 60  0001 C CNN
-F 3 "" V 8950 2500 60  0000 C CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-223/S_110_LTST-C191KRKT.pdf" V 8950 2500 60  0001 C CNN
+F 4 "160-1447-1-ND" H 8950 2500 60  0001 C CNN "Digikey Part Number"
+F 5 "http://www.digikey.com/product-detail/en/LTST-C191KRKT/160-1447-1-ND/386836" H 8950 2500 60  0001 C CNN "Digikey URL"
 	1    8950 2500
 	1    0    0    -1  
 $EndComp
@@ -1900,7 +1910,9 @@ P 8950 2750
 F 0 "D2" H 8900 2850 50  0000 L CNN
 F 1 "Yellow" H 8800 2670 50  0000 L CNN
 F 2 "nucleo:LED_0603" V 8950 2750 60  0001 C CNN
-F 3 "" V 8950 2750 60  0000 C CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-224/S_110_LTST-C191KSKT.pdf" V 8950 2750 60  0001 C CNN
+F 4 "160-1448-1-ND" H 8950 2750 60  0001 C CNN "Digikey Part Number"
+F 5 "http://www.digikey.com/product-detail/en/LTST-C191KSKT/160-1448-1-ND" H 8950 2750 60  0001 C CNN "Digikey URL"
 	1    8950 2750
 	1    0    0    -1  
 $EndComp
@@ -2025,7 +2037,8 @@ F 0 "CON1" H 9050 7900 50  0000 C CNN
 F 1 "USB-MICRO-B" H 9200 7200 50  0000 C CNN
 F 2 "nucleo:USB_micro_AB" H 9350 7450 50  0001 C CNN
 F 3 "http://www.digikey.com/product-detail/en/10104111-0001LF/609-4053-1-ND/2350359" H 9350 7450 50  0001 C CNN
-F 4 "Test" H 9350 7550 60  0001 C CNN "Dustin"
+F 4 "609-4053-1-ND" H 9350 7550 60  0001 C CNN "Digikey Part Number"
+F 5 "http://www.digikey.com/product-detail/en/10104111-0001LF/609-4053-1-ND" H 9350 7550 60  0001 C CNN "Digikey URL"
 	1    9350 7550
 	1    0    0    -1  
 $EndComp
@@ -2183,7 +2196,9 @@ P 8950 3000
 F 0 "D3" H 8900 3100 50  0000 L CNN
 F 1 "Green" H 8800 2920 50  0000 L CNN
 F 2 "nucleo:LED_0603" V 8950 3000 60  0001 C CNN
-F 3 "" V 8950 3000 60  0000 C CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-228/S_110_LTST-C191KGKT.pdf" V 8950 3000 60  0001 C CNN
+F 4 "160-1446-1-ND" H 8950 3000 60  0001 C CNN "Digikey Part Number"
+F 5 "http://www.digikey.com/product-detail/en/LTST-C191KGKT/160-1446-1-ND" H 8950 3000 60  0001 C CNN "Digikey URL"
 	1    8950 3000
 	1    0    0    -1  
 $EndComp
@@ -2209,7 +2224,9 @@ P 8950 3250
 F 0 "D4" H 8900 3350 50  0000 L CNN
 F 1 "Blue" H 8800 3170 50  0000 L CNN
 F 2 "nucleo:LED_0603" V 8950 3250 60  0001 C CNN
-F 3 "" V 8950 3250 60  0000 C CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-230/S_110_LTST-C191TBKT.pdf" V 8950 3250 60  0001 C CNN
+F 4 "160-1647-1-ND" H 8950 3250 60  0001 C CNN "Digikey Part Number"
+F 5 "http://www.digikey.com/product-detail/en/LTST-C191TBKT/160-1647-1-ND" H 8950 3250 60  0001 C CNN "Digikey URL"
 	1    8950 3250
 	1    0    0    -1  
 $EndComp
@@ -2951,6 +2968,8 @@ F 0 "J3" H 2400 9600 60  0000 C CNN
 F 1 "EXTPower" H 2050 9600 60  0000 C CNN
 F 2 "nucleo:RJ45_SMD" H 2200 9100 60  0001 C CNN
 F 3 "http://www.digikey.com/product-detail/en/RJLSE4238101T/RJLSE4238101TTR-ND/1979556" H 2200 9100 60  0001 C CNN
+F 4 "RJLSE4238101TTR-ND" H 2200 9100 60  0001 C CNN "Digikey Part Number"
+F 5 "http://www.digikey.com/product-detail/en/RJLSE4238101T/RJLSE4238101TTR-ND/1979556" H 2200 9100 60  0001 C CNN "Digikey URL"
 	1    2200 9100
 	0    1    1    0   
 $EndComp

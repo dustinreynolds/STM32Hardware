@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:\Customers\Dustin\SensorNodes\STM32\EE\Nucleo_L152RE\ProtoBoard\AA\ProtoBoard.sch</source>
-    <date>4/5/2015 6:34:07 PM</date>
+    <date>4/5/2015 9:41:10 PM</date>
     <tool>Eeschema (2015-03-26 BZR 5542)-product</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -78,6 +78,11 @@
     <comp ref="U6">
       <value>S25FL127S</value>
       <footprint>nucleo:SOIC-8-FLASH</footprint>
+      <datasheet>http://www.digikey.com/product-detail/en/SI2323DS-T1-E3/SI2323DS-T1-E3CT-ND</datasheet>
+      <fields>
+        <field name="Digikey Part Number">SI2323DS-T1-E3CT-ND</field>
+        <field name="Digikey URL">http://www.digikey.com/product-detail/en/SI2323DS-T1-E3/SI2323DS-T1-E3CT-ND</field>
+      </fields>
       <libsource lib="dustin" part="S25FL127S"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>55170A0F</tstamp>
@@ -373,6 +378,10 @@
       <value>EXT1</value>
       <footprint>nucleo:RJ45_SMD</footprint>
       <datasheet>http://www.digikey.com/product-detail/en/RJLSE4238101T/RJLSE4238101TTR-ND/1979556</datasheet>
+      <fields>
+        <field name="Digikey Part Number">RJLSE4238101TTR-ND</field>
+        <field name="Digikey URL">http://www.digikey.com/product-detail/en/RJLSE4238101T/RJLSE4238101TTR-ND/1979556</field>
+      </fields>
       <libsource lib="conn" part="RJ45"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>551B4A30</tstamp>
@@ -388,6 +397,10 @@
       <value>EXT2</value>
       <footprint>nucleo:RJ45_SMD</footprint>
       <datasheet>http://www.digikey.com/product-detail/en/RJLSE4238101T/RJLSE4238101TTR-ND/1979556</datasheet>
+      <fields>
+        <field name="Digikey Part Number">RJLSE4238101TTR-ND</field>
+        <field name="Digikey URL">http://www.digikey.com/product-detail/en/RJLSE4238101T/RJLSE4238101TTR-ND/1979556</field>
+      </fields>
       <libsource lib="conn" part="RJ45"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>551BD72D</tstamp>
@@ -538,6 +551,10 @@
       <value>600 Ohm</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
       <datasheet>http://www.digikey.com/product-detail/en/MI0603J601R-10/240-2371-1-ND/806731</datasheet>
+      <fields>
+        <field name="Digikey Part Number">240-2371-1-ND</field>
+        <field name="Digikey URL">http://www.digikey.com/product-detail/en/MI0603J601R-10/240-2371-1-ND/</field>
+      </fields>
       <libsource lib="device" part="L_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>55237390</tstamp>
@@ -546,6 +563,10 @@
       <value>600 Ohm</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
       <datasheet>http://www.digikey.com/product-detail/en/MI0603J601R-10/240-2371-1-ND/806731</datasheet>
+      <fields>
+        <field name="Digikey Part Number">240-2371-1-ND</field>
+        <field name="Digikey URL">http://www.digikey.com/product-detail/en/MI0603J601R-10/240-2371-1-ND/</field>
+      </fields>
       <libsource lib="device" part="L_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>552378C5</tstamp>
@@ -595,6 +616,11 @@
     <comp ref="D1">
       <value>Red</value>
       <footprint>nucleo:LED_0603</footprint>
+      <datasheet>http://optoelectronics.liteon.com/upload/download/DS22-2000-223/S_110_LTST-C191KRKT.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">160-1447-1-ND</field>
+        <field name="Digikey URL">http://www.digikey.com/product-detail/en/LTST-C191KRKT/160-1447-1-ND/386836</field>
+      </fields>
       <libsource lib="device" part="Led_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>55190E54</tstamp>
@@ -602,6 +628,11 @@
     <comp ref="D2">
       <value>Yellow</value>
       <footprint>nucleo:LED_0603</footprint>
+      <datasheet>http://optoelectronics.liteon.com/upload/download/DS22-2000-224/S_110_LTST-C191KSKT.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">160-1448-1-ND</field>
+        <field name="Digikey URL">http://www.digikey.com/product-detail/en/LTST-C191KSKT/160-1448-1-ND</field>
+      </fields>
       <libsource lib="device" part="Led_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>55191013</tstamp>
@@ -630,6 +661,10 @@
     <comp ref="SW1">
       <value>MomentarySwitch</value>
       <footprint>nucleo:Tact_switch</footprint>
+      <fields>
+        <field name="Digikey Part Number">450-1650-ND</field>
+        <field name="Digikey URL">http://www.digikey.com/product-detail/en/1825910-6/450-1650-ND</field>
+      </fields>
       <libsource lib="dustin" part="MomentarySwitch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>551C750C</tstamp>
@@ -645,6 +680,10 @@
       <value>USB-MICRO-B</value>
       <footprint>nucleo:USB_micro_AB</footprint>
       <datasheet>http://www.digikey.com/product-detail/en/10104111-0001LF/609-4053-1-ND/2350359</datasheet>
+      <fields>
+        <field name="Digikey Part Number">609-4053-1-ND</field>
+        <field name="Digikey URL">http://www.digikey.com/product-detail/en/10104111-0001LF/609-4053-1-ND</field>
+      </fields>
       <libsource lib="conn" part="USB-MICRO-B"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>551EF807</tstamp>
@@ -701,6 +740,11 @@
     <comp ref="D3">
       <value>Green</value>
       <footprint>nucleo:LED_0603</footprint>
+      <datasheet>http://optoelectronics.liteon.com/upload/download/DS22-2000-228/S_110_LTST-C191KGKT.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">160-1446-1-ND</field>
+        <field name="Digikey URL">http://www.digikey.com/product-detail/en/LTST-C191KGKT/160-1446-1-ND</field>
+      </fields>
       <libsource lib="device" part="Led_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5522C7B1</tstamp>
@@ -715,6 +759,11 @@
     <comp ref="D4">
       <value>Blue</value>
       <footprint>nucleo:LED_0603</footprint>
+      <datasheet>http://optoelectronics.liteon.com/upload/download/DS22-2000-230/S_110_LTST-C191TBKT.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">160-1647-1-ND</field>
+        <field name="Digikey URL">http://www.digikey.com/product-detail/en/LTST-C191TBKT/160-1647-1-ND</field>
+      </fields>
       <libsource lib="device" part="Led_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>55230207</tstamp>
@@ -751,6 +800,10 @@
       <value>EXTPower</value>
       <footprint>nucleo:RJ45_SMD</footprint>
       <datasheet>http://www.digikey.com/product-detail/en/RJLSE4238101T/RJLSE4238101TTR-ND/1979556</datasheet>
+      <fields>
+        <field name="Digikey Part Number">RJLSE4238101TTR-ND</field>
+        <field name="Digikey URL">http://www.digikey.com/product-detail/en/RJLSE4238101T/RJLSE4238101TTR-ND/1979556</field>
+      </fields>
       <libsource lib="conn" part="RJ45"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5526E0AC</tstamp>
@@ -834,6 +887,85 @@
     </comp>
   </components>
   <libparts>
+    <libpart lib="device" part="L_Small">
+      <description>Inductor</description>
+      <footprints>
+        <fp>CP*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Led_Small">
+      <description>Led</description>
+      <footprints>
+        <fp>CP*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">Led_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R_Small">
+      <description>Resistor</description>
+      <footprints>
+        <fp>Resistor_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Q_PMOS_GSD">
+      <description>Transistor P-MOSFET (general)</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PMOS_GSD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="openEm"/>
+        <pin num="3" name="D" type="openCol"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Jumper_NC_Small">
+      <description>Jumper normally close</description>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_NC_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Jumper_NO_Small">
+      <description>Jumper normally open</description>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_NO_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="device" part="C">
       <description>Unpolarized capacitor</description>
       <footprints>
@@ -868,296 +1000,6 @@
       <pins>
         <pin num="1" name="~" type="passive"/>
         <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="L_Small">
-      <description>Inductor</description>
-      <footprints>
-        <fp>CP*</fp>
-        <fp>SM*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">L</field>
-        <field name="Value">L_Small</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="Jumper_NC_Small">
-      <description>Jumper normally close</description>
-      <fields>
-        <field name="Reference">JP</field>
-        <field name="Value">Jumper_NC_Small</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="Jumper_NO_Small">
-      <description>Jumper normally open</description>
-      <fields>
-        <field name="Reference">JP</field>
-        <field name="Value">Jumper_NO_Small</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="Led_Small">
-      <description>Led</description>
-      <footprints>
-        <fp>CP*</fp>
-        <fp>SM*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">Led_Small</field>
-      </fields>
-      <pins>
-        <pin num="1" name="A" type="passive"/>
-        <pin num="2" name="C" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="Q_PMOS_GSD">
-      <description>Transistor P-MOSFET (general)</description>
-      <fields>
-        <field name="Reference">Q</field>
-        <field name="Value">Q_PMOS_GSD</field>
-      </fields>
-      <pins>
-        <pin num="1" name="G" type="input"/>
-        <pin num="2" name="S" type="openEm"/>
-        <pin num="3" name="D" type="openCol"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="R_Small">
-      <description>Resistor</description>
-      <footprints>
-        <fp>Resistor_*</fp>
-        <fp>R_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">R</field>
-        <field name="Value">R_Small</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="conn" part="CONN_02X06">
-      <footprints>
-        <fp>Pin_Header_Straight_2X06</fp>
-        <fp>Pin_Header_Angled_2X06</fp>
-        <fp>Socket_Strip_Straight_2X06</fp>
-        <fp>Socket_Strip_Angled_2X06</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">P</field>
-        <field name="Value">CONN_02X06</field>
-      </fields>
-      <pins>
-        <pin num="1" name="P1" type="passive"/>
-        <pin num="2" name="P2" type="passive"/>
-        <pin num="3" name="P3" type="passive"/>
-        <pin num="4" name="P4" type="passive"/>
-        <pin num="5" name="P5" type="passive"/>
-        <pin num="6" name="P6" type="passive"/>
-        <pin num="7" name="P7" type="passive"/>
-        <pin num="8" name="P8" type="passive"/>
-        <pin num="9" name="P9" type="passive"/>
-        <pin num="10" name="P10" type="passive"/>
-        <pin num="11" name="P11" type="passive"/>
-        <pin num="12" name="P12" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="conn" part="CONN_01X01">
-      <footprints>
-        <fp>Pin_Header_Straight_1X01</fp>
-        <fp>Pin_Header_Angled_1X01</fp>
-        <fp>Socket_Strip_Straight_1X01</fp>
-        <fp>Socket_Strip_Angled_1X01</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">P</field>
-        <field name="Value">CONN_01X01</field>
-      </fields>
-      <pins>
-        <pin num="1" name="P1" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="conn" part="CONN_01X04">
-      <footprints>
-        <fp>Pin_Header_Straight_1X04</fp>
-        <fp>Pin_Header_Angled_1X04</fp>
-        <fp>Socket_Strip_Straight_1X04</fp>
-        <fp>Socket_Strip_Angled_1X04</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">P</field>
-        <field name="Value">CONN_01X04</field>
-      </fields>
-      <pins>
-        <pin num="1" name="P1" type="passive"/>
-        <pin num="2" name="P2" type="passive"/>
-        <pin num="3" name="P3" type="passive"/>
-        <pin num="4" name="P4" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="conn" part="CONN_01X06">
-      <footprints>
-        <fp>Pin_Header_Straight_1X06</fp>
-        <fp>Pin_Header_Angled_1X06</fp>
-        <fp>Socket_Strip_Straight_1X06</fp>
-        <fp>Socket_Strip_Angled_1X06</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">P</field>
-        <field name="Value">CONN_01X06</field>
-      </fields>
-      <pins>
-        <pin num="1" name="P1" type="passive"/>
-        <pin num="2" name="P2" type="passive"/>
-        <pin num="3" name="P3" type="passive"/>
-        <pin num="4" name="P4" type="passive"/>
-        <pin num="5" name="P5" type="passive"/>
-        <pin num="6" name="P6" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="conn" part="CONN_01X02">
-      <footprints>
-        <fp>Pin_Header_Straight_1X02</fp>
-        <fp>Pin_Header_Angled_1X02</fp>
-        <fp>Socket_Strip_Straight_1X02</fp>
-        <fp>Socket_Strip_Angled_1X02</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">P</field>
-        <field name="Value">CONN_01X02</field>
-      </fields>
-      <pins>
-        <pin num="1" name="P1" type="passive"/>
-        <pin num="2" name="P2" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="conn" part="CONN_01X03">
-      <footprints>
-        <fp>Pin_Header_Straight_1X03</fp>
-        <fp>Pin_Header_Angled_1X03</fp>
-        <fp>Socket_Strip_Straight_1X03</fp>
-        <fp>Socket_Strip_Angled_1X03</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">P</field>
-        <field name="Value">CONN_01X03</field>
-      </fields>
-      <pins>
-        <pin num="1" name="P1" type="passive"/>
-        <pin num="2" name="P2" type="passive"/>
-        <pin num="3" name="P3" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="conn" part="RJ45">
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">RJ45</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-        <pin num="3" name="~" type="passive"/>
-        <pin num="4" name="~" type="passive"/>
-        <pin num="5" name="~" type="passive"/>
-        <pin num="6" name="~" type="passive"/>
-        <pin num="7" name="~" type="passive"/>
-        <pin num="8" name="~" type="passive"/>
-        <pin num="9" name="SHIELD" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="conn" part="USB-MINI-B">
-      <aliases>
-        <alias>USB-MICRO-B</alias>
-      </aliases>
-      <description>USB Mini B connector</description>
-      <footprints>
-        <fp>USB-Mini-B-Jack</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">CON</field>
-        <field name="Value">USB-MINI-B</field>
-      </fields>
-      <pins>
-        <pin num="1" name="VBUS" type="power_in"/>
-        <pin num="2" name="D-" type="BiDi"/>
-        <pin num="3" name="D+" type="BiDi"/>
-        <pin num="4" name="ID" type="BiDi"/>
-        <pin num="5" name="GND" type="power_in"/>
-        <pin num="6" name="SHELL1" type="passive"/>
-        <pin num="7" name="SHELL2" type="passive"/>
-        <pin num="8" name="SHELL3" type="passive"/>
-        <pin num="9" name="SHELL4" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="dustin" part="RFM69HW">
-      <description>Hope RF RFM69HW Wireless Module</description>
-      <docs>datasheets/RFM69HW-V1.3.pdf</docs>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">RFM69HW</field>
-      </fields>
-      <pins>
-        <pin num="1" name="Reset" type="input"/>
-        <pin num="2" name="DIO0" type="BiDi"/>
-        <pin num="3" name="DIO1" type="BiDi"/>
-        <pin num="4" name="DIO2" type="BiDi"/>
-        <pin num="5" name="DIO3" type="BiDi"/>
-        <pin num="6" name="DIO4" type="BiDi"/>
-        <pin num="7" name="DIO5" type="BiDi"/>
-        <pin num="8" name="3.3V" type="power_in"/>
-        <pin num="9" name="NC" type="NotConnected"/>
-        <pin num="10" name="NSS" type="input"/>
-        <pin num="11" name="MOSI" type="input"/>
-        <pin num="12" name="MISO" type="output"/>
-        <pin num="13" name="SCK" type="input"/>
-        <pin num="14" name="GND" type="power_in"/>
-        <pin num="15" name="ANA" type="input"/>
-        <pin num="16" name="GND" type="power_in"/>
-      </pins>
-    </libpart>
-    <libpart lib="dustin" part="MomentarySwitch">
-      <description>4 Pin momentary Switch</description>
-      <docs>datasheets/ENG_CD_1825910_C8_Momentary_sw.pdf</docs>
-      <fields>
-        <field name="Reference">SW</field>
-        <field name="Value">MomentarySwitch</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="input"/>
-        <pin num="2" name="~" type="input"/>
-        <pin num="3" name="~" type="input"/>
-        <pin num="4" name="~" type="input"/>
-      </pins>
-    </libpart>
-    <libpart lib="dustin" part="S25FL127S">
-      <description>S25FL127S 128 Mbit Flash 2.7 to 3.6v</description>
-      <docs>datasheets/S25FL127S_00-247997-1.pdf</docs>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">S25FL127S</field>
-      </fields>
-      <pins>
-        <pin num="1" name="nCS" type="BiDi"/>
-        <pin num="2" name="MISO" type="BiDi"/>
-        <pin num="3" name="nWP" type="BiDi"/>
-        <pin num="4" name="GND" type="power_in"/>
-        <pin num="5" name="MOSI" type="BiDi"/>
-        <pin num="6" name="SCK" type="BiDi"/>
-        <pin num="7" name="nHold" type="BiDi"/>
-        <pin num="8" name="VCC" type="power_in"/>
       </pins>
     </libpart>
     <libpart lib="dustin" part="Nucleo-L152RE-CN10">
@@ -1208,34 +1050,6 @@
         <pin num="38" name="PF4" type="BiDi"/>
       </pins>
     </libpart>
-    <libpart lib="dustin" part="Symbol">
-      <fields>
-        <field name="Reference">S</field>
-        <field name="Value">Symbol</field>
-      </fields>
-    </libpart>
-    <libpart lib="dustin" part="MT3329_GPS">
-      <description>MT3329 10Hz GPS</description>
-      <docs>datasheets/mediatek_3329.pdf</docs>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">MT3329_GPS</field>
-      </fields>
-      <pins>
-        <pin num="1" name="VCC[3.2_to_5V]" type="power_in"/>
-        <pin num="2" name="Enable" type="BiDi"/>
-        <pin num="3" name="GND" type="power_in"/>
-        <pin num="4" name="VBackup[2.0_to_4.3]" type="power_in"/>
-        <pin num="5" name="3D-Fix" type="output"/>
-        <pin num="6" name="DPlus" type="BiDi"/>
-        <pin num="7" name="DMinus" type="BiDi"/>
-        <pin num="8" name="GND" type="power_in"/>
-        <pin num="9" name="TXD" type="BiDi"/>
-        <pin num="10" name="RXD" type="BiDi"/>
-        <pin num="11" name="NC" type="NotConnected"/>
-        <pin num="12" name="NC" type="NotConnected"/>
-      </pins>
-    </libpart>
     <libpart lib="dustin" part="Nucleo-L152RE-CN7">
       <description>Nucleo-L152RE Morpho CN7 Connector</description>
       <docs>datasheets/DM00098321_STM32L152RE_datasheet.pdf</docs>
@@ -1284,13 +1098,252 @@
         <pin num="38" name="PC0/TIMx_IC1/ADC_IN10/COMP1_INP" type="BiDi"/>
       </pins>
     </libpart>
+    <libpart lib="dustin" part="RFM69HW">
+      <description>Hope RF RFM69HW Wireless Module</description>
+      <docs>datasheets/RFM69HW-V1.3.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">RFM69HW</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Reset" type="input"/>
+        <pin num="2" name="DIO0" type="BiDi"/>
+        <pin num="3" name="DIO1" type="BiDi"/>
+        <pin num="4" name="DIO2" type="BiDi"/>
+        <pin num="5" name="DIO3" type="BiDi"/>
+        <pin num="6" name="DIO4" type="BiDi"/>
+        <pin num="7" name="DIO5" type="BiDi"/>
+        <pin num="8" name="3.3V" type="power_in"/>
+        <pin num="9" name="NC" type="NotConnected"/>
+        <pin num="10" name="NSS" type="input"/>
+        <pin num="11" name="MOSI" type="input"/>
+        <pin num="12" name="MISO" type="output"/>
+        <pin num="13" name="SCK" type="input"/>
+        <pin num="14" name="GND" type="power_in"/>
+        <pin num="15" name="ANA" type="input"/>
+        <pin num="16" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="dustin" part="MT3329_GPS">
+      <description>MT3329 10Hz GPS</description>
+      <docs>datasheets/mediatek_3329.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MT3329_GPS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC[3.2_to_5V]" type="power_in"/>
+        <pin num="2" name="Enable" type="BiDi"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="VBackup[2.0_to_4.3]" type="power_in"/>
+        <pin num="5" name="3D-Fix" type="output"/>
+        <pin num="6" name="DPlus" type="BiDi"/>
+        <pin num="7" name="DMinus" type="BiDi"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="TXD" type="BiDi"/>
+        <pin num="10" name="RXD" type="BiDi"/>
+        <pin num="11" name="NC" type="NotConnected"/>
+        <pin num="12" name="NC" type="NotConnected"/>
+      </pins>
+    </libpart>
+    <libpart lib="dustin" part="MomentarySwitch">
+      <description>4 Pin momentary Switch</description>
+      <docs>datasheets/ENG_CD_1825910_C8_Momentary_sw.pdf</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">MomentarySwitch</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="~" type="input"/>
+        <pin num="4" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="dustin" part="S25FL127S">
+      <description>S25FL127S 128 Mbit Flash 2.7 to 3.6v</description>
+      <docs>datasheets/S25FL127S_00-247997-1.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">S25FL127S</field>
+      </fields>
+      <pins>
+        <pin num="1" name="nCS" type="BiDi"/>
+        <pin num="2" name="MISO" type="BiDi"/>
+        <pin num="3" name="nWP" type="BiDi"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="MOSI" type="BiDi"/>
+        <pin num="6" name="SCK" type="BiDi"/>
+        <pin num="7" name="nHold" type="BiDi"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="dustin" part="Symbol">
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">Symbol</field>
+      </fields>
+    </libpart>
+    <libpart lib="conn" part="RJ45">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">RJ45</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+        <pin num="7" name="~" type="passive"/>
+        <pin num="8" name="~" type="passive"/>
+        <pin num="9" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="USB-MINI-B">
+      <aliases>
+        <alias>USB-MICRO-B</alias>
+      </aliases>
+      <description>USB Mini B connector</description>
+      <footprints>
+        <fp>USB-Mini-B-Jack</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">CON</field>
+        <field name="Value">USB-MINI-B</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_in"/>
+        <pin num="2" name="D-" type="BiDi"/>
+        <pin num="3" name="D+" type="BiDi"/>
+        <pin num="4" name="ID" type="BiDi"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="SHELL1" type="passive"/>
+        <pin num="7" name="SHELL2" type="passive"/>
+        <pin num="8" name="SHELL3" type="passive"/>
+        <pin num="9" name="SHELL4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X03">
+      <footprints>
+        <fp>Pin_Header_Straight_1X03</fp>
+        <fp>Pin_Header_Angled_1X03</fp>
+        <fp>Socket_Strip_Straight_1X03</fp>
+        <fp>Socket_Strip_Angled_1X03</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X04">
+      <footprints>
+        <fp>Pin_Header_Straight_1X04</fp>
+        <fp>Pin_Header_Angled_1X04</fp>
+        <fp>Socket_Strip_Straight_1X04</fp>
+        <fp>Socket_Strip_Angled_1X04</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X01">
+      <footprints>
+        <fp>Pin_Header_Straight_1X01</fp>
+        <fp>Pin_Header_Angled_1X01</fp>
+        <fp>Socket_Strip_Straight_1X01</fp>
+        <fp>Socket_Strip_Angled_1X01</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X06">
+      <footprints>
+        <fp>Pin_Header_Straight_1X06</fp>
+        <fp>Pin_Header_Angled_1X06</fp>
+        <fp>Socket_Strip_Straight_1X06</fp>
+        <fp>Socket_Strip_Angled_1X06</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_02X06">
+      <footprints>
+        <fp>Pin_Header_Straight_2X06</fp>
+        <fp>Pin_Header_Angled_2X06</fp>
+        <fp>Socket_Strip_Straight_2X06</fp>
+        <fp>Socket_Strip_Angled_2X06</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+        <pin num="11" name="P11" type="passive"/>
+        <pin num="12" name="P12" type="passive"/>
+      </pins>
+    </libpart>
   </libparts>
   <libraries>
-    <library logical="device">
-      <uri>C:\kicad\kicad-winbuilder-3.4\kicad\share\library\device.lib</uri>
-    </library>
     <library logical="conn">
       <uri>C:\kicad\kicad-winbuilder-3.4\kicad\share\library\conn.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>C:\kicad\kicad-winbuilder-3.4\kicad\share\library\device.lib</uri>
     </library>
     <library logical="dustin">
       <uri>C:\Customers\Dustin\SensorNodes\STM32\EE\kicad_lib\nucleo\dustin.lib</uri>
