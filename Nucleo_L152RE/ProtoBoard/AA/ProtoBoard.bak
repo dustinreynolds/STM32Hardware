@@ -2025,6 +2025,7 @@ F 0 "CON1" H 9050 7900 50  0000 C CNN
 F 1 "USB-MICRO-B" H 9200 7200 50  0000 C CNN
 F 2 "nucleo:USB_micro_AB" H 9350 7450 50  0001 C CNN
 F 3 "http://www.digikey.com/product-detail/en/10104111-0001LF/609-4053-1-ND/2350359" H 9350 7450 50  0001 C CNN
+F 4 "Test" H 9350 7550 60  0001 C CNN "Dustin"
 	1    9350 7550
 	1    0    0    -1  
 $EndComp
@@ -3293,4 +3294,15 @@ Text Notes 7250 2700 0    60   ~ 0
 3.3V Only
 Text Notes 650  3000 0    60   ~ 0
 3.3V Only
+$Comp
+L Symbol S1
+U 1 1 552F8EA1
+P 4650 7600
+F 0 "S1" H 4400 7700 59  0000 C CNN
+F 1 "OSHW Symbol" H 4500 7500 59  0000 C CNN
+F 2 "Symbols:Symbol_OSHW-Logo_SilkScreen" H 4650 7600 59  0001 C CNN
+F 3 "" H 4650 7600 59  0000 C CNN
+	1    4650 7600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
