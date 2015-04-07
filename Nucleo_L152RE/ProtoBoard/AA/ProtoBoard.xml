@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:\Customers\Dustin\SensorNodes\STM32\EE\Nucleo_L152RE\ProtoBoard\AA\ProtoBoard.sch</source>
-    <date>4/5/2015 9:41:10 PM</date>
+    <date>4/6/2015 9:12:12 PM</date>
     <tool>Eeschema (2015-03-26 BZR 5542)-product</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -36,6 +36,9 @@
     <comp ref="U7">
       <value>RFM69HW</value>
       <footprint>nucleo:RFM69HW</footprint>
+      <fields>
+        <field name="Ebay">RFM69HW 915MHz</field>
+      </fields>
       <libsource lib="dustin" part="RFM69HW"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>55169D6F</tstamp>
@@ -43,13 +46,19 @@
     <comp ref="C10">
       <value>0.1u</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">490-1532-1-ND</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>55169E57</tstamp>
     </comp>
     <comp ref="C9">
-      <value>0.1p</value>
+      <value>0.1u</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">490-1532-1-ND</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>55169E99</tstamp>
@@ -57,6 +66,9 @@
     <comp ref="U2">
       <value>Nucleo-L152RE-CN7</value>
       <footprint>Pin_Headers:Pin_Header_Straight_2x19</footprint>
+      <fields>
+        <field name="Digikey Part Number">497-14363-ND</field>
+      </fields>
       <libsource lib="dustin" part="Nucleo-L152RE-CN7"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5516CBA1</tstamp>
@@ -64,6 +76,9 @@
     <comp ref="U3">
       <value>Nucleo-L152RE-CN10</value>
       <footprint>Pin_Headers:Pin_Header_Straight_2x19</footprint>
+      <fields>
+        <field name="Ebay">40 2.54 female round header pin</field>
+      </fields>
       <libsource lib="dustin" part="Nucleo-L152RE-CN10"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5516CBDF</tstamp>
@@ -153,6 +168,9 @@
     <comp ref="C8">
       <value>0.1u</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">490-1532-1-ND</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>551762B5</tstamp>
@@ -174,6 +192,9 @@
     <comp ref="R14">
       <value>100k</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey Part Number">RMCF0603FT100KTR-ND</field>
+      </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5517664A</tstamp>
@@ -181,6 +202,10 @@
     <comp ref="R16">
       <value>100k</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey Part Number">RMCF0603FT100KTR-ND</field>
+        <field name="Digikey URL">http://www.digikey.com/product-detail/en/RMCF0603FT100K/RMCF0603FT100KTR-ND</field>
+      </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>55176901</tstamp>
@@ -188,6 +213,9 @@
     <comp ref="C11">
       <value>0.1u</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">490-1532-1-ND</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>55183830</tstamp>
@@ -195,6 +223,9 @@
     <comp ref="C12">
       <value>0.1u</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">490-1532-1-ND</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>55184FBF</tstamp>
@@ -216,6 +247,9 @@
     <comp ref="R26">
       <value>4.7k</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey Part Number">P4.7KGCT-ND</field>
+      </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>55189258</tstamp>
@@ -230,6 +264,9 @@
     <comp ref="R27">
       <value>4.7k</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey Part Number">P4.7KGCT-ND</field>
+      </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5518B27C</tstamp>
@@ -244,6 +281,10 @@
     <comp ref="R40">
       <value>4.7k</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey Part Number">P4.7KGCT-ND</field>
+        <field name="Digikey URL">http://www.digikey.com/product-detail/en/ERJ-3GEYJ472V/P4.7KGCT-ND/135199</field>
+      </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5518B565</tstamp>
@@ -258,6 +299,9 @@
     <comp ref="R41">
       <value>4.7k</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey Part Number">P4.7KGCT-ND</field>
+      </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5518B79E</tstamp>
@@ -272,6 +316,10 @@
     <comp ref="R21">
       <value>10k</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey Part Number">P10KGCT-ND</field>
+        <field name="Digikey URL">http://www.digikey.com/product-detail/en/ERJ-3GEYJ103V/P10KGCT-ND/134717</field>
+      </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>55193686</tstamp>
@@ -279,6 +327,10 @@
     <comp ref="R22">
       <value>4.7K</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey Part Number">P4.7KGCT-ND</field>
+        <field name="Digikey URL">http://www.digikey.com/product-detail/en/ERJ-3GEYJ472V/P4.7KGCT-ND/135199</field>
+      </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>55193742</tstamp>
@@ -286,6 +338,9 @@
     <comp ref="R23">
       <value>2.2K</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey Part Number">P2.2KGCT-ND</field>
+      </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>551937E6</tstamp>
@@ -293,6 +348,9 @@
     <comp ref="R24">
       <value>680</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey Part Number">P680GCT-ND</field>
+      </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5519388C</tstamp>
@@ -300,6 +358,9 @@
     <comp ref="R25">
       <value>390</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey Part Number">P390GCT-ND</field>
+      </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>55193A84</tstamp>
@@ -307,6 +368,9 @@
     <comp ref="R28">
       <value>220</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey Part Number">P220GCT-ND</field>
+      </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>55193B2E</tstamp>
@@ -314,6 +378,10 @@
     <comp ref="R15">
       <value>10k</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey Part Number">P10KGCT-ND</field>
+        <field name="Digikey URL">http://www.digikey.com/product-detail/en/ERJ-3GEYJ103V/P10KGCT-ND/134717</field>
+      </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>55193BDE</tstamp>
@@ -321,6 +389,9 @@
     <comp ref="R35">
       <value>0</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey Part Number">P0.0GCT-ND</field>
+      </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5519AFCC</tstamp>
@@ -328,6 +399,9 @@
     <comp ref="R36">
       <value>0</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey Part Number">P0.0GCT-ND</field>
+      </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5519B090</tstamp>
@@ -335,6 +409,9 @@
     <comp ref="R38">
       <value>0</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey Part Number">P0.0GCT-ND</field>
+      </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5519B13C</tstamp>
@@ -342,6 +419,9 @@
     <comp ref="R37">
       <value>0</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey Part Number">P0.0GCT-ND</field>
+      </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5519B1F6</tstamp>
@@ -389,6 +469,9 @@
     <comp ref="R6">
       <value>0</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey Part Number">P0.0GCT-ND</field>
+      </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>551BB7EA</tstamp>
@@ -408,6 +491,9 @@
     <comp ref="R13">
       <value>0</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey Part Number">P0.0GCT-ND</field>
+      </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>551BD775</tstamp>
@@ -443,6 +529,9 @@
     <comp ref="R42">
       <value>220</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey Part Number">P220GCT-ND</field>
+      </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>551C3283</tstamp>
@@ -450,6 +539,9 @@
     <comp ref="R43">
       <value>220</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey Part Number">P220GCT-ND</field>
+      </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>551C3546</tstamp>
@@ -457,6 +549,9 @@
     <comp ref="R44">
       <value>220</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey Part Number">P220GCT-ND</field>
+      </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>551C3638</tstamp>
@@ -465,20 +560,29 @@
       <value>SI2323DS</value>
       <footprint>nucleo:TO-236</footprint>
       <datasheet>http://www.vishay.com/docs/72024/72024.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">SI2323DS-T1-E3CT-ND</field>
+      </fields>
       <libsource lib="device" part="Q_PMOS_GSD"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>551D0B9B</tstamp>
     </comp>
     <comp ref="R2">
-      <value>4.7k 1%</value>
+      <value>2.20k 1%</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey Part Number">P2.20KHCT-ND</field>
+      </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>551D1EE4</tstamp>
     </comp>
     <comp ref="R3">
-      <value>6.8k 1%</value>
+      <value>8.66k 1%</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey Part Number">P8.66KHCT-ND</field>
+      </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>551D2655</tstamp>
@@ -486,6 +590,10 @@
     <comp ref="R1">
       <value>10K</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey Part Number">P10KGCT-ND</field>
+        <field name="Digikey URL">http://www.digikey.com/product-detail/en/ERJ-3GEYJ103V/P10KGCT-ND/134717</field>
+      </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>551D5A5B</tstamp>
@@ -494,6 +602,9 @@
       <value>0.1u</value>
       <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <datasheet>http://www.digikey.com/product-detail/en/GRM188R71C104KA01D/490-1532-1-ND/587771</datasheet>
+      <fields>
+        <field name="Digikey Part Number">490-1532-1-ND</field>
+      </fields>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>551D7492</tstamp>
@@ -501,6 +612,9 @@
     <comp ref="R20">
       <value>2.2k</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey Part Number">P2.2KGCT-ND</field>
+      </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>551DFFF9</tstamp>
@@ -508,6 +622,9 @@
     <comp ref="R18">
       <value>2.2k</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey Part Number">P2.2KGCT-ND</field>
+      </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>551E085B</tstamp>
@@ -515,6 +632,9 @@
     <comp ref="R17">
       <value>2.2k</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey Part Number">P2.2KGCT-ND</field>
+      </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>551E0A07</tstamp>
@@ -522,6 +642,9 @@
     <comp ref="R19">
       <value>2.2k</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey Part Number">P2.2KGCT-ND</field>
+      </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>551E14AF</tstamp>
@@ -529,6 +652,10 @@
     <comp ref="R39">
       <value>10k</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey Part Number">P10KGCT-ND</field>
+        <field name="Digikey URL">http://www.digikey.com/product-detail/en/ERJ-3GEYJ103V/P10KGCT-ND/134717</field>
+      </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>551ED83F</tstamp>
@@ -536,6 +663,9 @@
     <comp ref="R5">
       <value>33</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey Part Number">P33HCT-ND</field>
+      </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>55235A3A</tstamp>
@@ -543,6 +673,9 @@
     <comp ref="R12">
       <value>33</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey Part Number">P33HCT-ND</field>
+      </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>55235D7C</tstamp>
@@ -640,6 +773,9 @@
     <comp ref="R7">
       <value>1K</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey Part Number">P1.0KGCT-ND</field>
+      </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>55191A9D</tstamp>
@@ -647,6 +783,9 @@
     <comp ref="R8">
       <value>1k</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey Part Number">P1.0KGCT-ND</field>
+      </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>55191DBB</tstamp>
@@ -654,6 +793,9 @@
     <comp ref="R11">
       <value>0</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey Part Number">P0.0HCT-ND</field>
+      </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>551A2067</tstamp>
@@ -733,6 +875,9 @@
     <comp ref="R9">
       <value>1k</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey Part Number">P1.0KGCT-ND</field>
+      </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5522C5C2</tstamp>
@@ -752,6 +897,9 @@
     <comp ref="R10">
       <value>1k</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey Part Number">P1.0KGCT-ND</field>
+      </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>552300AF</tstamp>
