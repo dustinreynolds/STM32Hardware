@@ -21,4 +21,4 @@ The following events will be monitored
 * Dryer temperature and timing
 
 ### Firmware
-The associated firmware can be found at the [SensorNodes Project](https://github.com/dustinreynolds/SensorNodes).  The Git-Flow paradigm is in use, so code can be found in the develop branch until a functioning first release is released, at which point it will be in the master branch (and show up by default on Github).
+The associated firmware can be found at the [SensorNodes Project](https://github.com/dustinreynolds/SensorNodes/tree/develop).  The Git-Flow paradigm is in use, so code can be found in the develop branch until a functioning first release is released, at which point it will be in the master branch (and show up by default on Github).
