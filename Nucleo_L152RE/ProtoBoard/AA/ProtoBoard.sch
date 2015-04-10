@@ -2804,8 +2804,7 @@ Wire Wire Line
 Wire Wire Line
 	1600 7450 1600 7500
 Wire Wire Line
-	1600 7250 1900 7250
-Connection ~ 1900 7250
+	1600 7250 2050 7250
 Wire Wire Line
 	1900 7900 1150 7900
 Wire Wire Line
@@ -3151,12 +3150,12 @@ $EndComp
 $Comp
 L +15V #PWR073
 U 1 1 5527FBCF
-P 1900 7200
-F 0 "#PWR073" H 1900 7050 50  0001 C CNN
-F 1 "+15V" H 1900 7340 50  0000 C CNN
-F 2 "" H 1900 7200 60  0000 C CNN
-F 3 "" H 1900 7200 60  0000 C CNN
-	1    1900 7200
+P 2250 7150
+F 0 "#PWR073" H 2250 7000 50  0001 C CNN
+F 1 "+15V" H 2250 7290 50  0000 C CNN
+F 2 "" H 2250 7150 60  0000 C CNN
+F 3 "" H 2250 7150 60  0000 C CNN
+	1    2250 7150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3170,8 +3169,6 @@ F 3 "" H 7200 2300 60  0000 C CNN
 	1    7200 2300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1900 7200 1900 7300
 Text Notes 550  800  0    60   ~ 0
 KICAD won't find unconnected nets\n
 Text Notes 11500 6750 0    59   ~ 0
@@ -3438,4 +3435,22 @@ F 3 "" H 4650 7600 59  0000 C CNN
 	1    4650 7600
 	1    0    0    -1  
 $EndComp
+$Comp
+L R_Small R4
+U 1 1 55284A56
+P 2150 7250
+F 0 "R4" H 2180 7270 50  0000 L CNN
+F 1 "0" H 2180 7210 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 2150 7250 60  0001 C CNN
+F 3 "" H 2150 7250 60  0000 C CNN
+F 4 "P0.0GCT-ND" H 2150 7250 60  0001 C CNN "Digikey Part Number"
+F 5 "ERJ-3GEY0R00V" H 1800 -400 60  0001 C CNN "MFG"
+	1    2150 7250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2250 7150 2250 7250
+Wire Wire Line
+	1900 7250 1900 7300
+Connection ~ 1900 7250
 $EndSCHEMATC
