@@ -142,13 +142,13 @@ E5V
 $Comp
 L RFM69HW U7
 U 1 1 55169D6F
-P 14550 1600
-F 0 "U7" H 14550 2050 60  0000 C CNN
-F 1 "RFM69HW" H 14450 1150 60  0000 C CNN
-F 2 "nucleo:RFM69HW" H 14550 1600 60  0001 C CNN
-F 3 "" H 14550 1600 60  0000 C CNN
-F 4 "RFM69HW 915MHz" H 14550 1600 60  0001 C CNN "Ebay"
-	1    14550 1600
+P 14750 800
+F 0 "U7" H 14750 1250 60  0000 C CNN
+F 1 "RFM69HW" H 14650 350 60  0000 C CNN
+F 2 "nucleo:RFM69HW" H 14750 800 60  0001 C CNN
+F 3 "" H 14750 800 60  0000 C CNN
+F 4 "RFM69HW 915MHz" H 14750 800 60  0001 C CNN "Ebay"
+	1    14750 800 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3438,5 +3438,7 @@ Connection ~ 1900 7250
 Wire Bus Line
 	7700 4450 7700 6150
 Text Notes 550  950  0    59   ~ 0
-Rev AA Errata 4-26-2015:\nU2: Pin 9, 11 No Connection\nU3: Pin 10: No Connection\n       Pin 36: VDD (same as U2 Pin 5\n       Pin 38: GND
+Rev AA Errata 4-26-2015:\nU2: Pin 9, 11 No Connection\nU3: Pin 10: No Connection\n       Pin 36: No Connection\n       Pin 38: No Connection
+Text Notes 14000 2450 0    59   ~ 0
+Chip has the wrong pinout!\nNumbering Should have \nbeen correct (9 across from 8)
 $EndSCHEMATC

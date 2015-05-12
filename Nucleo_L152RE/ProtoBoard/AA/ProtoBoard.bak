@@ -41,7 +41,7 @@ Date "Sunday, April 05, 2015"
 Rev "AA"
 Comp "Open Source Hardware"
 Comment1 "Creative Commons - Share Alike"
-Comment2 ""
+Comment2 "See Errata in Upper Left Corner"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -1117,7 +1117,7 @@ Text Label 12600 8800 0    60   ~ 0
 I2C_SCL2
 Text Notes 13750 2600 2    60   ~ 0
 Extra GPIO from wireless\nmodule is brought to header\n
-Text Notes 1600 700  2    60   ~ 0
+Text Notes 4500 6150 2    60   ~ 0
 Potential Cases:\n    Hammond HM1071-ND
 Text Notes 7900 8800 2    60   ~ 0
 SPI Bus
@@ -1443,12 +1443,6 @@ Text Label 14350 8800 0    60   ~ 0
 RGB_Green
 Text Notes 14200 8300 0    60   ~ 0
 Select PWM pins\nTweak Res
-Text Notes 9500 9000 0    39   ~ 0
-SMT: RJLSE4238101TCT-ND
-Text Notes 9450 8900 0    39   ~ 0
-Consider SMT mount vs through hole
-Text Notes 9500 9100 0    39   ~ 0
-Thru-hole: 553-2264-ND
 $Comp
 L Q_PMOS_GSD Q1
 U 1 1 551D0B9B
@@ -1700,39 +1694,39 @@ Entry Wire Line
 Entry Wire Line
 	7600 4350 7700 4450
 Entry Wire Line
-	7700 7450 7800 7550
+	7700 6150 7800 6250
 Entry Wire Line
-	7700 7350 7800 7450
-Text Label 7850 7550 0    60   ~ 0
+	7700 6050 7800 6150
+Text Label 7850 6250 0    60   ~ 0
 USB_DP
-Text Label 7850 7450 0    60   ~ 0
+Text Label 7850 6150 0    60   ~ 0
 USB_DM
-Text Label 7850 7350 0    60   ~ 0
+Text Label 7850 6050 0    60   ~ 0
 U5V
 $Comp
 L R_Small R5
 U 1 1 55235A3A
-P 8450 7550
-F 0 "R5" H 8480 7570 50  0000 L CNN
-F 1 "33" H 8480 7510 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 8450 7550 60  0001 C CNN
-F 3 "" H 8450 7550 60  0000 C CNN
-F 4 "P33HCT-ND" H 8450 7550 60  0001 C CNN "Digikey Part Number"
-F 5 "ERJ-3EKF33R0V" H 10250 1550 60  0001 C CNN "MFG"
-	1    8450 7550
+P 8450 6250
+F 0 "R5" H 8480 6270 50  0000 L CNN
+F 1 "33" H 8480 6210 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 8450 6250 60  0001 C CNN
+F 3 "" H 8450 6250 60  0000 C CNN
+F 4 "P33HCT-ND" H 8450 6250 60  0001 C CNN "Digikey Part Number"
+F 5 "ERJ-3EKF33R0V" H 10250 250 60  0001 C CNN "MFG"
+	1    8450 6250
 	0    -1   -1   0   
 $EndComp
 $Comp
 L R_Small R12
 U 1 1 55235D7C
-P 8650 7450
-F 0 "R12" H 8680 7470 50  0000 L CNN
-F 1 "33" H 8680 7410 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 8650 7450 60  0001 C CNN
-F 3 "" H 8650 7450 60  0000 C CNN
-F 4 "P33HCT-ND" H 8650 7450 60  0001 C CNN "Digikey Part Number"
-F 5 "ERJ-3EKF33R0V" H 10250 1550 60  0001 C CNN "MFG"
-	1    8650 7450
+P 8650 6150
+F 0 "R12" H 8680 6170 50  0000 L CNN
+F 1 "33" H 8680 6110 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 8650 6150 60  0001 C CNN
+F 3 "" H 8650 6150 60  0000 C CNN
+F 4 "P33HCT-ND" H 8650 6150 60  0001 C CNN "Digikey Part Number"
+F 5 "ERJ-3EKF33R0V" H 10250 250 60  0001 C CNN "MFG"
+	1    8650 6150
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1777,15 +1771,15 @@ $EndComp
 $Comp
 L GND #PWR048
 U 1 1 55238883
-P 8850 7850
-F 0 "#PWR048" H 8850 7600 50  0001 C CNN
-F 1 "GND" H 8850 7700 50  0000 C CNN
-F 2 "" H 8850 7850 60  0000 C CNN
-F 3 "" H 8850 7850 60  0000 C CNN
-	1    8850 7850
+P 8850 6550
+F 0 "#PWR048" H 8850 6300 50  0001 C CNN
+F 1 "GND" H 8850 6400 50  0000 C CNN
+F 2 "" H 8850 6550 60  0000 C CNN
+F 3 "" H 8850 6550 60  0000 C CNN
+	1    8850 6550
 	1    0    0    -1  
 $EndComp
-Text Notes 7900 6700 0    39   ~ 0
+Text Notes 7900 5400 0    39   ~ 0
 U5V should be not connected \nwhen USB is plugged in
 $Comp
 L CONN_01X04 P5
@@ -2064,14 +2058,14 @@ U5V
 $Comp
 L R_Small R11
 U 1 1 551A2067
-P 8650 7350
-F 0 "R11" V 8550 7350 50  0000 L CNN
-F 1 "0" H 8550 7300 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 8650 7350 60  0001 C CNN
-F 3 "" H 8650 7350 60  0000 C CNN
-F 4 "P0.0HCT-ND" V 8650 7350 60  0001 C CNN "Digikey Part Number"
-F 5 "ERJ-3GEY0R00V" H 10250 1550 60  0001 C CNN "MFG"
-	1    8650 7350
+P 8650 6050
+F 0 "R11" V 8550 6050 50  0000 L CNN
+F 1 "0" H 8550 6000 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 8650 6050 60  0001 C CNN
+F 3 "" H 8650 6050 60  0000 C CNN
+F 4 "P0.0HCT-ND" V 8650 6050 60  0001 C CNN "Digikey Part Number"
+F 5 "ERJ-3GEY0R00V" H 10250 250 60  0001 C CNN "MFG"
+	1    8650 6050
 	0    1    1    0   
 $EndComp
 $Comp
@@ -2139,74 +2133,74 @@ E5V 3.5V to 5.5V
 $Comp
 L USB-MICRO-B CON1
 U 1 1 551EF807
-P 9350 7550
-F 0 "CON1" H 9050 7900 50  0000 C CNN
-F 1 "USB-MICRO-B" H 9200 7200 50  0000 C CNN
-F 2 "nucleo:USB_micro_AB" H 9350 7450 50  0001 C CNN
-F 3 "http://www.digikey.com/product-detail/en/10104111-0001LF/609-4053-1-ND/2350359" H 9350 7450 50  0001 C CNN
-F 4 "609-4053-1-ND" H 9350 7550 60  0001 C CNN "Digikey Part Number"
-F 5 "http://www.digikey.com/product-detail/en/10104111-0001LF/609-4053-1-ND" H 9350 7550 60  0001 C CNN "Digikey URL"
-F 6 "10104111-0001LF" H 10250 1550 60  0001 C CNN "MFG"
-	1    9350 7550
+P 9350 6250
+F 0 "CON1" H 9050 6600 50  0000 C CNN
+F 1 "USB-MICRO-B" H 9200 5900 50  0000 C CNN
+F 2 "nucleo:USB_micro_AB" H 9350 6150 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/10104111-0001LF/609-4053-1-ND/2350359" H 9350 6150 50  0001 C CNN
+F 4 "609-4053-1-ND" H 9350 6250 60  0001 C CNN "Digikey Part Number"
+F 5 "http://www.digikey.com/product-detail/en/10104111-0001LF/609-4053-1-ND" H 9350 6250 60  0001 C CNN "Digikey URL"
+F 6 "10104111-0001LF" H 10250 250 60  0001 C CNN "MFG"
+	1    9350 6250
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR062
 U 1 1 551F3DB2
-P 8350 8000
-F 0 "#PWR062" H 8350 7750 50  0001 C CNN
-F 1 "GND" H 8350 7850 50  0000 C CNN
-F 2 "" H 8350 8000 60  0000 C CNN
-F 3 "" H 8350 8000 60  0000 C CNN
-	1    8350 8000
+P 8350 6700
+F 0 "#PWR062" H 8350 6450 50  0001 C CNN
+F 1 "GND" H 8350 6550 50  0000 C CNN
+F 2 "" H 8350 6700 60  0000 C CNN
+F 3 "" H 8350 6700 60  0000 C CNN
+	1    8350 6700
 	1    0    0    -1  
 $EndComp
 $Comp
 L GNDPWR #PWR063
 U 1 1 551F55A0
-P 9850 7850
-F 0 "#PWR063" H 9850 7650 50  0001 C CNN
-F 1 "GNDPWR" H 9850 7720 50  0000 C CNN
-F 2 "" H 9850 7800 60  0000 C CNN
-F 3 "" H 9850 7800 60  0000 C CNN
-	1    9850 7850
+P 9850 6550
+F 0 "#PWR063" H 9850 6350 50  0001 C CNN
+F 1 "GNDPWR" H 9850 6420 50  0000 C CNN
+F 2 "" H 9850 6500 60  0000 C CNN
+F 3 "" H 9850 6500 60  0000 C CNN
+	1    9850 6550
 	1    0    0    -1  
 $EndComp
 $Comp
 L GNDPWR #PWR064
 U 1 1 551F71D7
-P 9500 8400
-F 0 "#PWR064" H 9500 8200 50  0001 C CNN
-F 1 "GNDPWR" H 9500 8270 50  0000 C CNN
-F 2 "" H 9500 8350 60  0000 C CNN
-F 3 "" H 9500 8350 60  0000 C CNN
-	1    9500 8400
+P 9500 7100
+F 0 "#PWR064" H 9500 6900 50  0001 C CNN
+F 1 "GNDPWR" H 9500 6970 50  0000 C CNN
+F 2 "" H 9500 7050 60  0000 C CNN
+F 3 "" H 9500 7050 60  0000 C CNN
+	1    9500 7100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Jumper_NC_Small JP8
 U 1 1 551FD04C
-P 8450 7650
-F 0 "JP8" H 8450 7730 50  0000 C CNN
-F 1 "Jumper_NC_Small" H 8460 7590 50  0001 C CNN
-F 2 "nucleo:SB_NC" H 8450 7650 60  0001 C CNN
-F 3 "" H 8450 7650 60  0000 C CNN
-	1    8450 7650
+P 8450 6350
+F 0 "JP8" H 8450 6430 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 8460 6290 50  0001 C CNN
+F 2 "nucleo:SB_NC" H 8450 6350 60  0001 C CNN
+F 3 "" H 8450 6350 60  0000 C CNN
+	1    8450 6350
 	1    0    0    -1  
 $EndComp
-Text Label 7850 7650 0    60   ~ 0
+Text Label 7850 6350 0    60   ~ 0
 StatusLed2
-Text Notes 7500 7800 0    39   ~ 0
+Text Notes 7500 6500 0    39   ~ 0
 If we are using USB\nstatus 2 not as important.
 $Comp
 L Jumper_NO_Small JP9
 U 1 1 551FF13F
-P 8450 7800
-F 0 "JP9" H 8450 7880 50  0000 C CNN
-F 1 "Jumper_NO_Small" H 8460 7740 50  0001 C CNN
-F 2 "nucleo:SB_NO" H 8450 7800 60  0001 C CNN
-F 3 "" H 8450 7800 60  0000 C CNN
-	1    8450 7800
+P 8450 6500
+F 0 "JP9" H 8450 6580 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 8460 6440 50  0001 C CNN
+F 2 "nucleo:SB_NO" H 8450 6500 60  0001 C CNN
+F 3 "" H 8450 6500 60  0000 C CNN
+	1    8450 6500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2249,28 +2243,28 @@ StatusLed2 Shares pin with \nUSB ID pin
 $Comp
 L Jumper_NO_Small JP6
 U 1 1 5521D95E
-P 8350 7250
-F 0 "JP6" H 8350 7330 50  0000 C CNN
-F 1 "Jumper_NO_Small" H 8360 7190 50  0001 C CNN
-F 2 "nucleo:SB_NO" H 8350 7250 60  0001 C CNN
-F 3 "" H 8350 7250 60  0000 C CNN
-	1    8350 7250
+P 8350 5950
+F 0 "JP6" H 8350 6030 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 8360 5890 50  0001 C CNN
+F 2 "nucleo:SB_NO" H 8350 5950 60  0001 C CNN
+F 3 "" H 8350 5950 60  0000 C CNN
+	1    8350 5950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Jumper_NC_Small JP7
 U 1 1 5521DAC2
-P 8350 7350
-F 0 "JP7" H 8350 7430 50  0000 C CNN
-F 1 "Jumper_NC_Small" H 8360 7290 50  0001 C CNN
-F 2 "nucleo:SB_NC" H 8350 7350 60  0001 C CNN
-F 3 "" H 8350 7350 60  0000 C CNN
-	1    8350 7350
+P 8350 6050
+F 0 "JP7" H 8350 6130 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 8360 5990 50  0001 C CNN
+F 2 "nucleo:SB_NC" H 8350 6050 60  0001 C CNN
+F 3 "" H 8350 6050 60  0000 C CNN
+	1    8350 6050
 	1    0    0    -1  
 $EndComp
-Text Label 7850 7250 0    59   ~ 0
+Text Label 7850 5950 0    59   ~ 0
 E5V
-Text Notes 7850 7100 0    39   ~ 0
+Text Notes 7850 5800 0    39   ~ 0
 Can be powered from USB if\n  U5V connected\nCan Provide power to USB if\n  E5V connected
 Text Notes 11600 7200 0    39   ~ 0
 PWM
@@ -2444,10 +2438,6 @@ Wire Wire Line
 Wire Wire Line
 	1100 1300 1700 1300
 Wire Wire Line
-	1100 1600 1700 1600
-Wire Wire Line
-	1100 1700 1700 1700
-Wire Wire Line
 	1100 1800 1700 1800
 Wire Wire Line
 	1100 1900 1700 1900
@@ -2500,10 +2490,6 @@ Wire Wire Line
 Wire Wire Line
 	1700 5650 1000 5650
 Wire Wire Line
-	6650 5650 7300 5650
-Wire Wire Line
-	6650 5550 7300 5550
-Wire Wire Line
 	7300 5450 6650 5450
 Wire Wire Line
 	7300 5250 6650 5250
@@ -2519,8 +2505,6 @@ Wire Wire Line
 	6650 4450 7600 4450
 Wire Wire Line
 	6650 4350 7600 4350
-Wire Wire Line
-	7300 4250 6650 4250
 Wire Wire Line
 	7300 4050 6650 4050
 Wire Wire Line
@@ -2837,14 +2821,12 @@ Wire Wire Line
 	1700 2200 1100 2200
 Wire Wire Line
 	6450 1500 6900 1500
-Wire Bus Line
-	7700 7450 7700 4450
 Wire Wire Line
-	8850 7550 8550 7550
+	8850 6250 8550 6250
 Wire Wire Line
-	8350 7550 7800 7550
+	8350 6250 7800 6250
 Wire Wire Line
-	8850 7750 8850 7850
+	8850 6450 8850 6550
 Wire Wire Line
 	5450 9350 5450 9300
 Wire Wire Line
@@ -2951,16 +2933,16 @@ Wire Wire Line
 Wire Wire Line
 	6450 2300 7200 2300
 Wire Wire Line
-	7800 7450 8550 7450
+	7800 6150 8550 6150
 Wire Wire Line
-	8750 7450 8850 7450
+	8750 6150 8850 6150
 Wire Wire Line
-	8550 7650 8850 7650
+	8550 6350 8850 6350
 Wire Wire Line
-	9850 7350 9850 7850
-Connection ~ 9850 7750
-Connection ~ 9850 7650
-Connection ~ 9850 7450
+	9850 6050 9850 6550
+Connection ~ 9850 6450
+Connection ~ 9850 6350
+Connection ~ 9850 6150
 Wire Wire Line
 	9750 8350 9750 8650
 Wire Wire Line
@@ -2972,14 +2954,14 @@ Wire Wire Line
 	9950 8400 10150 8400
 Connection ~ 9950 8400
 Wire Wire Line
-	8350 8000 8350 7800
+	8350 6700 8350 6500
 Wire Wire Line
-	8550 7800 8750 7800
+	8550 6500 8750 6500
 Wire Wire Line
-	8750 7800 8750 7650
-Connection ~ 8750 7650
+	8750 6500 8750 6350
+Connection ~ 8750 6350
 Wire Wire Line
-	8350 7650 7850 7650
+	8350 6350 7850 6350
 Wire Wire Line
 	12150 8600 12150 8400
 Connection ~ 12150 8400
@@ -3015,15 +2997,15 @@ Wire Wire Line
 	11550 7900 11550 7750
 Connection ~ 11550 7750
 Wire Wire Line
-	8750 7350 8850 7350
+	8750 6050 8850 6050
 Wire Wire Line
-	8450 7350 8550 7350
+	8450 6050 8550 6050
 Wire Wire Line
-	8450 7250 8450 7350
+	8450 5950 8450 6050
 Wire Wire Line
-	7850 7250 8250 7250
+	7850 5950 8250 5950
 Wire Wire Line
-	7850 7350 8250 7350
+	7850 6050 8250 6050
 Wire Wire Line
 	8750 3000 8850 3000
 Wire Wire Line
@@ -3169,7 +3151,7 @@ F 3 "" H 7200 2300 60  0000 C CNN
 	1    7200 2300
 	1    0    0    -1  
 $EndComp
-Text Notes 550  800  0    60   ~ 0
+Text Notes 3450 6250 0    60   ~ 0
 KICAD won't find unconnected nets\n
 Text Notes 11500 6750 0    59   ~ 0
 Modify to read ADC voltage
@@ -3436,10 +3418,10 @@ F 3 "" H 4650 7600 59  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R?
+L R_Small R4
 U 1 1 55284A56
 P 2150 7250
-F 0 "R?" H 2180 7270 50  0000 L CNN
+F 0 "R4" H 2180 7270 50  0000 L CNN
 F 1 "0" H 2180 7210 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" H 2150 7250 60  0001 C CNN
 F 3 "" H 2150 7250 60  0000 C CNN
@@ -3453,4 +3435,8 @@ Wire Wire Line
 Wire Wire Line
 	1900 7250 1900 7300
 Connection ~ 1900 7250
+Wire Bus Line
+	7700 4450 7700 6150
+Text Notes 550  950  0    59   ~ 0
+Rev AA Errata 4-26-2015:\nU2: Pin 9, 11 No Connection\nU3: Pin 10: No Connection\n       Pin 36: No Connection\n       Pin 38: No Connection
 $EndSCHEMATC
