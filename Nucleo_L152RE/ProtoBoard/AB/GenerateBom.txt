@@ -1,0 +1,3 @@
+To generate bom:
+	In Kicad, Click BOM.   Choose bom2csv or bom_cvs and click generate
+	In folder, click Update_BOM.bat.  New *.csv will be created.
