@@ -1,5 +1,16 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Jumper_NC_Small
+D Jumper normally close
+K Jumper, Link
+$ENDCMP
+#
+$CMP LDS3985
+D LDS3985 3.3V LDO 300mA Regulator
+K 3.3v LDS3985 LDO
+F datasheets/LDS3985_LDO33.pdf
+$ENDCMP
+#
 $CMP LM3670
 D LM3670 Step Down Voltage Regulator
 K LM3670
@@ -44,6 +55,11 @@ $ENDCMP
 $CMP S25FL127S
 D S25FL127S 128 Mbit Flash 2.7 to 3.6v
 F datasheets/S25FL127S_00-247997-1.pdf
+$ENDCMP
+#
+$CMP SB_NC_Small
+D Jumper normally close
+K Jumper, Link
 $ENDCMP
 #
 $CMP SW4

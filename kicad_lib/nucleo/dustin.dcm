@@ -5,6 +5,12 @@ D Jumper normally close
 K Jumper, Link
 $ENDCMP
 #
+$CMP LDS3985
+D LDS3985 3.3V LDO 300mA Regulator
+K 3.3v LDS3985 LDO
+F datasheets/LDS3985_LDO33.pdf
+$ENDCMP
+#
 $CMP LM3670
 D LM3670 Step Down Voltage Regulator
 K LM3670
