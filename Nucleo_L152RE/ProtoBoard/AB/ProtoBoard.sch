@@ -37,8 +37,8 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 1 5
 Title "Expansion Board For STM32 Nucleo-L152RE"
-Date "Sunday, May 24 , 2015"
-Rev "AB"
+Date "Saturday, May 23, 2015"
+Rev "AB - Draft"
 Comp "Open Source Hardware"
 Comment1 "MIT License"
 Comment2 "See Errata in Upper Left Corner"
@@ -201,4 +201,6 @@ Wire Wire Line
 Connection ~ 2800 4850
 Text Notes 6300 1700 0    59   ~ 0
 Lower Voltage, Lower Current, Upper Current:\n     RFM69HW - 2.4V\n     MT3329 - 3.2V (50mVpp ripple)\n     S25FL127S - 2.7V\n\n
+Text Notes 6300 1950 0    59   ~ 0
+Note: By the time the 3.3v rail starts to droop, we would be well into\nthe dead zone for the batteries. By measuring the batteries we can see\nhow long we have to live.
 $EndSCHEMATC
