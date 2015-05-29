@@ -693,23 +693,23 @@ F 6 "1825910-6" H 1950 2100 60  0001 C CNN "MFG"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper_NC_Small JP2
+L Jumper_Small JP2
 U 1 1 555AC273
 P 6350 5750
 F 0 "JP2" H 6350 5830 50  0000 C CNN
 F 1 "Jumper_NC_Small" H 6360 5690 50  0001 C CNN
-F 2 "nucleo:SB_NC_Smaller" H 6350 5750 60  0001 C CNN
+F 2 "nucleo:SB_NO_Smaller" H 6350 5750 60  0001 C CNN
 F 3 "" H 6350 5750 60  0000 C CNN
 	1    6350 5750
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper_NC_Small JP1
+L Jumper_Small JP1
 U 1 1 555AC27A
 P 6350 5100
 F 0 "JP1" H 6350 5180 50  0000 C CNN
 F 1 "Jumper_NC_Small" H 6360 5040 50  0001 C CNN
-F 2 "nucleo:SB_NC_Smaller" H 6350 5100 60  0001 C CNN
+F 2 "nucleo:SB_NO_Smaller" H 6350 5100 60  0001 C CNN
 F 3 "" H 6350 5100 60  0000 C CNN
 	1    6350 5100
 	1    0    0    -1  
@@ -782,34 +782,34 @@ F 6 "LTST-C191TBKT" H 2900 2700 60  0001 C CNN "MFG"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Jumper_NC_Small JP3
+L Jumper_Small JP3
 U 1 1 555AC2C9
 P 6800 3800
 F 0 "JP3" H 6800 3880 50  0000 C CNN
 F 1 "Jumper_NC_Small" H 6810 3740 50  0001 C CNN
-F 2 "nucleo:SB_NC_Smaller" H 6800 3800 60  0001 C CNN
+F 2 "nucleo:SB_NO_Smaller" H 6800 3800 60  0001 C CNN
 F 3 "" H 6800 3800 60  0000 C CNN
 	1    6800 3800
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper_NC_Small JP5
+L Jumper_Small JP5
 U 1 1 555AC2D6
 P 9650 3750
 F 0 "JP5" H 9650 3830 50  0000 C CNN
 F 1 "Jumper_NC_Small" H 9660 3690 50  0001 C CNN
-F 2 "nucleo:SB_NC_Smaller" H 9650 3750 60  0001 C CNN
+F 2 "nucleo:SB_NO_Smaller" H 9650 3750 60  0001 C CNN
 F 3 "" H 9650 3750 60  0000 C CNN
 	1    9650 3750
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper_NC_Small JP4
+L Jumper_Small JP4
 U 1 1 555AC2E3
 P 8250 3750
 F 0 "JP4" H 8250 3830 50  0000 C CNN
 F 1 "Jumper_NC_Small" H 8260 3690 50  0001 C CNN
-F 2 "nucleo:SB_NC_Smaller" H 8250 3750 60  0001 C CNN
+F 2 "nucleo:SB_NO_Smaller" H 8250 3750 60  0001 C CNN
 F 3 "" H 8250 3750 60  0000 C CNN
 	1    8250 3750
 	1    0    0    -1  
@@ -994,9 +994,9 @@ Wire Wire Line
 	8350 3750 8350 4000
 Connection ~ 6950 5100
 Wire Wire Line
-	6450 5750 7950 5750
+	6250 5750 7950 5750
 Wire Wire Line
-	6450 5100 8000 5100
+	6250 5100 8000 5100
 Wire Wire Line
 	8250 2750 8250 2800
 Wire Wire Line
@@ -1244,19 +1244,17 @@ Connection ~ 6950 4000
 Text GLabel 6600 3800 0    59   Input ~ 0
 3.3Vctl
 Wire Wire Line
-	6950 4000 6950 3800
+	6950 3800 6950 4000
 Wire Wire Line
-	6950 3800 6900 3800
-Wire Wire Line
-	6600 3800 6700 3800
+	6600 3800 6950 3800
 Text GLabel 9500 3750 0    59   Input ~ 0
 3.3Vctl
 Wire Wire Line
-	9550 3750 9500 3750
+	9500 3750 9750 3750
 Text GLabel 8100 3750 0    59   Input ~ 0
 3.3Vctl
 Wire Wire Line
-	8150 3750 8100 3750
+	8100 3750 8350 3750
 Text GLabel 2150 900  0    59   Input ~ 0
 3.3Vctl
 Text GLabel 3400 6150 0    59   Input ~ 0
@@ -1665,4 +1663,10 @@ Connection ~ 8500 1300
 Connection ~ 8500 1200
 Connection ~ 8500 1100
 Connection ~ 8500 1000
+Connection ~ 9550 3750
+Connection ~ 8150 3750
+Connection ~ 6900 3800
+Connection ~ 6700 3800
+Connection ~ 6450 5100
+Connection ~ 6450 5750
 $EndSCHEMATC

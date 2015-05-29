@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-05-11 BZR 5650)-product   date = 5/26/2015 7:52:53 PM
+Cmp-Mod V01 Created by Cvpcb (2015-05-11 BZR 5650)-product   date = 5/28/2015 9:11:41 PM
 
 BeginCmp
 TimeStamp = /555BF195/555A6AD1;
@@ -144,35 +144,35 @@ BeginCmp
 TimeStamp = /555AA0B7/555AC27A;
 Reference = JP1;
 ValeurCmp = Jumper_NC_Small;
-IdModule  = nucleo:SB_NC_Smaller;
+IdModule  = nucleo:SB_NO_Smaller;
 EndCmp
 
 BeginCmp
 TimeStamp = /555AA0B7/555AC273;
 Reference = JP2;
 ValeurCmp = Jumper_NC_Small;
-IdModule  = nucleo:SB_NC_Smaller;
+IdModule  = nucleo:SB_NO_Smaller;
 EndCmp
 
 BeginCmp
 TimeStamp = /555AA0B7/555AC2C9;
 Reference = JP3;
 ValeurCmp = Jumper_NC_Small;
-IdModule  = nucleo:SB_NC_Smaller;
+IdModule  = nucleo:SB_NO_Smaller;
 EndCmp
 
 BeginCmp
 TimeStamp = /555AA0B7/555AC2E3;
 Reference = JP4;
 ValeurCmp = Jumper_NC_Small;
-IdModule  = nucleo:SB_NC_Smaller;
+IdModule  = nucleo:SB_NO_Smaller;
 EndCmp
 
 BeginCmp
 TimeStamp = /555AA0B7/555AC2D6;
 Reference = JP5;
 ValeurCmp = Jumper_NC_Small;
-IdModule  = nucleo:SB_NC_Smaller;
+IdModule  = nucleo:SB_NO_Smaller;
 EndCmp
 
 BeginCmp
@@ -186,20 +186,20 @@ BeginCmp
 TimeStamp = /555AA0B7/555AF296/555B2513;
 Reference = JP7;
 ValeurCmp = Jumper_NC_Small;
-IdModule  = nucleo:SB_NC_Smaller;
+IdModule  = nucleo:SB_NO_Smaller;
 EndCmp
 
 BeginCmp
 TimeStamp = /555AA0B7/555AF296/555B24FC;
 Reference = JP8;
 ValeurCmp = Jumper_NC_Small;
-IdModule  = nucleo:SB_NC_Smaller;
+IdModule  = nucleo:SB_NO_Smaller;
 EndCmp
 
 BeginCmp
 TimeStamp = /555AA0B7/555AF296/555B2505;
 Reference = JP9;
-ValeurCmp = Jumper_NO_Small;
+ValeurCmp = Jumper_Small;
 IdModule  = nucleo:SB_NO_Smaller;
 EndCmp
 
@@ -207,7 +207,7 @@ BeginCmp
 TimeStamp = /555AA0B7/555AF296/555B1CAF;
 Reference = JP10;
 ValeurCmp = Jumper_NC_Small;
-IdModule  = nucleo:SB_NC_Smaller;
+IdModule  = nucleo:SB_NO_Smaller;
 EndCmp
 
 BeginCmp
@@ -221,7 +221,7 @@ BeginCmp
 TimeStamp = /555AA0B7/555AF296/555B1CB6;
 Reference = JP12;
 ValeurCmp = Jumper_NC_Small;
-IdModule  = nucleo:SB_NC_Smaller;
+IdModule  = nucleo:SB_NO_Smaller;
 EndCmp
 
 BeginCmp
@@ -235,28 +235,28 @@ BeginCmp
 TimeStamp = /555AA0B7/555AF296/555AFD1A;
 Reference = JP14;
 ValeurCmp = Jumper_NC_Small;
-IdModule  = nucleo:SB_NC_Smaller;
+IdModule  = nucleo:SB_NO_Smaller;
 EndCmp
 
 BeginCmp
 TimeStamp = /555AA0B7/555AF296/555AFD21;
 Reference = JP15;
 ValeurCmp = Jumper_NC_Small;
-IdModule  = nucleo:SB_NC_Smaller;
+IdModule  = nucleo:SB_NO_Smaller;
 EndCmp
 
 BeginCmp
 TimeStamp = /555AA0B7/555AF296/555AFD28;
 Reference = JP16;
 ValeurCmp = Jumper_NC_Small;
-IdModule  = nucleo:SB_NC_Smaller;
+IdModule  = nucleo:SB_NO_Smaller;
 EndCmp
 
 BeginCmp
 TimeStamp = /555AA0B7/555AF296/555AFD2F;
 Reference = JP17;
 ValeurCmp = Jumper_NC_Small;
-IdModule  = nucleo:SB_NC_Smaller;
+IdModule  = nucleo:SB_NO_Smaller;
 EndCmp
 
 BeginCmp

@@ -255,45 +255,45 @@ F 3 "" H 9100 2100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper_NC_Small JP14
+L Jumper_Small JP14
 U 1 1 555AFD1A
 P 9250 1450
 F 0 "JP14" H 9250 1530 50  0000 C CNN
 F 1 "Jumper_NC_Small" H 9260 1390 50  0001 C CNN
-F 2 "nucleo:SB_NC_Smaller" H 9250 1450 60  0001 C CNN
+F 2 "nucleo:SB_NO_Smaller" H 9250 1450 60  0001 C CNN
 F 3 "" H 9250 1450 60  0000 C CNN
 	1    9250 1450
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper_NC_Small JP15
+L Jumper_Small JP15
 U 1 1 555AFD21
 P 9250 1550
 F 0 "JP15" H 9250 1630 50  0000 C CNN
 F 1 "Jumper_NC_Small" H 9260 1490 50  0001 C CNN
-F 2 "nucleo:SB_NC_Smaller" H 9250 1550 60  0001 C CNN
+F 2 "nucleo:SB_NO_Smaller" H 9250 1550 60  0001 C CNN
 F 3 "" H 9250 1550 60  0000 C CNN
 	1    9250 1550
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper_NC_Small JP16
+L Jumper_Small JP16
 U 1 1 555AFD28
 P 9250 1650
 F 0 "JP16" H 9250 1730 50  0000 C CNN
 F 1 "Jumper_NC_Small" H 9260 1590 50  0001 C CNN
-F 2 "nucleo:SB_NC_Smaller" H 9250 1650 60  0001 C CNN
+F 2 "nucleo:SB_NO_Smaller" H 9250 1650 60  0001 C CNN
 F 3 "" H 9250 1650 60  0000 C CNN
 	1    9250 1650
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper_NC_Small JP17
+L Jumper_Small JP17
 U 1 1 555AFD2F
 P 9250 1750
 F 0 "JP17" H 9250 1830 50  0000 C CNN
 F 1 "Jumper_NC_Small" H 9260 1690 50  0001 C CNN
-F 2 "nucleo:SB_NC_Smaller" H 9250 1750 60  0001 C CNN
+F 2 "nucleo:SB_NO_Smaller" H 9250 1750 60  0001 C CNN
 F 3 "" H 9250 1750 60  0000 C CNN
 	1    9250 1750
 	1    0    0    -1  
@@ -332,13 +332,13 @@ Wire Wire Line
 	9000 2050 9100 2050
 Connection ~ 9100 2050
 Wire Wire Line
-	9000 1450 9150 1450
+	9000 1450 9350 1450
 Wire Wire Line
-	9000 1550 9150 1550
+	9000 1550 9350 1550
 Wire Wire Line
-	9000 1650 9150 1650
+	9000 1650 9350 1650
 Wire Wire Line
-	9000 1750 9150 1750
+	9000 1750 9350 1750
 Wire Notes Line
 	6250 600  6250 2750
 Wire Notes Line
@@ -475,29 +475,29 @@ Text Notes 7300 4350 0    39   ~ 0
 Since GPS will only be populated on a few units\n  Use those lines for Status indicators
 NoConn ~ 7550 3450
 $Comp
-L Jumper_NC_Small JP10
+L Jumper_Small JP10
 U 1 1 555B1CAF
 P 7000 3800
 F 0 "JP10" H 7000 3880 50  0000 C CNN
 F 1 "Jumper_NC_Small" H 7010 3740 50  0001 C CNN
-F 2 "nucleo:SB_NC_Smaller" H 7000 3800 60  0001 C CNN
+F 2 "nucleo:SB_NO_Smaller" H 7000 3800 60  0001 C CNN
 F 3 "" H 7000 3800 60  0000 C CNN
 	1    7000 3800
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper_NC_Small JP12
+L Jumper_Small JP12
 U 1 1 555B1CB6
 P 7000 4100
 F 0 "JP12" H 7000 4180 50  0000 C CNN
 F 1 "Jumper_NC_Small" H 7010 4040 50  0001 C CNN
-F 2 "nucleo:SB_NC_Smaller" H 7000 4100 60  0001 C CNN
+F 2 "nucleo:SB_NO_Smaller" H 7000 4100 60  0001 C CNN
 F 3 "" H 7000 4100 60  0000 C CNN
 	1    7000 4100
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper_NO_Small JP13
+L Jumper_Small JP13
 U 1 1 555B1CBD
 P 7000 4250
 F 0 "JP13" H 7000 4330 50  0000 C CNN
@@ -508,7 +508,7 @@ F 3 "" H 7000 4250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper_NO_Small JP11
+L Jumper_Small JP11
 U 1 1 555B1CC4
 P 7000 3950
 F 0 "JP11" H 7000 4030 50  0000 C CNN
@@ -542,7 +542,7 @@ Wire Wire Line
 Wire Wire Line
 	7200 3650 7550 3650
 Wire Wire Line
-	7200 4100 7100 4100
+	6900 4100 7200 4100
 Connection ~ 7200 4100
 Wire Wire Line
 	7550 3350 6900 3350
@@ -689,12 +689,12 @@ F 3 "" H 2200 4450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper_NC_Small JP8
+L Jumper_Small JP8
 U 1 1 555B24FC
 P 1800 3800
 F 0 "JP8" H 1800 3880 50  0000 C CNN
 F 1 "Jumper_NC_Small" H 1810 3740 50  0001 C CNN
-F 2 "nucleo:SB_NC_Smaller" H 1800 3800 60  0001 C CNN
+F 2 "nucleo:SB_NO_Smaller" H 1800 3800 60  0001 C CNN
 F 3 "" H 1800 3800 60  0000 C CNN
 	1    1800 3800
 	1    0    0    -1  
@@ -702,18 +702,18 @@ $EndComp
 Text Notes 750  4050 0    39   ~ 0
 If we are using USB\nstatus 2 not as important.
 $Comp
-L Jumper_NO_Small JP9
+L Jumper_Small JP9
 U 1 1 555B2505
 P 1800 3950
 F 0 "JP9" H 1800 4030 50  0000 C CNN
-F 1 "Jumper_NO_Small" H 1810 3890 50  0001 C CNN
+F 1 "Jumper_Small" H 1810 3890 50  0001 C CNN
 F 2 "nucleo:SB_NO_Smaller" H 1800 3950 60  0001 C CNN
 F 3 "" H 1800 3950 60  0000 C CNN
 	1    1800 3950
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper_NO_Small JP6
+L Jumper_Small JP6
 U 1 1 555B250C
 P 1700 3400
 F 0 "JP6" H 1700 3480 50  0000 C CNN
@@ -724,12 +724,12 @@ F 3 "" H 1700 3400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper_NC_Small JP7
+L Jumper_Small JP7
 U 1 1 555B2513
 P 1700 3500
 F 0 "JP7" H 1700 3580 50  0000 C CNN
 F 1 "Jumper_NC_Small" H 1710 3440 50  0001 C CNN
-F 2 "nucleo:SB_NC_Smaller" H 1700 3500 60  0001 C CNN
+F 2 "nucleo:SB_NO_Smaller" H 1700 3500 60  0001 C CNN
 F 3 "" H 1700 3500 60  0000 C CNN
 	1    1700 3500
 	1    0    0    -1  
@@ -743,7 +743,7 @@ Wire Wire Line
 Wire Wire Line
 	2100 3600 2200 3600
 Wire Wire Line
-	1900 3800 2200 3800
+	1700 3800 2200 3800
 Wire Wire Line
 	3200 3500 3200 4000
 Connection ~ 3200 3900
@@ -762,14 +762,12 @@ Connection ~ 2650 4500
 Wire Wire Line
 	1700 4150 1700 3950
 Wire Wire Line
-	1900 3950 2100 3950
-Wire Wire Line
 	2100 3950 2100 3800
 Connection ~ 2100 3800
 Wire Wire Line
 	2100 3500 2200 3500
 Wire Wire Line
-	1800 3500 1900 3500
+	1600 3500 1900 3500
 Wire Wire Line
 	1800 3400 1800 3500
 Text Notes 2250 3250 0    39   ~ 0
@@ -945,4 +943,15 @@ Wire Notes Line
 	3350 2600 3350 1800
 Wire Notes Line
 	3350 1800 700  1800
+Connection ~ 1900 3800
+Wire Wire Line
+	2100 3950 1900 3950
+Connection ~ 1800 3500
+Connection ~ 9150 1750
+Connection ~ 9150 1650
+Connection ~ 9150 1550
+Connection ~ 9150 1450
+Wire Wire Line
+	6900 3800 7100 3800
+Connection ~ 7100 4100
 $EndSCHEMATC
