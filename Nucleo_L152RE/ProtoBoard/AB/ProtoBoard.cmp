@@ -1,4 +1,11 @@
-Cmp-Mod V01 Created by Cvpcb (2015-05-11 BZR 5650)-product   date = 5/28/2015 9:11:41 PM
+Cmp-Mod V01 Created by Cvpcb (2015-05-11 BZR 5650)-product   date = 5/30/2015 4:11:36 PM
+
+BeginCmp
+TimeStamp = /555AA0B7/55691FC5;
+Reference = B1;
+ValeurCmp = Piezo;
+IdModule  = nucleo:Piezo_12mm;
+EndCmp
 
 BeginCmp
 TimeStamp = /555BF195/555A6AD1;
@@ -82,13 +89,6 @@ TimeStamp = /555AA0B7/555AF296/555AFCF3;
 Reference = C12;
 ValeurCmp = 0.1u;
 IdModule  = Capacitors_SMD:C_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /555AA0B7/555AF296/555B24E3;
-Reference = CON1;
-ValeurCmp = USB-MICRO-B;
-IdModule  = nucleo:USB_micro_AB;
 EndCmp
 
 BeginCmp
@@ -176,34 +176,6 @@ IdModule  = nucleo:SB_NO_Smaller;
 EndCmp
 
 BeginCmp
-TimeStamp = /555AA0B7/555AF296/555B250C;
-Reference = JP6;
-ValeurCmp = Jumper_NO_Small;
-IdModule  = nucleo:SB_NO_Smaller;
-EndCmp
-
-BeginCmp
-TimeStamp = /555AA0B7/555AF296/555B2513;
-Reference = JP7;
-ValeurCmp = Jumper_NC_Small;
-IdModule  = nucleo:SB_NO_Smaller;
-EndCmp
-
-BeginCmp
-TimeStamp = /555AA0B7/555AF296/555B24FC;
-Reference = JP8;
-ValeurCmp = Jumper_NC_Small;
-IdModule  = nucleo:SB_NO_Smaller;
-EndCmp
-
-BeginCmp
-TimeStamp = /555AA0B7/555AF296/555B2505;
-Reference = JP9;
-ValeurCmp = Jumper_Small;
-IdModule  = nucleo:SB_NO_Smaller;
-EndCmp
-
-BeginCmp
 TimeStamp = /555AA0B7/555AF296/555B1CAF;
 Reference = JP10;
 ValeurCmp = Jumper_NC_Small;
@@ -257,20 +229,6 @@ TimeStamp = /555AA0B7/555AF296/555AFD2F;
 Reference = JP17;
 ValeurCmp = Jumper_NC_Small;
 IdModule  = nucleo:SB_NO_Smaller;
-EndCmp
-
-BeginCmp
-TimeStamp = /555AA0B7/555AF296/555B24C3;
-Reference = L1;
-ValeurCmp = 600 Ohm;
-IdModule  = Resistors_SMD:R_0603_HandSoldering;
-EndCmp
-
-BeginCmp
-TimeStamp = /555AA0B7/555AF296/555B24B9;
-Reference = L2;
-ValeurCmp = 600 Ohm;
-IdModule  = Resistors_SMD:R_0603_HandSoldering;
 EndCmp
 
 BeginCmp
@@ -575,10 +533,10 @@ IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
 EndCmp
 
 BeginCmp
-TimeStamp = /555AA0B7/555AC2F4;
+TimeStamp = /555AA0B7/5569CFD0;
 Reference = P44;
-ValeurCmp = WS1;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+ValeurCmp = RLY1;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
 EndCmp
 
 BeginCmp
@@ -603,10 +561,10 @@ IdModule  = Pin_Headers:Pin_Header_Straight_1x04;
 EndCmp
 
 BeginCmp
-TimeStamp = /555AA0B7/555AC2FB;
+TimeStamp = /555AA0B7/5569D142;
 Reference = P48;
-ValeurCmp = WS2;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+ValeurCmp = RLY2;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
 EndCmp
 
 BeginCmp
@@ -624,10 +582,17 @@ IdModule  = Pin_Headers:Pin_Header_Straight_1x04;
 EndCmp
 
 BeginCmp
-TimeStamp = /555AA0B7/555AC308;
+TimeStamp = /555AA0B7/556A34CA;
+Reference = P51;
+ValeurCmp = FET_SW1;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /555AA0B7/556AA678;
 Reference = P52;
-ValeurCmp = WS3;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+ValeurCmp = WS1;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
 EndCmp
 
 BeginCmp
@@ -649,6 +614,34 @@ TimeStamp = /555AA0B7/555AF296/555AFD07;
 Reference = P55;
 ValeurCmp = Ant;
 IdModule  = nucleo:Antenna_1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /555AA0B7/556AB03B;
+Reference = P56;
+ValeurCmp = WS2;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /555AA0B7/556AB485;
+Reference = P57;
+ValeurCmp = WS2;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /555AA0B7/55694CF0;
+Reference = Q1;
+ValeurCmp = BSS123-7-F;
+IdModule  = nucleo:SOT23-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /555AA0B7/5569ABAD;
+Reference = Q2;
+ValeurCmp = BSS123-7-F;
+IdModule  = nucleo:SOT23-3;
 EndCmp
 
 BeginCmp
@@ -939,9 +932,9 @@ IdModule  = Resistors_SMD:R_0603_HandSoldering;
 EndCmp
 
 BeginCmp
-TimeStamp = /555AA0B7/555AF296/555B24A6;
+TimeStamp = /555AA0B7/556A04D2;
 Reference = R42;
-ValeurCmp = 33;
+ValeurCmp = 0;
 IdModule  = Resistors_SMD:R_0603_HandSoldering;
 EndCmp
 
@@ -953,16 +946,16 @@ IdModule  = Resistors_SMD:R_0603_HandSoldering;
 EndCmp
 
 BeginCmp
-TimeStamp = /555AA0B7/555AF296/555B24D9;
+TimeStamp = /555AA0B7/5569AFFB;
 Reference = R44;
 ValeurCmp = 0;
 IdModule  = Resistors_SMD:R_0603_HandSoldering;
 EndCmp
 
 BeginCmp
-TimeStamp = /555AA0B7/555AF296/555B24AF;
+TimeStamp = /555AA0B7/556A371D;
 Reference = R45;
-ValeurCmp = 33;
+ValeurCmp = 0;
 IdModule  = Resistors_SMD:R_0603_HandSoldering;
 EndCmp
 
@@ -999,6 +992,55 @@ TimeStamp = /555AA0B7/55622B70;
 Reference = R50;
 ValeurCmp = 0;
 IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /555AA0B7/55690B79;
+Reference = R51;
+ValeurCmp = 220;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /555AA0B7/5569B369;
+Reference = R52;
+ValeurCmp = 0;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /555AA0B7/556AF464;
+Reference = R53;
+ValeurCmp = 0;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /555AA0B7/556A825D;
+Reference = R54;
+ValeurCmp = 0;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /555AA0B7/556A8323;
+Reference = R55;
+ValeurCmp = 0;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /555AA0B7/556A849D;
+Reference = R56;
+ValeurCmp = 0;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /555AA0B7/556969D7;
+Reference = RLY1;
+ValeurCmp = TQ2SA-3V;
+IdModule  = nucleo:Relay_SMD;
 EndCmp
 
 BeginCmp
