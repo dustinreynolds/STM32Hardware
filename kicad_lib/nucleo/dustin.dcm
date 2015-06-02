@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ATSHA204A
+D ATSHA204A SHA-256 Chip with RNG
+K RNG, SHA
+F datasheets/Atmel-8885-CryptoAuth-ATSHA204A-Datasheet.pdf
+$ENDCMP
+#
+$CMP BSS123
+D BSS123, 100V Vds, N-Channel MOSFET, SOT23
+K N-Channel MOSFET
+F datasheets/BSS123.pdf
+$ENDCMP
+#
 $CMP Jumper_NC_Small
 D Jumper normally close
 K Jumper, Link
@@ -46,10 +58,22 @@ K Morpho, STM32L152RE
 F datasheets/DM00098321_STM32L152RE_datasheet.pdf
 $ENDCMP
 #
+$CMP Piezo
+D Piezo Buzzer
+K Piezo, Buzzer
+F datasheets/BuzzerPiezo.pdf
+$ENDCMP
+#
 $CMP RFM69HW
 D Hope RF RFM69HW Wireless Module
 K RFM69HW
 F datasheets/RFM69HW-V1.3.pdf
+$ENDCMP
+#
+$CMP Relay
+D Relay DPDT Non-Latching
+K Relay
+F datasheets/relay_tq-2.pdf
 $ENDCMP
 #
 $CMP S25FL127S
@@ -76,6 +100,11 @@ $ENDCMP
 $CMP TPS6122x
 D TPS61222 5V output Boost Regulator
 F datasheets/tps61221-1_battery_boost.pdf
+$ENDCMP
+#
+$CMP tp
+D Test Point
+K TestPoint, tp
 $ENDCMP
 #
 #End Doc Library

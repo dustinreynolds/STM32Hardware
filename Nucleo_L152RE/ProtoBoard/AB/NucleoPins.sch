@@ -37,8 +37,8 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 3 5
 Title "Expansion Board For STM32 Nucleo-L152RE"
-Date "Sunday, May 31, 2015"
-Rev "AB - Final Draft"
+Date "Monday, June 01, 2015"
+Rev "AB"
 Comp "Open Source Hardware"
 Comment1 "MIT License"
 Comment2 "See Errata in Upper Left Corner"

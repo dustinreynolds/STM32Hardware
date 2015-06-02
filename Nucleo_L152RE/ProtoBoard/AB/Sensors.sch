@@ -37,8 +37,8 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 4 5
 Title "Expansion Board For STM32 Nucleo-L152RE"
-Date "Sunday, May 31, 2015"
-Rev "AB - Final Draft"
+Date "Monday, June 01, 2015"
+Rev "AB"
 Comp "Open Source Hardware"
 Comment1 "MIT License"
 Comment2 "See Errata in Upper Left Corner"
@@ -644,27 +644,27 @@ $EndComp
 $Comp
 L R_Small R15
 U 1 1 555AC215
-P 1300 3150
-F 0 "R15" H 1330 3170 50  0000 L CNN
-F 1 "1K" H 1330 3110 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 1300 3150 60  0001 C CNN
-F 3 "" H 1300 3150 60  0000 C CNN
-F 4 "P1.0KGCT-ND" H 1300 3150 60  0001 C CNN "Digikey Part Number"
-F 5 "ERJ-3GEYJ102V" H 2900 2200 60  0001 C CNN "MFG"
-	1    1300 3150
+P 1300 3650
+F 0 "R15" H 1330 3670 50  0000 L CNN
+F 1 "1K" H 1330 3610 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 1300 3650 60  0001 C CNN
+F 3 "" H 1300 3650 60  0000 C CNN
+F 4 "P1.0KGCT-ND" H 1300 3650 60  0001 C CNN "Digikey Part Number"
+F 5 "ERJ-3GEYJ102V" H 2900 2700 60  0001 C CNN "MFG"
+	1    1300 3650
 	0    -1   -1   0   
 $EndComp
 $Comp
 L R_Small R16
 U 1 1 555AC21E
-P 1300 3400
-F 0 "R16" H 1330 3420 50  0000 L CNN
-F 1 "1k" H 1330 3360 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 1300 3400 60  0001 C CNN
-F 3 "" H 1300 3400 60  0000 C CNN
-F 4 "P1.0KGCT-ND" H 1300 3400 60  0001 C CNN "Digikey Part Number"
-F 5 "ERJ-3GEYJ102V" H 2900 2200 60  0001 C CNN "MFG"
-	1    1300 3400
+P 1300 3900
+F 0 "R16" H 1330 3920 50  0000 L CNN
+F 1 "1k" H 1330 3860 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 1300 3900 60  0001 C CNN
+F 3 "" H 1300 3900 60  0000 C CNN
+F 4 "P1.0KGCT-ND" H 1300 3900 60  0001 C CNN "Digikey Part Number"
+F 5 "ERJ-3GEYJ102V" H 2900 2700 60  0001 C CNN "MFG"
+	1    1300 3900
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -724,18 +724,16 @@ Text Notes 7550 4250 0    39   ~ 0
 PWM
 Text Notes 8950 4250 0    39   ~ 0
 PWM
-Text Notes 650  3000 0    39   ~ 0
-Future boards can be powered\nusing this pin
 $Comp
 L R_Small R17
 U 1 1 555AC2A1
-P 1300 3650
-F 0 "R17" H 1330 3670 50  0000 L CNN
-F 1 "1k" H 1330 3610 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 1300 3650 60  0001 C CNN
-F 3 "" H 1300 3650 60  0000 C CNN
-F 4 "P1.0KGCT-ND" H 1300 3650 60  0001 C CNN "Digikey Part Number"
-	1    1300 3650
+P 1300 3150
+F 0 "R17" H 1330 3170 50  0000 L CNN
+F 1 "1k" H 1330 3110 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 1300 3150 60  0001 C CNN
+F 3 "" H 1300 3150 60  0000 C CNN
+F 4 "P1.0KGCT-ND" H 1300 3150 60  0001 C CNN "Digikey Part Number"
+	1    1300 3150
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -755,14 +753,14 @@ $EndComp
 $Comp
 L R_Small R18
 U 1 1 555AC2B6
-P 1300 3900
-F 0 "R18" H 1330 3920 50  0000 L CNN
-F 1 "1k" H 1330 3860 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 1300 3900 60  0001 C CNN
-F 3 "" H 1300 3900 60  0000 C CNN
-F 4 "P1.0KGCT-ND" H 1300 3900 60  0001 C CNN "Digikey Part Number"
-F 5 "ERJ-3GEYJ102V" H 2900 2200 60  0001 C CNN "MFG"
-	1    1300 3900
+P 1300 3400
+F 0 "R18" H 1330 3420 50  0000 L CNN
+F 1 "1k" H 1330 3360 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 1300 3400 60  0001 C CNN
+F 3 "" H 1300 3400 60  0000 C CNN
+F 4 "P1.0KGCT-ND" H 1300 3400 60  0001 C CNN "Digikey Part Number"
+F 5 "ERJ-3GEYJ102V" H 2900 1700 60  0001 C CNN "MFG"
+	1    1300 3400
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -812,9 +810,9 @@ F 3 "" H 8250 3750 60  0000 C CNN
 	1    8250 3750
 	1    0    0    -1  
 $EndComp
-Text Notes 1950 3700 0    39   ~ 0
+Text Notes 1950 3250 0    39   ~ 0
 StatusLed3 Shares pin with \nGPS Enable
-Text Notes 1950 3900 0    39   ~ 0
+Text Notes 1950 3450 0    39   ~ 0
 StatusLed4 Shares pin with \nEXT 3.3V en
 Text Notes 3250 750  0    59   ~ 0
 Modify sensor to output analog voltage if desired
@@ -911,11 +909,9 @@ Wire Wire Line
 Wire Wire Line
 	1450 1000 2300 1000
 Wire Wire Line
-	1700 3150 1850 3150
+	1400 3650 1500 3650
 Wire Wire Line
-	1400 3150 1500 3150
-Wire Wire Line
-	1500 3400 1400 3400
+	1500 3900 1400 3900
 Wire Wire Line
 	2150 2350 2300 2350
 Wire Wire Line
@@ -944,15 +940,13 @@ Wire Wire Line
 	6850 5250 6850 5100
 Connection ~ 6850 5100
 Wire Wire Line
-	1400 3650 1500 3650
-Wire Wire Line
-	1700 3150 1700 3900
-Connection ~ 1700 3400
+	1400 3150 1500 3150
+Connection ~ 1700 3900
 Wire Wire Line
 	1850 3150 1850 3200
 Wire Wire Line
-	1400 3900 1500 3900
-Connection ~ 1700 3650
+	1400 3400 1500 3400
+Connection ~ 1700 3150
 Wire Wire Line
 	9750 3750 9750 4000
 Wire Wire Line
@@ -1052,13 +1046,13 @@ U 555AF296
 F0 "Modules" 59
 F1 "Modules.sch" 59
 $EndSheet
-Text GLabel 1200 3150 0    59   Input ~ 0
-StatusLed1
-Text GLabel 1200 3400 0    59   Input ~ 0
-StatusLed2
 Text GLabel 1200 3650 0    59   Input ~ 0
-StatusLed3
+StatusLed1
 Text GLabel 1200 3900 0    59   Input ~ 0
+StatusLed2
+Text GLabel 1200 3150 0    59   Input ~ 0
+StatusLed3
+Text GLabel 1200 3400 0    59   Input ~ 0
 StatusLed4
 Text GLabel 1300 2350 0    59   Input ~ 0
 StatusButton1
@@ -2017,4 +2011,14 @@ Wire Notes Line
 	5350 2250 3050 2250
 Wire Wire Line
 	4800 4100 4700 4100
+Wire Wire Line
+	1700 3150 1700 3900
+Wire Wire Line
+	1700 3150 1850 3150
+Connection ~ 1700 3400
+Connection ~ 1700 3650
+Text Notes 700  1700 0    59   ~ 0
+Nucleo_LED connected to Red
+Text Notes 3200 2450 0    59   ~ 0
+30V 1A max
 $EndSCHEMATC
