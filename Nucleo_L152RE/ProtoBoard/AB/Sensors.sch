@@ -1,0 +1,2024 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:dustin
+LIBS:ProtoBoard-cache
+EELAYER 25 0
+EELAYER END
+$Descr A 11000 8500
+encoding utf-8
+Sheet 4 5
+Title "Expansion Board For STM32 Nucleo-L152RE"
+Date "Monday, June 01, 2015"
+Rev "AB"
+Comp "Open Source Hardware"
+Comment1 "MIT License"
+Comment2 "See Errata in Upper Left Corner"
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 5850 650  0    60   ~ 0
+Switches/Digital Input, single ADC pin
+Text Notes 5850 2350 0    60   ~ 0
+Water Sensors, ADC Pins
+Text Notes 5800 3700 0    60   ~ 0
+Digital Temperature Sensor / OneWire Input Pins\n\n
+Text Notes 3000 650  0    60   ~ 0
+Motion Sensor
+$Comp
+L GND #PWR035
+U 1 1 555ABFC9
+P 9100 1400
+F 0 "#PWR035" H 9100 1150 50  0001 C CNN
+F 1 "GND" H 9100 1250 50  0000 C CNN
+F 2 "" H 9100 1400 60  0000 C CNN
+F 3 "" H 9100 1400 60  0000 C CNN
+	1    9100 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C9
+U 1 1 555ABFD1
+P 9100 1250
+F 0 "C9" H 9125 1350 50  0000 L CNN
+F 1 "0.1u" H 9125 1150 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 9138 1100 30  0001 C CNN
+F 3 "" H 9100 1250 60  0000 C CNN
+F 4 "490-1532-1-ND" H 9100 1250 60  0001 C CNN "Digikey Part Number"
+F 5 "GRM188R71C104KA01D" H 5150 -550 60  0001 C CNN "MFG"
+	1    9100 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 P45
+U 1 1 555ABFDE
+P 7150 4100
+F 0 "P45" H 7150 4300 50  0000 C CNN
+F 1 "OW1_A" V 7250 4100 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 7150 4100 60  0001 C CNN
+F 3 "" H 7150 4100 60  0000 C CNN
+	1    7150 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR036
+U 1 1 555ABFE5
+P 6950 4250
+F 0 "#PWR036" H 6950 4000 50  0001 C CNN
+F 1 "GND" H 6950 4100 50  0000 C CNN
+F 2 "" H 6950 4250 60  0000 C CNN
+F 3 "" H 6950 4250 60  0000 C CNN
+	1    6950 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 P40
+U 1 1 555ABFEB
+P 4100 1100
+F 0 "P40" H 4100 1300 50  0000 C CNN
+F 1 "MS1" V 4200 1100 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 4100 1100 60  0001 C CNN
+F 3 "" H 4100 1100 60  0000 C CNN
+	1    4100 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR037
+U 1 1 555ABFF8
+P 3900 1250
+F 0 "#PWR037" H 3900 1000 50  0001 C CNN
+F 1 "GND" H 3900 1100 50  0000 C CNN
+F 2 "" H 3900 1250 60  0000 C CNN
+F 3 "" H 3900 1250 60  0000 C CNN
+	1    3900 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R28
+U 1 1 555AC000
+P 6800 4000
+F 0 "R28" H 6830 4020 50  0000 L CNN
+F 1 "4.7k" H 6830 3960 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 6800 4000 60  0001 C CNN
+F 3 "" H 6800 4000 60  0000 C CNN
+F 4 "P4.7KGCT-ND" H 6800 4000 60  0001 C CNN "Digikey Part Number"
+F 5 "ERJ-3GEYJ472V" H 4450 250 60  0001 C CNN "MFG"
+	1    6800 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X03 P53
+U 1 1 555AC007
+P 8550 4100
+F 0 "P53" H 8550 4300 50  0000 C CNN
+F 1 "OW2_A" V 8650 4100 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 8550 4100 60  0001 C CNN
+F 3 "" H 8550 4100 60  0000 C CNN
+	1    8550 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR038
+U 1 1 555AC00E
+P 8350 4250
+F 0 "#PWR038" H 8350 4000 50  0001 C CNN
+F 1 "GND" H 8350 4100 50  0000 C CNN
+F 2 "" H 8350 4250 60  0000 C CNN
+F 3 "" H 8350 4250 60  0000 C CNN
+	1    8350 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R39
+U 1 1 555AC016
+P 8200 4000
+F 0 "R39" H 8230 4020 50  0000 L CNN
+F 1 "4.7k" H 8230 3960 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 8200 4000 60  0001 C CNN
+F 3 "" H 8200 4000 60  0000 C CNN
+F 4 "P4.7KGCT-ND" H 8200 4000 60  0001 C CNN "Digikey Part Number"
+F 5 "ERJ-3GEYJ472V" H 5850 -500 60  0001 C CNN "MFG"
+	1    8200 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X03 P54
+U 1 1 555AC01D
+P 9950 4100
+F 0 "P54" H 9950 4300 50  0000 C CNN
+F 1 "OW3_A" V 10050 4100 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 9950 4100 60  0001 C CNN
+F 3 "" H 9950 4100 60  0000 C CNN
+	1    9950 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR039
+U 1 1 555AC024
+P 9750 4250
+F 0 "#PWR039" H 9750 4000 50  0001 C CNN
+F 1 "GND" H 9750 4100 50  0000 C CNN
+F 2 "" H 9750 4250 60  0000 C CNN
+F 3 "" H 9750 4250 60  0000 C CNN
+	1    9750 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R41
+U 1 1 555AC02D
+P 9600 4000
+F 0 "R41" H 9630 4020 50  0000 L CNN
+F 1 "4.7k" H 9630 3960 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 9600 4000 60  0001 C CNN
+F 3 "" H 9600 4000 60  0000 C CNN
+F 4 "P4.7KGCT-ND" H 9600 4000 60  0001 C CNN "Digikey Part Number"
+F 5 "http://www.digikey.com/product-detail/en/ERJ-3GEYJ472V/P4.7KGCT-ND/135199" H 9600 4000 60  0001 C CNN "Digikey URL"
+F 6 "ERJ-3GEYJ472V" H 5400 250 60  0001 C CNN "MFG"
+	1    9600 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R_Small R27
+U 1 1 555AC042
+P 6550 1000
+F 0 "R27" H 6580 1020 50  0000 L CNN
+F 1 "10k" H 6580 960 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 6550 1000 60  0001 C CNN
+F 3 "" H 6550 1000 60  0000 C CNN
+F 4 "P10KGCT-ND" H 6550 1000 60  0001 C CNN "Digikey Part Number"
+F 5 "http://www.digikey.com/product-detail/en/ERJ-3GEYJ103V/P10KGCT-ND/134717" H 6550 1000 60  0001 C CNN "Digikey URL"
+F 6 "ERJ-3GEYJ103V" H 5100 -700 60  0001 C CNN "MFG"
+	1    6550 1000
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R31
+U 1 1 555AC04C
+P 6800 1100
+F 0 "R31" H 6830 1120 50  0000 L CNN
+F 1 "4.7K" H 6830 1060 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 6800 1100 60  0001 C CNN
+F 3 "" H 6800 1100 60  0000 C CNN
+F 4 "P4.7KGCT-ND" H 6800 1100 60  0001 C CNN "Digikey Part Number"
+F 5 "http://www.digikey.com/product-detail/en/ERJ-3GEYJ472V/P4.7KGCT-ND/135199" H 6800 1100 60  0001 C CNN "Digikey URL"
+F 6 "ERJ-3GEYJ472V" H 5150 -700 60  0001 C CNN "MFG"
+	1    6800 1100
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R34
+U 1 1 555AC055
+P 7050 1200
+F 0 "R34" H 7080 1220 50  0000 L CNN
+F 1 "2.2K" H 7080 1160 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 7050 1200 60  0001 C CNN
+F 3 "" H 7050 1200 60  0000 C CNN
+F 4 "P2.2KGCT-ND" H 7050 1200 60  0001 C CNN "Digikey Part Number"
+F 5 "ERJ-3GEYJ222V" H 5150 -700 60  0001 C CNN "MFG"
+	1    7050 1200
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R36
+U 1 1 555AC05E
+P 7300 1300
+F 0 "R36" H 7330 1320 50  0000 L CNN
+F 1 "680" H 7330 1260 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 7300 1300 60  0001 C CNN
+F 3 "" H 7300 1300 60  0000 C CNN
+F 4 "P680GCT-ND" H 7300 1300 60  0001 C CNN "Digikey Part Number"
+F 5 "CRCW0603680RFKEA" H 5150 -700 60  0001 C CNN "MFG"
+	1    7300 1300
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R37
+U 1 1 555AC067
+P 7550 1400
+F 0 "R37" H 7580 1420 50  0000 L CNN
+F 1 "390" H 7580 1360 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 7550 1400 60  0001 C CNN
+F 3 "" H 7550 1400 60  0000 C CNN
+F 4 "P390GCT-ND" H 7550 1400 60  0001 C CNN "Digikey Part Number"
+F 5 "ERJ-3GEYJ390V" H 5200 -700 60  0001 C CNN "MFG"
+	1    7550 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R38
+U 1 1 555AC070
+P 7800 1500
+F 0 "R38" H 7830 1520 50  0000 L CNN
+F 1 "220" H 7830 1460 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 7800 1500 60  0001 C CNN
+F 3 "" H 7800 1500 60  0000 C CNN
+F 4 "P220GCT-ND" H 7800 1500 60  0001 C CNN "Digikey Part Number"
+F 5 "ERJ-3GEYJ220V" H 5200 -700 60  0001 C CNN "MFG"
+	1    7800 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R25
+U 1 1 555AC07A
+P 6300 1600
+F 0 "R25" H 6330 1620 50  0000 L CNN
+F 1 "10k" H 6330 1560 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 6300 1600 60  0001 C CNN
+F 3 "" H 6300 1600 60  0000 C CNN
+F 4 "P10KGCT-ND" H 6300 1600 60  0001 C CNN "Digikey Part Number"
+F 5 "http://www.digikey.com/product-detail/en/ERJ-3GEYJ103V/P10KGCT-ND/134717" H 6300 1600 60  0001 C CNN "Digikey URL"
+F 6 "ERJ-3GEYJ103V" H 5300 -400 60  0001 C CNN "MFG"
+	1    6300 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR040
+U 1 1 555AC081
+P 6300 1700
+F 0 "#PWR040" H 6300 1450 50  0001 C CNN
+F 1 "GND" H 6300 1550 50  0000 C CNN
+F 2 "" H 6300 1700 60  0000 C CNN
+F 3 "" H 6300 1700 60  0000 C CNN
+	1    6300 1700
+	1    0    0    -1  
+$EndComp
+Text Notes 10400 950  2    60   ~ 0
+Theory Behind this circuit\nis to be able to measure multiple\nbutton or switch presses on one\nADC pin
+$Comp
+L R_Small R26
+U 1 1 555AC08C
+P 6250 2700
+F 0 "R26" H 6280 2720 50  0000 L CNN
+F 1 "0" H 6280 2660 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 6250 2700 60  0001 C CNN
+F 3 "" H 6250 2700 60  0000 C CNN
+F 4 "P0.0GCT-ND" H 6250 2700 60  0001 C CNN "Digikey Part Number"
+F 5 "ERJ-3GEY0R00V" H 4150 -150 60  0001 C CNN "MFG"
+	1    6250 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R35
+U 1 1 555AC095
+P 7050 2700
+F 0 "R35" H 7080 2720 50  0000 L CNN
+F 1 "0" H 7080 2660 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 7050 2700 60  0001 C CNN
+F 3 "" H 7050 2700 60  0000 C CNN
+F 4 "P0.0GCT-ND" H 7050 2700 60  0001 C CNN "Digikey Part Number"
+F 5 "ERJ-3GEY0R00V" H 4950 -550 60  0001 C CNN "MFG"
+	1    7050 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R40
+U 1 1 555AC09E
+P 7950 2700
+F 0 "R40" H 7980 2720 50  0000 L CNN
+F 1 "0" H 7980 2660 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 7950 2700 60  0001 C CNN
+F 3 "" H 7950 2700 60  0000 C CNN
+F 4 "P0.0GCT-ND" H 7950 2700 60  0001 C CNN "Digikey Part Number"
+F 5 "ERJ-3GEY0R00V" H 4900 -150 60  0001 C CNN "MFG"
+	1    7950 2700
+	1    0    0    -1  
+$EndComp
+Text Notes 5950 4900 0    39   ~ 0
+If using E5V, won't be able to turn off i2c devices
+$Comp
+L CONN_01X04 P46
+U 1 1 555AC0AF
+P 7350 5400
+F 0 "P46" H 7350 5650 50  0000 C CNN
+F 1 "I2C1_A" V 7450 5400 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 7350 5400 60  0001 C CNN
+F 3 "" H 7350 5400 60  0000 C CNN
+	1    7350 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR041
+U 1 1 555AC0B6
+P 7100 5550
+F 0 "#PWR041" H 7100 5300 50  0001 C CNN
+F 1 "GND" H 7100 5400 50  0000 C CNN
+F 2 "" H 7100 5550 60  0000 C CNN
+F 3 "" H 7100 5550 60  0000 C CNN
+	1    7100 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X04 P49
+U 1 1 555AC0BE
+P 8200 5400
+F 0 "P49" H 8200 5650 50  0000 C CNN
+F 1 "I2C1_B" V 8300 5400 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 8200 5400 60  0001 C CNN
+F 3 "" H 8200 5400 60  0000 C CNN
+	1    8200 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR042
+U 1 1 555AC0C5
+P 7950 5550
+F 0 "#PWR042" H 7950 5300 50  0001 C CNN
+F 1 "GND" H 7950 5400 50  0000 C CNN
+F 2 "" H 7950 5550 60  0000 C CNN
+F 3 "" H 7950 5550 60  0000 C CNN
+	1    7950 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X04 P47
+U 1 1 555AC0CD
+P 7350 6100
+F 0 "P47" H 7350 6350 50  0000 C CNN
+F 1 "I2C2_A" V 7450 6100 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 7350 6100 60  0001 C CNN
+F 3 "" H 7350 6100 60  0000 C CNN
+	1    7350 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR043
+U 1 1 555AC0D4
+P 7100 6250
+F 0 "#PWR043" H 7100 6000 50  0001 C CNN
+F 1 "GND" H 7100 6100 50  0000 C CNN
+F 2 "" H 7100 6250 60  0000 C CNN
+F 3 "" H 7100 6250 60  0000 C CNN
+	1    7100 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X04 P50
+U 1 1 555AC0DC
+P 8200 6100
+F 0 "P50" H 8200 6350 50  0000 C CNN
+F 1 "I2C2_B" V 8300 6100 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 8200 6100 60  0001 C CNN
+F 3 "" H 8200 6100 60  0000 C CNN
+	1    8200 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR044
+U 1 1 555AC0E3
+P 7950 6250
+F 0 "#PWR044" H 7950 6000 50  0001 C CNN
+F 1 "GND" H 7950 6100 50  0000 C CNN
+F 2 "" H 7950 6250 60  0000 C CNN
+F 3 "" H 7950 6250 60  0000 C CNN
+	1    7950 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 P42
+U 1 1 555AC118
+P 5350 1100
+F 0 "P42" H 5350 1300 50  0000 C CNN
+F 1 "MS2" V 5450 1100 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 5350 1100 60  0001 C CNN
+F 3 "" H 5350 1100 60  0000 C CNN
+	1    5350 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR045
+U 1 1 555AC125
+P 5150 1250
+F 0 "#PWR045" H 5150 1000 50  0001 C CNN
+F 1 "GND" H 5150 1100 50  0000 C CNN
+F 2 "" H 5150 1250 60  0000 C CNN
+F 3 "" H 5150 1250 60  0000 C CNN
+	1    5150 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 P41
+U 1 1 555AC12C
+P 4100 1800
+F 0 "P41" H 4100 2000 50  0000 C CNN
+F 1 "MS3" V 4200 1800 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 4100 1800 60  0001 C CNN
+F 3 "" H 4100 1800 60  0000 C CNN
+	1    4100 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR046
+U 1 1 555AC139
+P 2300 1450
+F 0 "#PWR046" H 2300 1200 50  0001 C CNN
+F 1 "GND" H 2300 1300 50  0000 C CNN
+F 2 "" H 2300 1450 60  0000 C CNN
+F 3 "" H 2300 1450 60  0000 C CNN
+	1    2300 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 P43
+U 1 1 555AC140
+P 5350 1800
+F 0 "P43" H 5350 2000 50  0000 C CNN
+F 1 "MS4" V 5450 1800 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 5350 1800 60  0001 C CNN
+F 3 "" H 5350 1800 60  0000 C CNN
+	1    5350 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR047
+U 1 1 555AC14D
+P 5150 1950
+F 0 "#PWR047" H 5150 1700 50  0001 C CNN
+F 1 "GND" H 5150 1800 50  0000 C CNN
+F 2 "" H 5150 1950 60  0000 C CNN
+F 3 "" H 5150 1950 60  0000 C CNN
+	1    5150 1950
+	1    0    0    -1  
+$EndComp
+Text Notes 700  650  0    60   ~ 0
+RGB LED, Spare SPI\n
+$Comp
+L R_Small R19
+U 1 1 555AC157
+P 1450 1100
+F 0 "R19" H 1480 1120 50  0000 L CNN
+F 1 "220" H 1480 1060 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 1450 1100 60  0001 C CNN
+F 3 "" H 1450 1100 60  0000 C CNN
+F 4 "P220GCT-ND" H 1450 1100 60  0001 C CNN "Digikey Part Number"
+F 5 "ERJ-3GEYJ222V" H -3100 -5850 60  0001 C CNN "MFG"
+	1    1450 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R20
+U 1 1 555AC160
+P 1650 1200
+F 0 "R20" H 1680 1220 50  0000 L CNN
+F 1 "220" H 1680 1160 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 1650 1200 60  0001 C CNN
+F 3 "" H 1650 1200 60  0000 C CNN
+F 4 "P220GCT-ND" H 1650 1200 60  0001 C CNN "Digikey Part Number"
+F 5 "ERJ-3GEYJ222V" H -3100 -5850 60  0001 C CNN "MFG"
+	1    1650 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R21
+U 1 1 555AC169
+P 1850 1300
+F 0 "R21" H 1880 1320 50  0000 L CNN
+F 1 "220" H 1880 1260 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 1850 1300 60  0001 C CNN
+F 3 "" H 1850 1300 60  0000 C CNN
+F 4 "P220GCT-ND" H 1850 1300 60  0001 C CNN "Digikey Part Number"
+F 5 "ERJ-3GEYJ222V" H -3100 -5850 60  0001 C CNN "MFG"
+	1    1850 1300
+	1    0    0    -1  
+$EndComp
+Text Notes 850  900  0    60   ~ 0
+Select PWM pins\nTweak Res
+$Comp
+L R_Small R33
+U 1 1 555AC17C
+P 6950 5850
+F 0 "R33" H 6980 5870 50  0000 L CNN
+F 1 "2.2k" H 6980 5810 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 6950 5850 60  0001 C CNN
+F 3 "" H 6950 5850 60  0000 C CNN
+F 4 "P2.2KGCT-ND" H 6950 5850 60  0001 C CNN "Digikey Part Number"
+F 5 "ERJ-3GEYJ222V" H 5550 -1100 60  0001 C CNN "MFG"
+	1    6950 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R30
+U 1 1 555AC185
+P 6850 6050
+F 0 "R30" H 6880 6070 50  0000 L CNN
+F 1 "2.2k" H 6880 6010 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 6850 6050 60  0001 C CNN
+F 3 "" H 6850 6050 60  0000 C CNN
+F 4 "P2.2KGCT-ND" H 6850 6050 60  0001 C CNN "Digikey Part Number"
+F 5 "ERJ-3GEYJ222V" H 5550 -1100 60  0001 C CNN "MFG"
+	1    6850 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R29
+U 1 1 555AC18E
+P 6850 5350
+F 0 "R29" H 6880 5370 50  0000 L CNN
+F 1 "2.2k" H 6880 5310 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 6850 5350 60  0001 C CNN
+F 3 "" H 6850 5350 60  0000 C CNN
+F 4 "P2.2KGCT-ND" H 6850 5350 60  0001 C CNN "Digikey Part Number"
+F 5 "ERJ-3GEYJ222V" H 5550 -1100 60  0001 C CNN "MFG"
+	1    6850 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R32
+U 1 1 555AC197
+P 6950 5200
+F 0 "R32" H 6980 5220 50  0000 L CNN
+F 1 "2.2k" H 6980 5160 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 6950 5200 60  0001 C CNN
+F 3 "" H 6950 5200 60  0000 C CNN
+F 4 "P2.2KGCT-ND" H 6950 5200 60  0001 C CNN "Digikey Part Number"
+F 5 "ERJ-3GEYJ222V" H 5550 -1100 60  0001 C CNN "MFG"
+	1    6950 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR048
+U 1 1 555AC1F9
+P 1850 3200
+F 0 "#PWR048" H 1850 2950 50  0001 C CNN
+F 1 "GND" H 1850 3050 50  0000 C CNN
+F 2 "" H 1850 3200 60  0000 C CNN
+F 3 "" H 1850 3200 60  0000 C CNN
+	1    1850 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Led_Small D4
+U 1 1 555AC202
+P 1600 3150
+F 0 "D4" H 1550 3250 50  0000 L CNN
+F 1 "Red" H 1450 3070 50  0000 L CNN
+F 2 "nucleo:LED_0603_Standard" V 1600 3150 60  0001 C CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-223/S_110_LTST-C191KRKT.pdf" V 1600 3150 60  0001 C CNN
+F 4 "160-1447-1-ND" H 1600 3150 60  0001 C CNN "Digikey Part Number"
+F 5 "http://www.digikey.com/product-detail/en/LTST-C191KRKT/160-1447-1-ND/386836" H 1600 3150 60  0001 C CNN "Digikey URL"
+F 6 "LTST-C191KRKT" H 2900 2200 60  0001 C CNN "MFG"
+	1    1600 3150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Led_Small D5
+U 1 1 555AC20C
+P 1600 3400
+F 0 "D5" H 1550 3500 50  0000 L CNN
+F 1 "Yellow" H 1450 3320 50  0000 L CNN
+F 2 "nucleo:LED_0603_Standard" V 1600 3400 60  0001 C CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-224/S_110_LTST-C191KSKT.pdf" V 1600 3400 60  0001 C CNN
+F 4 "160-1448-1-ND" H 1600 3400 60  0001 C CNN "Digikey Part Number"
+F 5 "http://www.digikey.com/product-detail/en/LTST-C191KSKT/160-1448-1-ND" H 1600 3400 60  0001 C CNN "Digikey URL"
+F 6 "LTST-C191KSKT" H 2900 2200 60  0001 C CNN "MFG"
+	1    1600 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L R_Small R15
+U 1 1 555AC215
+P 1300 3650
+F 0 "R15" H 1330 3670 50  0000 L CNN
+F 1 "1K" H 1330 3610 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 1300 3650 60  0001 C CNN
+F 3 "" H 1300 3650 60  0000 C CNN
+F 4 "P1.0KGCT-ND" H 1300 3650 60  0001 C CNN "Digikey Part Number"
+F 5 "ERJ-3GEYJ102V" H 2900 2700 60  0001 C CNN "MFG"
+	1    1300 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R_Small R16
+U 1 1 555AC21E
+P 1300 3900
+F 0 "R16" H 1330 3920 50  0000 L CNN
+F 1 "1k" H 1330 3860 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 1300 3900 60  0001 C CNN
+F 3 "" H 1300 3900 60  0000 C CNN
+F 4 "P1.0KGCT-ND" H 1300 3900 60  0001 C CNN "Digikey Part Number"
+F 5 "ERJ-3GEYJ102V" H 2900 2700 60  0001 C CNN "MFG"
+	1    1300 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR049
+U 1 1 555AC227
+P 2300 2450
+F 0 "#PWR049" H 2300 2200 50  0001 C CNN
+F 1 "GND" H 2300 2300 50  0000 C CNN
+F 2 "" H 2300 2450 60  0000 C CNN
+F 3 "" H 2300 2450 60  0000 C CNN
+	1    2300 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L MomentarySwitch SW1
+U 1 1 555AC23A
+P 1950 2450
+F 0 "SW1" H 1800 2650 39  0000 C CNN
+F 1 "MomentarySwitch" H 1850 2400 60  0001 C CNN
+F 2 "nucleo:Tact_switch" H 1950 2450 60  0001 C CNN
+F 3 "" H 1950 2450 60  0000 C CNN
+F 4 "450-1650-ND" H 1950 2450 60  0001 C CNN "Digikey Part Number"
+F 5 "http://www.digikey.com/product-detail/en/1825910-6/450-1650-ND" H 1950 2450 60  0001 C CNN "Digikey URL"
+F 6 "1825910-6" H 1950 1600 60  0001 C CNN "MFG"
+	1    1950 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper_Small JP2
+U 1 1 555AC273
+P 6350 5750
+F 0 "JP2" H 6350 5830 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 6360 5690 50  0001 C CNN
+F 2 "nucleo:SB_NO_Smaller" H 6350 5750 60  0001 C CNN
+F 3 "" H 6350 5750 60  0000 C CNN
+	1    6350 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper_Small JP1
+U 1 1 555AC27A
+P 6350 5100
+F 0 "JP1" H 6350 5180 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 6360 5040 50  0001 C CNN
+F 2 "nucleo:SB_NO_Smaller" H 6350 5100 60  0001 C CNN
+F 3 "" H 6350 5100 60  0000 C CNN
+	1    6350 5100
+	1    0    0    -1  
+$EndComp
+Text Notes 5850 4800 0    59   ~ 0
+I2C Devices
+Text Notes 4400 1250 0    39   ~ 0
+PWM
+Text Notes 5850 3100 0    39   ~ 0
+PWM
+Text Notes 7550 4250 0    39   ~ 0
+PWM
+Text Notes 8950 4250 0    39   ~ 0
+PWM
+$Comp
+L R_Small R17
+U 1 1 555AC2A1
+P 1300 3150
+F 0 "R17" H 1330 3170 50  0000 L CNN
+F 1 "1k" H 1330 3110 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 1300 3150 60  0001 C CNN
+F 3 "" H 1300 3150 60  0000 C CNN
+F 4 "P1.0KGCT-ND" H 1300 3150 60  0001 C CNN "Digikey Part Number"
+	1    1300 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Led_Small D2
+U 1 1 555AC2AB
+P 1600 3650
+F 0 "D2" H 1550 3750 50  0000 L CNN
+F 1 "Green" H 1450 3570 50  0000 L CNN
+F 2 "nucleo:LED_0603_Standard" V 1600 3650 60  0001 C CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-228/S_110_LTST-C191KGKT.pdf" V 1600 3650 60  0001 C CNN
+F 4 "160-1446-1-ND" H 1600 3650 60  0001 C CNN "Digikey Part Number"
+F 5 "http://www.digikey.com/product-detail/en/LTST-C191KGKT/160-1446-1-ND" H 1600 3650 60  0001 C CNN "Digikey URL"
+F 6 "LTST-C191KGKT" H 2900 2200 60  0001 C CNN "MFG"
+	1    1600 3650
+	-1   0    0    1   
+$EndComp
+$Comp
+L R_Small R18
+U 1 1 555AC2B6
+P 1300 3400
+F 0 "R18" H 1330 3420 50  0000 L CNN
+F 1 "1k" H 1330 3360 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 1300 3400 60  0001 C CNN
+F 3 "" H 1300 3400 60  0000 C CNN
+F 4 "P1.0KGCT-ND" H 1300 3400 60  0001 C CNN "Digikey Part Number"
+F 5 "ERJ-3GEYJ102V" H 2900 1700 60  0001 C CNN "MFG"
+	1    1300 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Led_Small D3
+U 1 1 555AC2C0
+P 1600 3900
+F 0 "D3" H 1550 4000 50  0000 L CNN
+F 1 "Blue" H 1450 3820 50  0000 L CNN
+F 2 "nucleo:LED_0603_Standard" V 1600 3900 60  0001 C CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-230/S_110_LTST-C191TBKT.pdf" V 1600 3900 60  0001 C CNN
+F 4 "160-1647-1-ND" H 1600 3900 60  0001 C CNN "Digikey Part Number"
+F 5 "http://www.digikey.com/product-detail/en/LTST-C191TBKT/160-1647-1-ND" H 1600 3900 60  0001 C CNN "Digikey URL"
+F 6 "LTST-C191TBKT" H 2900 2200 60  0001 C CNN "MFG"
+	1    1600 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper_Small JP3
+U 1 1 555AC2C9
+P 6800 3800
+F 0 "JP3" H 6800 3880 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 6810 3740 50  0001 C CNN
+F 2 "nucleo:SB_NO_Smaller" H 6800 3800 60  0001 C CNN
+F 3 "" H 6800 3800 60  0000 C CNN
+	1    6800 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper_Small JP5
+U 1 1 555AC2D6
+P 9650 3750
+F 0 "JP5" H 9650 3830 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 9660 3690 50  0001 C CNN
+F 2 "nucleo:SB_NO_Smaller" H 9650 3750 60  0001 C CNN
+F 3 "" H 9650 3750 60  0000 C CNN
+	1    9650 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper_Small JP4
+U 1 1 555AC2E3
+P 8250 3750
+F 0 "JP4" H 8250 3830 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 8260 3690 50  0001 C CNN
+F 2 "nucleo:SB_NO_Smaller" H 8250 3750 60  0001 C CNN
+F 3 "" H 8250 3750 60  0000 C CNN
+	1    8250 3750
+	1    0    0    -1  
+$EndComp
+Text Notes 1950 3250 0    39   ~ 0
+StatusLed3 Shares pin with \nGPS Enable
+Text Notes 1950 3450 0    39   ~ 0
+StatusLed4 Shares pin with \nEXT 3.3V en
+Text Notes 3250 750  0    59   ~ 0
+Modify sensor to output analog voltage if desired
+$Comp
+L GND #PWR050
+U 1 1 555AC315
+P 7950 2950
+F 0 "#PWR050" H 7950 2700 50  0001 C CNN
+F 1 "GND" H 7950 2800 50  0000 C CNN
+F 2 "" H 7950 2950 60  0000 C CNN
+F 3 "" H 7950 2950 60  0000 C CNN
+	1    7950 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR051
+U 1 1 555AC321
+P 7050 2950
+F 0 "#PWR051" H 7050 2700 50  0001 C CNN
+F 1 "GND" H 7050 2800 50  0000 C CNN
+F 2 "" H 7050 2950 60  0000 C CNN
+F 3 "" H 7050 2950 60  0000 C CNN
+	1    7050 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR052
+U 1 1 555AC327
+P 6200 2950
+F 0 "#PWR052" H 6200 2700 50  0001 C CNN
+F 1 "GND" H 6200 2800 50  0000 C CNN
+F 2 "" H 6200 2950 60  0000 C CNN
+F 3 "" H 6200 2950 60  0000 C CNN
+	1    6200 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X06 P38
+U 1 1 555AC34E
+P 2500 1150
+F 0 "P38" H 2500 1500 50  0000 C CNN
+F 1 "RGB1" V 2600 1150 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x06" H 2500 1150 60  0001 C CNN
+F 3 "" H 2500 1150 60  0000 C CNN
+	1    2500 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 4200 6950 4250
+Wire Wire Line
+	3900 1200 3900 1250
+Wire Wire Line
+	6950 4000 6900 4000
+Wire Wire Line
+	6700 4100 6700 4000
+Connection ~ 6700 4100
+Wire Wire Line
+	8350 4200 8350 4250
+Wire Wire Line
+	8350 4000 8300 4000
+Wire Wire Line
+	8100 4000 8100 4100
+Connection ~ 8100 4100
+Wire Wire Line
+	9750 4200 9750 4250
+Wire Wire Line
+	9750 4000 9700 4000
+Wire Wire Line
+	9500 4000 9500 4100
+Connection ~ 9500 4100
+Connection ~ 6300 1500
+Wire Wire Line
+	7150 5550 7100 5550
+Wire Wire Line
+	8000 5550 7950 5550
+Wire Wire Line
+	7150 6250 7100 6250
+Wire Wire Line
+	8000 6250 7950 6250
+Wire Wire Line
+	7950 5950 8000 5950
+Wire Wire Line
+	5150 1200 5150 1250
+Wire Wire Line
+	3900 1900 3900 1950
+Wire Wire Line
+	5150 1900 5150 1950
+Wire Wire Line
+	2150 900  2300 900 
+Wire Wire Line
+	1850 1200 2300 1200
+Wire Wire Line
+	1650 1100 2300 1100
+Wire Wire Line
+	1450 1000 2300 1000
+Wire Wire Line
+	1400 3650 1500 3650
+Wire Wire Line
+	1500 3900 1400 3900
+Wire Wire Line
+	2150 2350 2300 2350
+Wire Wire Line
+	2300 2350 2300 2450
+Wire Wire Line
+	2300 2450 2150 2450
+Wire Wire Line
+	7150 5750 7150 5950
+Connection ~ 7150 5750
+Wire Wire Line
+	7950 5750 7950 5950
+Connection ~ 7950 5750
+Wire Wire Line
+	8000 5100 8000 5250
+Connection ~ 8000 5100
+Wire Wire Line
+	7150 5250 7150 5100
+Connection ~ 7150 5100
+Wire Wire Line
+	6850 5750 6850 5950
+Wire Wire Line
+	6950 6050 6950 5950
+Wire Wire Line
+	6950 5300 6950 5350
+Wire Wire Line
+	6850 5250 6850 5100
+Connection ~ 6850 5100
+Wire Wire Line
+	1400 3150 1500 3150
+Connection ~ 1700 3900
+Wire Wire Line
+	1850 3150 1850 3200
+Wire Wire Line
+	1400 3400 1500 3400
+Connection ~ 1700 3150
+Wire Wire Line
+	9750 3750 9750 4000
+Wire Wire Line
+	8350 3750 8350 4000
+Connection ~ 6950 5100
+Wire Wire Line
+	6250 5750 7950 5750
+Wire Wire Line
+	6250 5100 8000 5100
+Wire Wire Line
+	8150 2500 8150 2700
+Wire Wire Line
+	7250 2500 7250 2700
+Wire Wire Line
+	2300 1300 2050 1300
+Wire Wire Line
+	2300 1450 2300 1400
+$Comp
+L GND #PWR053
+U 1 1 555AC448
+P 3900 1950
+F 0 "#PWR053" H 3900 1700 50  0001 C CNN
+F 1 "GND" H 3900 1800 50  0000 C CNN
+F 2 "" H 3900 1950 60  0000 C CNN
+F 3 "" H 3900 1950 60  0000 C CNN
+	1    3900 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X04 P36
+U 1 1 555ADA6B
+P 2000 6300
+F 0 "P36" H 2000 6550 50  0000 C CNN
+F 1 "USART2" V 2100 6300 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 2000 6300 60  0001 C CNN
+F 3 "" H 2000 6300 60  0000 C CNN
+	1    2000 6300
+	1    0    0    -1  
+$EndComp
+Text Notes 850  5800 0    60   ~ 0
+Connect when ST-Link is disconnected
+Text Notes 2400 7000 2    60   ~ 0
+STLINK - Open OCD Connection
+$Comp
+L GND #PWR054
+U 1 1 555ADA76
+P 1800 6500
+F 0 "#PWR054" H 1800 6250 50  0001 C CNN
+F 1 "GND" H 1800 6350 50  0000 C CNN
+F 2 "" H 1800 6500 60  0000 C CNN
+F 3 "" H 1800 6500 60  0000 C CNN
+	1    1800 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X04 P39
+U 1 1 555ADA88
+P 3600 6300
+F 0 "P39" H 3600 6550 50  0000 C CNN
+F 1 "USART1" V 3700 6300 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 3600 6300 60  0001 C CNN
+F 3 "" H 3600 6300 60  0000 C CNN
+	1    3600 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR055
+U 1 1 555ADA91
+P 3400 6500
+F 0 "#PWR055" H 3400 6250 50  0001 C CNN
+F 1 "GND" H 3400 6350 50  0000 C CNN
+F 2 "" H 3400 6500 60  0000 C CNN
+F 3 "" H 3400 6500 60  0000 C CNN
+	1    3400 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X06 P37
+U 1 1 555ADA9D
+P 2000 7500
+F 0 "P37" H 2000 7850 50  0000 C CNN
+F 1 "SWD Header" V 2100 7500 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x06" H 2000 7500 60  0001 C CNN
+F 3 "" H 2000 7500 60  0000 C CNN
+	1    2000 7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 6500 1800 6450
+Wire Wire Line
+	3400 6500 3400 6450
+Text Notes 850  6000 0    59   ~ 0
+SB62 and SB63 needed to be bridged\nfor USART2 to work.
+$Sheet
+S 4350 6750 1250 700 
+U 555AF296
+F0 "Modules" 59
+F1 "Modules.sch" 59
+$EndSheet
+Text GLabel 1200 3650 0    59   Input ~ 0
+StatusLed1
+Text GLabel 1200 3900 0    59   Input ~ 0
+StatusLed2
+Text GLabel 1200 3150 0    59   Input ~ 0
+StatusLed3
+Text GLabel 1200 3400 0    59   Input ~ 0
+StatusLed4
+Text GLabel 1300 2350 0    59   Input ~ 0
+StatusButton1
+Text GLabel 3750 1100 0    59   Input ~ 0
+MotionSense1
+Text GLabel 3750 1800 0    59   Input ~ 0
+MotionSense3
+Text GLabel 5000 1100 0    59   Input ~ 0
+MotionSense2
+Text GLabel 5000 1800 0    59   Input ~ 0
+MotionSense4
+Text GLabel 1800 6250 0    59   Input ~ 0
+USART2_TX
+Text GLabel 1800 6350 0    59   Input ~ 0
+USART2_RX
+Text GLabel 3400 6250 0    59   Input ~ 0
+USART1_TX
+Text GLabel 3400 6350 0    59   Input ~ 0
+USART1_RX
+Text GLabel 1800 7350 0    59   Input ~ 0
+TCK
+Text GLabel 1800 7550 0    59   Input ~ 0
+TMS
+Text GLabel 1800 7650 0    59   Input ~ 0
+NRST
+Text GLabel 1800 7750 0    59   Input ~ 0
+SWO
+$Comp
+L GND #PWR056
+U 1 1 555C55A3
+P 1400 7500
+F 0 "#PWR056" H 1400 7250 50  0001 C CNN
+F 1 "GND" H 1400 7350 50  0000 C CNN
+F 2 "" H 1400 7500 60  0000 C CNN
+F 3 "" H 1400 7500 60  0000 C CNN
+	1    1400 7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 7450 1400 7450
+Wire Wire Line
+	1400 7450 1400 7500
+Text GLabel 1350 1200 0    59   Input ~ 0
+RGB_Red
+Text GLabel 1350 1300 0    59   Input ~ 0
+RGB_Blue
+Text GLabel 1350 1400 0    59   Input ~ 0
+RGB_Green
+Text GLabel 1350 1500 0    59   Input ~ 0
+RGB_CS
+Text GLabel 6450 4100 0    59   Input ~ 0
+OneWireBus1
+Text GLabel 7950 4100 0    59   Input ~ 0
+OneWireBus2
+Wire Wire Line
+	7950 4100 8350 4100
+Text GLabel 9350 4100 0    59   Input ~ 0
+OneWireBus3
+Wire Wire Line
+	9350 4100 9750 4100
+Text GLabel 6150 2800 0    59   Input ~ 0
+WS1
+Text GLabel 7000 2800 0    59   Input ~ 0
+WS2
+Text GLabel 7900 2800 0    59   Input ~ 0
+WS3
+Text GLabel 6150 1500 0    59   Input ~ 0
+SWBus
+Wire Wire Line
+	5000 1800 5150 1800
+Wire Wire Line
+	5150 1100 5000 1100
+Wire Wire Line
+	3900 1100 3750 1100
+Wire Wire Line
+	3750 1800 3900 1800
+Wire Wire Line
+	1350 1200 1450 1200
+Wire Wire Line
+	1350 1300 1650 1300
+Wire Wire Line
+	1350 1400 1850 1400
+Wire Wire Line
+	2050 1500 1350 1500
+Connection ~ 6950 5750
+Connection ~ 6850 5750
+Wire Wire Line
+	6500 6150 7150 6150
+Connection ~ 6850 6150
+Connection ~ 6950 6050
+Text GLabel 6500 6050 0    59   Input ~ 0
+I2C_SDA2
+Text GLabel 6500 6150 0    59   Input ~ 0
+I2C_SCL2
+Text GLabel 8000 6050 0    59   Input ~ 0
+I2C_SDA2
+Text GLabel 8000 6150 0    59   Input ~ 0
+I2C_SCL2
+Text GLabel 8000 5350 0    59   Input ~ 0
+I2C_SDA1
+Text GLabel 8000 5450 0    59   Input ~ 0
+I2C_SCL1
+Wire Wire Line
+	6500 5450 7150 5450
+Wire Wire Line
+	6500 5350 7150 5350
+Connection ~ 6950 5350
+Connection ~ 6850 5450
+Text GLabel 6500 5350 0    59   Input ~ 0
+I2C_SDA1
+Text GLabel 6500 5450 0    59   Input ~ 0
+I2C_SCL1
+Wire Wire Line
+	6500 6050 7150 6050
+Text GLabel 3450 1000 0    59   Input ~ 0
+3.3Vctl
+Wire Wire Line
+	3750 1000 3900 1000
+Text GLabel 3750 1500 0    59   Input ~ 0
+3.3Vctl
+Text GLabel 4700 1000 0    59   Input ~ 0
+3.3Vctl
+Wire Wire Line
+	5000 1000 5150 1000
+Text GLabel 5000 1450 0    59   Input ~ 0
+3.3Vctl
+Text GLabel 9100 1100 0    59   Input ~ 0
+3.3Vctl
+Text GLabel 8150 2500 0    59   Input ~ 0
+3.3Vctl
+Text GLabel 7250 2500 0    59   Input ~ 0
+3.3Vctl
+Text GLabel 6400 2500 0    59   Input ~ 0
+3.3Vctl
+Connection ~ 6950 4000
+Text GLabel 6600 3800 0    59   Input ~ 0
+3.3Vctl
+Wire Wire Line
+	6950 3800 6950 4000
+Wire Wire Line
+	6600 3800 6950 3800
+Text GLabel 9500 3750 0    59   Input ~ 0
+3.3Vctl
+Wire Wire Line
+	9500 3750 9750 3750
+Text GLabel 8100 3750 0    59   Input ~ 0
+3.3Vctl
+Wire Wire Line
+	8100 3750 8350 3750
+Text GLabel 2150 900  0    59   Input ~ 0
+3.3Vctl
+Text GLabel 3400 6150 0    59   Input ~ 0
+3.3Vctl
+Text GLabel 1800 6150 0    59   Input ~ 0
+3.3Vctl
+Text GLabel 6250 5100 0    59   Input ~ 0
+3.3Vctl
+Text GLabel 6250 5750 0    59   Input ~ 0
+3.3Vctl
+Wire Notes Line
+	2950 550  2950 2150
+Wire Notes Line
+	2950 2150 5500 2150
+Wire Notes Line
+	5500 2150 5500 550 
+Wire Notes Line
+	5500 550  2950 550 
+Wire Notes Line
+	5800 550  5800 1950
+Wire Notes Line
+	5800 1950 10450 1950
+Wire Notes Line
+	10450 1950 10450 550 
+Wire Notes Line
+	10450 550  5800 550 
+Wire Notes Line
+	5800 2250 5800 3200
+Wire Notes Line
+	5800 3200 8550 3200
+Wire Notes Line
+	8550 2250 5800 2250
+Wire Notes Line
+	5800 3500 5800 4450
+Wire Notes Line
+	5800 4450 10100 4450
+Wire Notes Line
+	10100 4450 10100 3500
+Wire Notes Line
+	10100 3500 5800 3500
+Wire Notes Line
+	5800 4700 5800 6450
+Wire Notes Line
+	5800 6450 8350 6450
+Wire Notes Line
+	8350 6450 8350 4700
+Wire Notes Line
+	8350 4700 5800 4700
+Text Notes 600  5600 0    59   ~ 0
+Communication and Programming/Debug interface
+Wire Notes Line
+	600  5500 600  7850
+Wire Notes Line
+	600  7850 3800 7850
+Wire Notes Line
+	3800 7850 3800 5500
+Wire Notes Line
+	3800 5500 600  5500
+Text Notes 600  2200 0    59   ~ 0
+User Button / LED Status
+Wire Notes Line
+	600  2100 600  4550
+Wire Notes Line
+	2800 2100 2800 4550
+Wire Notes Line
+	600  550  600  1600
+Wire Notes Line
+	600  1600 2750 1600
+Wire Notes Line
+	2750 1600 2750 550 
+Wire Notes Line
+	2750 550  600  550 
+Text Notes 3150 1250 0    39   ~ 0
+PWM
+$Comp
+L R_Small R23
+U 1 1 555BF09B
+P 3850 900
+F 0 "R23" H 3880 920 50  0000 L CNN
+F 1 "0" H 3880 860 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 3850 900 60  0001 C CNN
+F 3 "" H 3850 900 60  0000 C CNN
+F 4 "P0.0GCT-ND" H 3850 900 60  0001 C CNN "Digikey Part Number"
+F 5 "ERJ-3GEY0R00V" H 1750 -1950 60  0001 C CNN "MFG"
+	1    3850 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R24
+U 1 1 555BF1F9
+P 5100 900
+F 0 "R24" H 5130 920 50  0000 L CNN
+F 1 "0" H 5130 860 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 5100 900 60  0001 C CNN
+F 3 "" H 5100 900 60  0000 C CNN
+F 4 "P0.0GCT-ND" H 5100 900 60  0001 C CNN "Digikey Part Number"
+F 5 "ERJ-3GEY0R00V" H 3000 -1950 60  0001 C CNN "MFG"
+	1    5100 900 
+	1    0    0    -1  
+$EndComp
+Text GLabel 5100 800  0    59   Input ~ 0
+ServoPower
+Text GLabel 3850 800  0    59   Input ~ 0
+ServoPower
+Wire Wire Line
+	1750 2450 1650 2450
+Wire Wire Line
+	1650 2450 1650 2350
+Wire Wire Line
+	1300 2350 1750 2350
+Connection ~ 1650 2350
+$Comp
+L C C7
+U 1 1 555F24E2
+P 1450 2500
+F 0 "C7" H 1475 2600 50  0000 L CNN
+F 1 "0.1u" H 1475 2400 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 1488 2350 30  0001 C CNN
+F 3 "" H 1450 2500 60  0000 C CNN
+F 4 "490-1532-1-ND" H 1450 2500 60  0001 C CNN "Digikey Part Number"
+F 5 "GRM188R71C104KA01D" H -1650 1950 60  0001 C CNN "MFG"
+	1    1450 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR057
+U 1 1 555F261C
+P 1450 2650
+F 0 "#PWR057" H 1450 2400 50  0001 C CNN
+F 1 "GND" H 1450 2500 50  0000 C CNN
+F 2 "" H 1450 2650 60  0000 C CNN
+F 3 "" H 1450 2650 60  0000 C CNN
+	1    1450 2650
+	1    0    0    -1  
+$EndComp
+Connection ~ 1450 2650
+Connection ~ 1450 2350
+$Comp
+L GND #PWR058
+U 1 1 555F2775
+P 2400 5000
+F 0 "#PWR058" H 2400 4750 50  0001 C CNN
+F 1 "GND" H 2400 4850 50  0000 C CNN
+F 2 "" H 2400 5000 60  0000 C CNN
+F 3 "" H 2400 5000 60  0000 C CNN
+	1    2400 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MomentarySwitch SW2
+U 1 1 555F277E
+P 2050 5000
+F 0 "SW2" H 1900 5200 39  0000 C CNN
+F 1 "ResetSwitch" H 1950 4950 60  0001 C CNN
+F 2 "nucleo:Tact_switch" H 2050 5000 60  0001 C CNN
+F 3 "" H 2050 5000 60  0000 C CNN
+F 4 "450-1650-ND" H 2050 5000 60  0001 C CNN "Digikey Part Number"
+F 5 "http://www.digikey.com/product-detail/en/1825910-6/450-1650-ND" H 2050 5000 60  0001 C CNN "Digikey URL"
+F 6 "1825910-6" H 2050 4150 60  0001 C CNN "MFG"
+	1    2050 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 4900 2400 4900
+Wire Wire Line
+	2400 4900 2400 5000
+Wire Wire Line
+	2400 5000 2250 5000
+Wire Wire Line
+	1850 5000 1750 5000
+Wire Wire Line
+	1750 5000 1750 4900
+Wire Wire Line
+	950  4900 1850 4900
+Connection ~ 1750 4900
+$Comp
+L C C8
+U 1 1 555F278E
+P 1550 5050
+F 0 "C8" H 1575 5150 50  0000 L CNN
+F 1 "0.1u" H 1575 4950 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 1588 4900 30  0001 C CNN
+F 3 "" H 1550 5050 60  0000 C CNN
+F 4 "490-1532-1-ND" H 1550 5050 60  0001 C CNN "Digikey Part Number"
+F 5 "GRM188R71C104KA01D" H -1550 4500 60  0001 C CNN "MFG"
+	1    1550 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR059
+U 1 1 555F2795
+P 1550 5200
+F 0 "#PWR059" H 1550 4950 50  0001 C CNN
+F 1 "GND" H 1550 5050 50  0000 C CNN
+F 2 "" H 1550 5200 60  0000 C CNN
+F 3 "" H 1550 5200 60  0000 C CNN
+	1    1550 5200
+	1    0    0    -1  
+$EndComp
+Connection ~ 1550 5200
+Connection ~ 1550 4900
+Text GLabel 950  4900 0    59   Input ~ 0
+NRST
+Wire Notes Line
+	2800 4550 600  4550
+Text Notes 600  4750 0    59   ~ 0
+Reset button 
+Wire Notes Line
+	600  4650 600  5400
+Wire Notes Line
+	600  5400 2800 5400
+Wire Notes Line
+	2800 5400 2800 4650
+Wire Notes Line
+	2800 4650 600  4650
+Connection ~ 3850 1000
+Connection ~ 5100 1000
+$Comp
+L tp TP4
+U 1 1 5560F7D6
+P 6600 4000
+F 0 "TP4" H 6600 4100 59  0000 C CNN
+F 1 "tp" H 6700 4000 59  0001 C CNN
+F 2 "nucleo:TestPoint_1mm" H 6600 4000 59  0001 C CNN
+F 3 "" H 6600 4000 59  0000 C CNN
+	1    6600 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 4100 6950 4100
+Connection ~ 6600 4100
+$Comp
+L tp TP5
+U 1 1 5560FFF1
+P 8000 4000
+F 0 "TP5" H 8000 4100 59  0000 C CNN
+F 1 "tp" H 8100 4000 59  0001 C CNN
+F 2 "nucleo:TestPoint_1mm" H 8000 4000 59  0001 C CNN
+F 3 "" H 8000 4000 59  0000 C CNN
+	1    8000 4000
+	1    0    0    -1  
+$EndComp
+Connection ~ 8000 4100
+$Comp
+L tp TP6
+U 1 1 55610330
+P 9400 4000
+F 0 "TP6" H 9400 4100 59  0000 C CNN
+F 1 "tp" H 9500 4000 59  0001 C CNN
+F 2 "nucleo:TestPoint_1mm" H 9400 4000 59  0001 C CNN
+F 3 "" H 9400 4000 59  0000 C CNN
+	1    9400 4000
+	1    0    0    -1  
+$EndComp
+Connection ~ 9400 4100
+Wire Wire Line
+	6150 2800 6400 2800
+Wire Wire Line
+	7000 2800 7250 2800
+Wire Wire Line
+	7900 2800 8150 2800
+$Comp
+L tp TP2
+U 1 1 55610E4D
+P 3800 1700
+F 0 "TP2" H 3800 1800 59  0000 C CNN
+F 1 "tp" H 3900 1700 59  0001 C CNN
+F 2 "nucleo:TestPoint_1mm" H 3800 1700 59  0001 C CNN
+F 3 "" H 3800 1700 59  0000 C CNN
+	1    3800 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 1500 3900 1500
+Wire Wire Line
+	3900 1500 3900 1700
+Wire Wire Line
+	5000 1450 5150 1450
+Wire Wire Line
+	5150 1450 5150 1700
+$Comp
+L tp TP3
+U 1 1 55611546
+P 5050 1700
+F 0 "TP3" H 5050 1800 59  0000 C CNN
+F 1 "tp" H 5150 1700 59  0001 C CNN
+F 2 "nucleo:TestPoint_1mm" H 5050 1700 59  0001 C CNN
+F 3 "" H 5050 1700 59  0000 C CNN
+	1    5050 1700
+	1    0    0    -1  
+$EndComp
+Connection ~ 5050 1800
+Connection ~ 3800 1800
+$Comp
+L R_Small R22
+U 1 1 55613554
+P 2050 1400
+F 0 "R22" H 2080 1420 50  0000 L CNN
+F 1 "220" H 2080 1360 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 2050 1400 60  0001 C CNN
+F 3 "" H 2050 1400 60  0000 C CNN
+F 4 "P220GCT-ND" H 2050 1400 60  0001 C CNN "Digikey Part Number"
+F 5 "ERJ-3GEYJ222V" H -2900 -5750 60  0001 C CNN "MFG"
+	1    2050 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R49
+U 1 1 55622A36
+P 3650 1000
+F 0 "R49" H 3680 1020 50  0000 L CNN
+F 1 "0" H 3680 960 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 3650 1000 60  0001 C CNN
+F 3 "" H 3650 1000 60  0000 C CNN
+F 4 "P0.0GCT-ND" H 3650 1000 60  0001 C CNN "Digikey Part Number"
+F 5 "ERJ-3GEY0R00V" H 1550 -1850 60  0001 C CNN "MFG"
+	1    3650 1000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R_Small R50
+U 1 1 55622B70
+P 4900 1000
+F 0 "R50" H 4930 1020 50  0000 L CNN
+F 1 "0" H 4930 960 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 4900 1000 60  0001 C CNN
+F 3 "" H 4900 1000 60  0000 C CNN
+F 4 "P0.0GCT-ND" H 4900 1000 60  0001 C CNN "Digikey Part Number"
+F 5 "ERJ-3GEY0R00V" H 2800 -1850 60  0001 C CNN "MFG"
+	1    4900 1000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4800 1000 4700 1000
+Wire Wire Line
+	3550 1000 3450 1000
+Text GLabel 8500 800  0    59   Input ~ 0
+3.3Vctl
+Text Notes 5850 2950 0    39   ~ 0
+PIEZO
+$Comp
+L +3V3 #PWR060
+U 1 1 55650528
+P 1800 7250
+F 0 "#PWR060" H 1800 7100 50  0001 C CNN
+F 1 "+3V3" H 1800 7390 50  0000 C CNN
+F 2 "" H 1800 7250 60  0000 C CNN
+F 3 "" H 1800 7250 60  0000 C CNN
+	1    1800 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_02X06 P32
+U 1 1 55652CFD
+P 8250 1250
+F 0 "P32" H 8250 1600 50  0000 C CNN
+F 1 "SWBUS1" H 8250 900 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x06" H 8250 50  60  0001 C CNN
+F 3 "" H 8250 50  60  0000 C CNN
+	1    8250 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 1500 8000 1500
+Wire Wire Line
+	7650 1400 8000 1400
+Wire Wire Line
+	7400 1300 8000 1300
+Wire Wire Line
+	8000 1200 7150 1200
+Wire Wire Line
+	6900 1100 8000 1100
+Wire Wire Line
+	8000 1000 6650 1000
+Wire Wire Line
+	7700 1500 7700 1650
+Wire Wire Line
+	7700 1650 6500 1650
+Wire Wire Line
+	6500 1650 6500 1500
+Wire Wire Line
+	6500 1500 6150 1500
+Wire Wire Line
+	6450 1000 6450 1500
+Connection ~ 6450 1500
+Wire Wire Line
+	6700 1100 6700 1650
+Connection ~ 6700 1650
+Wire Wire Line
+	6950 1200 6950 1650
+Connection ~ 6950 1650
+Wire Wire Line
+	7200 1300 7200 1650
+Connection ~ 7200 1650
+Wire Wire Line
+	7450 1400 7450 1650
+Connection ~ 7450 1650
+Wire Wire Line
+	8500 800  8500 1500
+Connection ~ 8500 1400
+Connection ~ 8500 1300
+Connection ~ 8500 1200
+Connection ~ 8500 1100
+Connection ~ 8500 1000
+Connection ~ 9550 3750
+Connection ~ 8150 3750
+Connection ~ 6900 3800
+Connection ~ 6700 3800
+Connection ~ 6450 5100
+Connection ~ 6450 5750
+$Comp
+L GND #PWR061
+U 1 1 55690347
+P 1850 4350
+F 0 "#PWR061" H 1850 4100 50  0001 C CNN
+F 1 "GND" H 1850 4200 50  0000 C CNN
+F 2 "" H 1850 4350 60  0000 C CNN
+F 3 "" H 1850 4350 60  0000 C CNN
+	1    1850 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 4350 1850 4300
+$Comp
+L R_Small R51
+U 1 1 55690B79
+P 1700 4200
+F 0 "R51" H 1730 4220 50  0000 L CNN
+F 1 "220" H 1730 4160 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 1700 4200 60  0001 C CNN
+F 3 "" H 1700 4200 60  0000 C CNN
+F 4 "P220GCT-ND" H 1700 4200 60  0001 C CNN "Digikey Part Number"
+F 5 "ERJ-3GEYJ220V" H -900 2000 60  0001 C CNN "MFG"
+	1    1700 4200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1300 4200 1600 4200
+Wire Wire Line
+	1800 4200 1850 4200
+$Comp
+L Piezo B1
+U 1 1 55691FC5
+P 2000 4250
+F 0 "B1" H 2000 4100 59  0000 C CNN
+F 1 "Piezo" H 2000 4400 59  0000 C CNN
+F 2 "nucleo:Piezo_12mm" H 2000 4250 59  0001 C CNN
+F 3 "" H 2000 4250 59  0000 C CNN
+	1    2000 4250
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	8550 3200 8550 2250
+Wire Notes Line
+	2800 2100 600  2100
+$Comp
+L BSS123 Q1
+U 1 1 55694CF0
+P 3900 3550
+F 0 "Q1" H 4100 3625 50  0000 L CNN
+F 1 "BSS123-7-F" H 4100 3550 50  0000 L CNN
+F 2 "nucleo:SOT23-3" H 4100 3475 50  0001 L CIN
+F 3 "" H 4100 3625 50  0000 L CNN
+	1    3900 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Relay RLY1
+U 1 1 556969D7
+P 4200 2950
+F 0 "RLY1" H 4570 2820 59  0000 C CNN
+F 1 "TQ2SA-3V" V 3900 2900 59  0000 C CNN
+F 2 "nucleo:Relay_SMD" H 4850 2920 59  0001 C CNN
+F 3 "" H 4200 2790 59  0000 C CNN
+	1    4200 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 3600 3550 3600
+Text GLabel 3550 3600 0    59   Input ~ 0
+USB_DM
+$Comp
+L GND #PWR062
+U 1 1 556972EC
+P 4000 3850
+F 0 "#PWR062" H 4000 3600 50  0001 C CNN
+F 1 "GND" H 4000 3700 50  0000 C CNN
+F 2 "" H 4000 3850 60  0000 C CNN
+F 3 "" H 4000 3850 60  0000 C CNN
+	1    4000 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 3750 4000 3850
+Wire Wire Line
+	4000 3350 4000 3200
+Wire Wire Line
+	4000 2600 4000 2700
+$Comp
+L BSS123 Q2
+U 1 1 5569ABAD
+P 4250 4600
+F 0 "Q2" H 4450 4675 50  0000 L CNN
+F 1 "BSS123-7-F" H 4450 4600 50  0000 L CNN
+F 2 "nucleo:SOT23-3" H 4450 4525 50  0001 L CIN
+F 3 "" H 4450 4675 50  0000 L CNN
+	1    4250 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 4650 4050 4650
+Text GLabel 1300 4200 0    59   Input ~ 0
+OneWireBus3
+$Comp
+L GND #PWR063
+U 1 1 5569AE2C
+P 4350 4850
+F 0 "#PWR063" H 4350 4600 50  0001 C CNN
+F 1 "GND" H 4350 4700 50  0000 C CNN
+F 2 "" H 4350 4850 60  0000 C CNN
+F 3 "" H 4350 4850 60  0000 C CNN
+	1    4350 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 4800 4350 4850
+$Comp
+L R_Small R44
+U 1 1 5569AFFB
+P 4000 4550
+F 0 "R44" H 4030 4570 50  0000 L CNN
+F 1 "0" H 4030 4510 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 4000 4550 60  0001 C CNN
+F 3 "" H 4000 4550 60  0000 C CNN
+F 4 "P0.0GCT-ND" H 4000 4550 60  0001 C CNN "Digikey Part Number"
+F 5 "ERJ-3GEY0R00V" H 1900 1300 60  0001 C CNN "MFG"
+	1    4000 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R52
+U 1 1 5569B369
+P 4600 4300
+F 0 "R52" H 4630 4320 50  0000 L CNN
+F 1 "0" H 4630 4260 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 4600 4300 60  0001 C CNN
+F 3 "" H 4600 4300 60  0000 C CNN
+F 4 "P0.0GCT-ND" H 4600 4300 60  0001 C CNN "Digikey Part Number"
+F 5 "ERJ-3GEY0R00V" H 2500 1050 60  0001 C CNN "MFG"
+	1    4600 4300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4000 4450 4000 4400
+Wire Wire Line
+	4000 4400 5000 4400
+Wire Wire Line
+	4350 4400 4350 4300
+Connection ~ 4350 4400
+$Comp
+L CONN_01X03 P44
+U 1 1 5569CFD0
+P 5200 2550
+F 0 "P44" H 5200 2750 50  0000 C CNN
+F 1 "RLY1" V 5300 2550 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 5200 2550 60  0001 C CNN
+F 3 "" H 5200 2550 60  0000 C CNN
+	1    5200 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 P48
+U 1 1 5569D142
+P 5200 3300
+F 0 "P48" H 5200 3500 50  0000 C CNN
+F 1 "RLY2" V 5300 3300 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 5200 3300 60  0001 C CNN
+F 3 "" H 5200 3300 60  0000 C CNN
+	1    5200 3300
+	1    0    0    1   
+$EndComp
+$Comp
+L +3V3 #PWR064
+U 1 1 5569FE48
+P 4000 2600
+F 0 "#PWR064" H 4000 2450 50  0001 C CNN
+F 1 "+3V3" H 4000 2740 50  0000 C CNN
+F 2 "" H 4000 2600 60  0000 C CNN
+F 3 "" H 4000 2600 60  0000 C CNN
+	1    4000 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R42
+U 1 1 556A04D2
+P 3750 4650
+F 0 "R42" H 3780 4670 50  0000 L CNN
+F 1 "0" H 3780 4610 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 3750 4650 60  0001 C CNN
+F 3 "" H 3750 4650 60  0000 C CNN
+F 4 "P0.0GCT-ND" H 3750 4650 60  0001 C CNN "Digikey Part Number"
+F 5 "ERJ-3GEY0R00V" H 1650 1400 60  0001 C CNN "MFG"
+	1    3750 4650
+	0    1    1    0   
+$EndComp
+Text GLabel 3550 4650 0    59   Input ~ 0
+USB_DP
+$Comp
+L CONN_01X03 P51
+U 1 1 556A34CA
+P 5200 4400
+F 0 "P51" H 5200 4600 50  0000 C CNN
+F 1 "FET_SW1" V 5300 4400 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 5200 4400 60  0001 C CNN
+F 3 "" H 5200 4400 60  0000 C CNN
+	1    5200 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R45
+U 1 1 556A371D
+P 4000 4750
+F 0 "R45" H 4030 4770 50  0000 L CNN
+F 1 "0" H 4030 4710 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 4000 4750 60  0001 C CNN
+F 3 "" H 4000 4750 60  0000 C CNN
+F 4 "P0.0GCT-ND" H 4000 4750 60  0001 C CNN "Digikey Part Number"
+F 5 "ERJ-3GEY0R00V" H 1900 1500 60  0001 C CNN "MFG"
+	1    4000 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 4850 4000 4850
+Connection ~ 4000 4650
+Wire Wire Line
+	4700 4300 5000 4300
+$Comp
+L GND #PWR065
+U 1 1 556A3F9B
+P 5000 4500
+F 0 "#PWR065" H 5000 4250 50  0001 C CNN
+F 1 "GND" H 5000 4350 50  0000 C CNN
+F 2 "" H 5000 4500 60  0000 C CNN
+F 3 "" H 5000 4500 60  0000 C CNN
+	1    5000 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 2900 7050 2950
+Wire Wire Line
+	7950 2950 7950 2900
+Wire Wire Line
+	6200 2900 6200 2950
+$Comp
+L R_Small R54
+U 1 1 556A825D
+P 6300 2900
+F 0 "R54" H 6330 2920 50  0000 L CNN
+F 1 "0" H 6330 2860 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 6300 2900 60  0001 C CNN
+F 3 "" H 6300 2900 60  0000 C CNN
+F 4 "P0.0GCT-ND" H 6300 2900 60  0001 C CNN "Digikey Part Number"
+F 5 "ERJ-3GEY0R00V" H 4200 50  60  0001 C CNN "MFG"
+	1    6300 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R55
+U 1 1 556A8323
+P 7150 2900
+F 0 "R55" H 7180 2920 50  0000 L CNN
+F 1 "0" H 7180 2860 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 7150 2900 60  0001 C CNN
+F 3 "" H 7150 2900 60  0000 C CNN
+F 4 "P0.0GCT-ND" H 7150 2900 60  0001 C CNN "Digikey Part Number"
+F 5 "ERJ-3GEY0R00V" H 5050 50  60  0001 C CNN "MFG"
+	1    7150 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R56
+U 1 1 556A849D
+P 8050 2900
+F 0 "R56" H 8080 2920 50  0000 L CNN
+F 1 "0" H 8080 2860 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 8050 2900 60  0001 C CNN
+F 3 "" H 8050 2900 60  0000 C CNN
+F 4 "P0.0GCT-ND" H 8050 2900 60  0001 C CNN "Digikey Part Number"
+F 5 "ERJ-3GEY0R00V" H 5950 50  60  0001 C CNN "MFG"
+	1    8050 2900
+	0    1    1    0   
+$EndComp
+Text Notes 3150 1950 0    39   ~ 0
+ADC
+Text Notes 4550 1250 0    39   ~ 0
+ADC
+Text Notes 4350 1950 0    39   ~ 0
+ADC
+Text Notes 6350 2400 0    39   ~ 0
+For soil moisture, plug one nail into 3.3Vctl line
+$Comp
+L CONN_01X03 P52
+U 1 1 556AA678
+P 6600 2800
+F 0 "P52" H 6600 3000 50  0000 C CNN
+F 1 "WS1" V 6700 2800 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 6600 2800 60  0001 C CNN
+F 3 "" H 6600 2800 60  0000 C CNN
+	1    6600 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 2700 6400 2500
+Wire Wire Line
+	6250 2600 6400 2600
+Connection ~ 6400 2600
+$Comp
+L CONN_01X03 P56
+U 1 1 556AB03B
+P 7450 2800
+F 0 "P56" H 7450 3000 50  0000 C CNN
+F 1 "WS2" V 7550 2800 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 7450 2800 60  0001 C CNN
+F 3 "" H 7450 2800 60  0000 C CNN
+	1    7450 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 2600 7250 2600
+Connection ~ 7250 2600
+$Comp
+L CONN_01X03 P57
+U 1 1 556AB485
+P 8350 2800
+F 0 "P57" H 8350 3000 50  0000 C CNN
+F 1 "WS2" V 8450 2800 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 8350 2800 60  0001 C CNN
+F 3 "" H 8350 2800 60  0000 C CNN
+	1    8350 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 2600 8150 2600
+Connection ~ 8150 2600
+Connection ~ 7950 2800
+Connection ~ 7050 2800
+Connection ~ 6250 2800
+Text Notes 6350 2450 0    39   ~ 0
+For water sensors, just need 3.3V and WS1, no ground needed
+Text Notes 3050 2450 0    60   ~ 0
+Relay / switch\n\n
+Wire Wire Line
+	4350 4300 4500 4300
+$Comp
+L R_Small R53
+U 1 1 556AF464
+P 4800 4200
+F 0 "R53" H 4830 4220 50  0000 L CNN
+F 1 "0" H 4830 4160 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 4800 4200 60  0001 C CNN
+F 3 "" H 4800 4200 60  0000 C CNN
+F 4 "P0.0GCT-ND" H 4800 4200 60  0001 C CNN "Digikey Part Number"
+F 5 "ERJ-3GEY0R00V" H 2700 950 60  0001 C CNN "MFG"
+	1    4800 4200
+	1    0    0    -1  
+$EndComp
+Text GLabel 4700 4100 0    59   Input ~ 0
+3.3Vctl
+Wire Wire Line
+	4300 3200 4300 3250
+Wire Wire Line
+	4300 3250 4750 3250
+Wire Wire Line
+	4750 3250 4750 3200
+Wire Wire Line
+	4750 3200 5000 3200
+Wire Wire Line
+	5000 3300 4200 3300
+Wire Wire Line
+	4200 3300 4200 3200
+Wire Wire Line
+	4100 3200 4100 3400
+Wire Wire Line
+	4100 3400 5000 3400
+Wire Wire Line
+	5000 2650 4300 2650
+Wire Wire Line
+	4300 2650 4300 2700
+Wire Wire Line
+	4200 2700 4200 2550
+Wire Wire Line
+	4200 2550 5000 2550
+Wire Wire Line
+	5000 2450 4100 2450
+Wire Wire Line
+	4100 2450 4100 2700
+Connection ~ 4800 4300
+Wire Wire Line
+	3550 4650 3650 4650
+Wire Notes Line
+	3050 2250 3050 5050
+Wire Notes Line
+	3050 5050 5350 5050
+Wire Notes Line
+	5350 5050 5350 2250
+Wire Notes Line
+	5350 2250 3050 2250
+Wire Wire Line
+	4800 4100 4700 4100
+Wire Wire Line
+	1700 3150 1700 3900
+Wire Wire Line
+	1700 3150 1850 3150
+Connection ~ 1700 3400
+Connection ~ 1700 3650
+Text Notes 700  1700 0    59   ~ 0
+Nucleo_LED connected to Red
+Text Notes 3200 2450 0    59   ~ 0
+30V 1A max
+$EndSCHEMATC

@@ -5,7 +5,7 @@
     (no_connects 0)
     (area 116.113571 44.194 202.137628 130.05526)
     (thickness 1.6)
-    (drawings 107)
+    (drawings 108)
     (tracks 1509)
     (zones 0)
     (modules 116)
@@ -45,7 +45,7 @@
   )
 
   (setup
-    (last_trace_width 0.508)
+    (last_trace_width 0.254)
     (user_trace_width 0.1778)
     (user_trace_width 0.254)
     (user_trace_width 0.508)
@@ -75,7 +75,7 @@
     (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
     (grid_origin 115.57 72.39)
-    (visible_elements 7FFEFF1F)
+    (visible_elements 7FFEFF7F)
     (pcbplotparams
       (layerselection 0x010fc_80000001)
       (usegerberextensions true)
@@ -3755,6 +3755,9 @@
     )
   )
 
+  (gr_text "Note: 3 components under RFM module" (at 215.138 70.6628) (layer Dwgs.User)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_text "MS2 3.3v only" (at 133.477 118.872) (layer F.SilkS)
     (effects (font (size 0.762 0.762) (thickness 0.1905)))
   )

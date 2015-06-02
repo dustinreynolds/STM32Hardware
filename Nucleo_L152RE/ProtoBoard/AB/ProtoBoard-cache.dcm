@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RFM69HW
+D Hope RF RFM69HW Wireless Module
+K RFM69HW
+F C:/Customers/Dustin/Sensors/wireless/RFM69HW-V1.3.pdf
+$ENDCMP
+#
+#End Doc Library
